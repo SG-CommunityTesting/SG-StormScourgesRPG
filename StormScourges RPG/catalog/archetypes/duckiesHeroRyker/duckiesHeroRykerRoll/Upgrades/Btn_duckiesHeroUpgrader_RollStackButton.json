@@ -1,0 +1,9 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "duckiesHeroRykerRoll_Button",
+  "extended_tooltips": [],
+  "id": "duckiesHeroUpgrader_RollStackButton",
+  "name": "Assault Roll Attack Count",
+  "tooltip": "[<d ref=\"duckiesHeroUpgrader_RollStackLVLDummy.amount\" style=\"Bold\"/>/<d ref=\"5\" style=\"Bold\"/>] \n\nIncrease the amount of enhanced attacks by <d ref=\"duckiesHeroUpgrader_RollStackUpgrade.set_values[0].target_value\" style=\"Bold\"/>."
+}

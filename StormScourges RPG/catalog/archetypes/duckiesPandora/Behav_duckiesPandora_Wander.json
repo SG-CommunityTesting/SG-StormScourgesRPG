@@ -1,0 +1,29 @@
+﻿{
+  "__base_type": "BehaviorWander",
+  "based_on": "BehaviorWander",
+  "flags": {
+    "allow_flee_without_idle": false,
+    "fidget_after_wander": true,
+    "requires_uncommandable": false,
+    "suppress_default_behavior": false
+  },
+  "id": "duckiesPandora_Wander",
+  "leash_radius": 8.0,
+  "longest_fidget_anim": 0.0,
+  "turn_angle": 90.0,
+  "turn_period": 0.25,
+  "wander_distance": {
+    "minimum": 3.0,
+    "variation": 3.0
+  },
+  "wander_period": {
+    "minimum": 0.5,
+    "variation": 0.5
+  },
+  "weights": {
+    "animate": 0,
+    "idle": 0,
+    "turn": 0,
+    "wander": 100.0
+  }
+}

@@ -1,0 +1,9 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "duckiesHeroKastielCull_Button",
+  "extended_tooltips": [],
+  "id": "duckiesHeroUpgrader_CullDamageButton",
+  "name": "Cull The Unworthy Damage",
+  "tooltip": "[<d ref=\"duckiesHeroUpgrader_CullDamageLVLDummy.amount\" style=\"Bold\"/>/<d ref=\"5\" style=\"Bold\"/>] \n\nIncrease Cull The Unworthy damage by <d ref=\"duckiesHeroUpgrader_CullDamageUpgrade.set_values[0].target_value\" style=\"Bold\"/> and improves cooldown scaling."
+}

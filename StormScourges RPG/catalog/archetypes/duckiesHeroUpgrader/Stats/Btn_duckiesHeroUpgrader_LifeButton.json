@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_MalocBioHealthRegen.UI_Icons_Abilities_MalocBioHealthRegen'",
+  "id": "duckiesHeroUpgrader_LifeButton",
+  "name": "Upgrade Life",
+  "tooltip": "[<d ref=\"duckiesHeroUpgrader_DisplayDummy.vitals_leech.health.max\" style=\"Bold\"/>/<d ref=\"10\" style=\"Bold\"/>] \n\nIncrease your hero's life by <d ref=\"duckiesHeroUpgrader_LifeUpgrade.set_values[0].target_value\" style=\"Bold\"/> and life regeneration by <d ref=\"duckiesHeroUpgrader_LifeUpgrade.set_values[1].target_value\" style=\"Bold\"/>."
+}

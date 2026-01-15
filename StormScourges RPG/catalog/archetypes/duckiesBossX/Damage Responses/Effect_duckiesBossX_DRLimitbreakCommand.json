@@ -1,0 +1,19 @@
+﻿{
+  "__base_type": "GameEffectCommand",
+  "ability": "duckiesBossXLimitbreak",
+  "based_on": "GameEffectCommand",
+  "commanded_target": {
+    "effect_parent": "none",
+    "target": "Caster"
+  },
+  "editor_icon": "",
+  "effect_target": {
+    "effect_parent": "none",
+    "entity_or_point": "Entity",
+    "target": "Caster"
+  },
+  "id": "duckiesBossX_DRLimitbreakCommand",
+  "impact_fx": "",
+  "tracker": "",
+  "validator": "emptyRef"
+}

@@ -1,0 +1,27 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "BaseButton",
+  "extended_tooltips": [
+    {
+      "text": "Soulflare: Strikes an enemy with a soulflare, dealing <d ref=\"duckiesCloneKastielFireball_Damage.amount\" style=\"Red\"/> area damage. 50% of inflicted damage is gained back as life.",
+      "validator": "emptyRef"
+    },
+    {
+      "text": "\n\nSoulblade: Augments weapon to attack <d ref=\"duckiesCloneKastielSoulblade_Buff.modifiers[0].amount\"/>% faster. While augmented weapon attack also inflicts a <d ref=\"duckiesCloneKastielSoulblade_WpnStun.duration\"/> second stun. Lasts <d ref=\"duckiesCloneKastielSoulblade_Buff.duration\"/> seconds.",
+      "validator": "emptyRef"
+    },
+    {
+      "text": "\n\nReinforce: Summons <d ref=\"duckiesCloneKastielDarkKri_Create.spawn_count\"/> Kuzari to attack enemies.\nKuzari have <d ref=\"duckiesCloneDarkKri.vital_health.maximum\"/> life and deal <d ref=\"duckiesCloneDarkKri_WeaponDamage.amount\"/> damage per attack.",
+      "validator": "emptyRef"
+    },
+    {
+      "text": "\n\nCull The Unworthy: Purges target, inflicting <d ref=\"duckiesCloneKastielCull_Damage.amount\" style=\"Red\"/> damage and restoring his own life based on damage dealt. Ability cooldown scales with target's life.\n\nEffect is diminished against resilient and hero targets.",
+      "validator": "emptyRef"
+    }
+  ],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Units/Angel/UI_Icons_Units_Angel_Kastiel.UI_Icons_Units_Angel_Kastiel'",
+  "id": "duckiesCloneKastiel_Button",
+  "name": "Spectral Warrior Arkhos",
+  "tooltip": "Soulflare: Strikes an enemy with a soulflare, dealing <d ref=\"duckiesCloneKastielFireball_Damage.amount\" style=\"Red\"/> area damage. 50% of inflicted damage is gained back as life.\n\nSoulblade: Augments weapon to attack <d ref=\"duckiesCloneKastielSoulblade_Buff.modifiers[0].amount\"/>% faster. While augmented weapon attack also inflicts a <d ref=\"duckiesCloneKastielSoulblade_WpnStun.duration\"/> second stun. Lasts <d ref=\"duckiesCloneKastielSoulblade_Buff.duration\"/> seconds.\n\nReinforce: Summons <d ref=\"duckiesCloneKastielDarkKri_Create.spawn_count\"/> Kuzari to attack enemies.\nKuzari have <d ref=\"duckiesCloneDarkKri.vital_health.maximum\"/> life and deal <d ref=\"duckiesCloneDarkKri_WeaponDamage.amount\"/> damage per attack.\n\nCull The Unworthy: Purges target, inflicting <d ref=\"duckiesCloneKastielCull_Damage.amount\" style=\"Red\"/> damage and restoring his own life based on damage dealt. Ability cooldown scales with target's life.\nEffect is diminished against resilient and hero targets."
+}

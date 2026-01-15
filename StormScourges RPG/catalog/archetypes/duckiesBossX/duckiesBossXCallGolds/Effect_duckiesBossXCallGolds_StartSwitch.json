@@ -1,0 +1,25 @@
+﻿{
+  "__base_type": "GameEffectSwitch",
+  "based_on": "GameEffectSwitch",
+  "cases": [
+    {
+      "action": "duckiesBossXCallGolds_WaypointSearchLVL3",
+      "case_condition": "Valid_duckiesBossX_Augment3ReqLifeCheck"
+    },
+    {
+      "action": "duckiesBossXCallGolds_WaypointSearchLVL2",
+      "case_condition": "Valid_duckiesBossX_Augment2ReqLifeCheck"
+    }
+  ],
+  "default_action": "duckiesBossXCallGolds_WaypointSearch",
+  "editor_icon": "",
+  "effect_location": {
+    "effect_parent": "none",
+    "entity_or_point": "EntityOrPoint",
+    "target": "Caster"
+  },
+  "id": "duckiesBossXCallGolds_StartSwitch",
+  "impact_fx": "",
+  "tracker": "",
+  "validator": "emptyRef"
+}

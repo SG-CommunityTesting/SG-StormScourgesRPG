@@ -1,0 +1,38 @@
+﻿{
+  "__base_type": "UpgradeData",
+  "based_on": "duckiesHeroUpgrader_GenericAbilUpgradePowerSmall",
+  "button": "duckiesHeroUpgrader_DarkKriStatsButton",
+  "id": "duckiesHeroUpgrader_DarkKriStatsUpgrade",
+  "name": "",
+  "player_modifiers": [],
+  "player_responses": [],
+  "research_effect": "emptyRef",
+  "set_values": [
+    {
+      "target_archetype": "duckiesDarkKri",
+      "target_command_index": 0,
+      "target_property": "vital_health.maximum",
+      "target_value": 60.0
+    },
+    {
+      "target_archetype": "duckiesDarkKri",
+      "target_command_index": 0,
+      "target_property": "vital_health.starting",
+      "target_value": 60.0
+    },
+    {
+      "target_archetype": "duckiesDarkKri_WeaponDamage",
+      "target_command_index": 0,
+      "target_property": "amount",
+      "target_value": 6.0
+    },
+    {
+      "target_archetype": "duckiesHeroUpgrader_DarkKriStatsLVLDummy",
+      "target_command_index": 0,
+      "target_property": "amount",
+      "target_value": 1.0
+    }
+  ],
+  "supply_provided": 0.0,
+  "unit_modifiers": []
+}

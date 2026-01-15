@@ -1,0 +1,78 @@
+﻿{
+  "__base_type": "Validator",
+  "based_on": "Validator",
+  "check": {
+    "root": {
+      "left": {
+        "left": {
+          "name": "ExpressionApi::get_max_health",
+          "node": "FunctionCall",
+          "parameters": [
+            {
+              "argument": {
+                "name": "ExpressionApi::effect_target",
+                "node": "FunctionCall",
+                "parameters": [
+                  {
+                    "argument": {
+                      "node": "Literal",
+                      "type": "Name",
+                      "value": ""
+                    },
+                    "name": "effect_parent",
+                    "type": "Name"
+                  }
+                ],
+                "type": "Entity"
+              },
+              "name": "entity",
+              "type": "Entity"
+            }
+          ],
+          "type": "Value"
+        },
+        "node": "Math",
+        "operator": "-",
+        "right": {
+          "name": "ExpressionApi::get_health",
+          "node": "FunctionCall",
+          "parameters": [
+            {
+              "argument": {
+                "name": "ExpressionApi::effect_target",
+                "node": "FunctionCall",
+                "parameters": [
+                  {
+                    "argument": {
+                      "node": "Literal",
+                      "type": "Name",
+                      "value": ""
+                    },
+                    "name": "effect_parent",
+                    "type": "Name"
+                  }
+                ],
+                "type": "Entity"
+              },
+              "name": "entity",
+              "type": "Entity"
+            }
+          ],
+          "type": "Value"
+        },
+        "type": "Value"
+      },
+      "node": "Logical",
+      "operator": ">=",
+      "right": {
+        "node": "Literal",
+        "type": "Value",
+        "value": 400.0
+      },
+      "type": "Bool"
+    },
+    "type": "Bool"
+  },
+  "error_string": "",
+  "id": "Valid_duckiesClonePaladinHeal_TargetMissing400HP"
+}

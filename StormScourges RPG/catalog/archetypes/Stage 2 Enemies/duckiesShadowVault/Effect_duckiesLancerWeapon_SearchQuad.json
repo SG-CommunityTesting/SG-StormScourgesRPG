@@ -1,0 +1,54 @@
+﻿{
+  "__base_type": "GameEffectSearchQuad",
+  "based_on": "GameEffectSearchQuad",
+  "black_white_list": {
+    "exclude": [],
+    "include": [
+      {
+        "effect_parent": "origin",
+        "target": "Target"
+      }
+    ]
+  },
+  "directional_offset": {
+    "effect_parent": "none",
+    "entity_or_point": "EntityOrPoint",
+    "target": "Target"
+  },
+  "editor_icon": "",
+  "game_effect": "duckiesLancerWeapon_Damage",
+  "id": "duckiesLancerWeapon_SearchQuad",
+  "impact_fx": "BP_FXI_Lancer_Impact",
+  "length": 3.0,
+  "polar_offset": {
+    "angle": 0.0,
+    "radius": 0.5
+  },
+  "search_filter": {
+    "alliance": {
+      "ally": false,
+      "enemy": true,
+      "neutral": false,
+      "player": false,
+      "self": false
+    },
+    "tags": {
+      "excluded": [
+        "status_invulnerable"
+      ],
+      "required": [
+        "entity_unit",
+        "heightplane_ground"
+      ]
+    }
+  },
+  "search_flags": {},
+  "search_location": {
+    "effect_parent": "none",
+    "entity_or_point": "EntityOrPoint",
+    "target": "Source"
+  },
+  "tracker": "",
+  "validator": "emptyRef",
+  "width": 1.0
+}

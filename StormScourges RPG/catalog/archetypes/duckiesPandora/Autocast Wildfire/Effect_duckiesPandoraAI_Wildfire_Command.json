@@ -1,0 +1,19 @@
+﻿{
+  "__base_type": "GameEffectCommand",
+  "ability": "duckiesPandoraWildfire",
+  "based_on": "GameEffectCommand",
+  "commanded_target": {
+    "effect_parent": "duckiesPandoraAI_Wildfire_PlayerCheck",
+    "target": "Caster"
+  },
+  "editor_icon": "",
+  "effect_target": {
+    "effect_parent": "duckiesPandoraAI_Wildfire_PlayerCheck",
+    "entity_or_point": "Entity",
+    "target": "Caster"
+  },
+  "id": "duckiesPandoraAI_Wildfire_Command",
+  "impact_fx": "",
+  "tracker": "",
+  "validator": "emptyRef"
+}

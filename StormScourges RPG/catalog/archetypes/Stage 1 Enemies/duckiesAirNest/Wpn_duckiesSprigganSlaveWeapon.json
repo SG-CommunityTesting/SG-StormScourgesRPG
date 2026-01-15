@@ -1,0 +1,5 @@
+﻿{
+  "based_on": "duckiesSprigganWeapon",
+  "id": "duckiesSprigganSlaveWeapon",
+  "range_acquire": 16.0
+}

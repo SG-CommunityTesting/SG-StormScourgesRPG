@@ -1,0 +1,43 @@
+﻿{
+  "__base_type": "GameEffectSearchRadius",
+  "based_on": "GameEffectSearchRadius",
+  "black_white_list": {
+    "exclude": [],
+    "include": []
+  },
+  "editor_icon": "",
+  "effect_no_target_found ": "emptyRef",
+  "flags": {
+    "target_becomes_instigator": false,
+    "use_search_location_outer_radius": true
+  },
+  "game_effect": "duckiesFortressPhaseControl_CannonStunRemove",
+  "id": "duckiesFortressPhaseControl_CannonStunRemoveSearchRadius",
+  "impact_fx": "",
+  "max_targets": -1,
+  "radius": 1000.0,
+  "search_filter": {
+    "alliance": {
+      "ally": false,
+      "enemy": false,
+      "neutral": false,
+      "player": true,
+      "self": false
+    },
+    "tags": {
+      "excluded": [],
+      "required": [
+        "entity_unit_structure",
+        "status_invulnerable"
+      ]
+    }
+  },
+  "search_location": {
+    "effect_parent": "origin",
+    "entity_or_point": "Entity",
+    "target": "Caster"
+  },
+  "target_sorts": [],
+  "tracker": "",
+  "validator": "emptyRef"
+}

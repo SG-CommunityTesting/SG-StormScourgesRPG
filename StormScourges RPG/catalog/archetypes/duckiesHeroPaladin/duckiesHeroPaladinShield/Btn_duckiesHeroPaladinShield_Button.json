@@ -1,0 +1,15 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [
+    {
+      "text": "While shielded unit regenerates <d ref=\"duckiesHeroPaladinShield_HealingLVL0.percentage\" style=\"Blue\"/><Blue>%</> life per second.",
+      "validator": "Valid_duckiesHeroPaladinShield_ShieldAmountResearched"
+    }
+  ],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_Reinforce.UI_Icons_Abilities_Reinforce'",
+  "id": "duckiesHeroPaladinShields_Button",
+  "name": "Fortify",
+  "tooltip": "Protects target with a shield which absorbs up to <d ref=\"duckiesHeroPaladinShield_ResponseDamage.damage_shield_settings.shields_max\" style=\"Blue\"/> damage and makes unit resilient to stuns. Lasts <d ref=\"duckiesHeroPaladinShields_Buff.duration\"/> seconds."
+}

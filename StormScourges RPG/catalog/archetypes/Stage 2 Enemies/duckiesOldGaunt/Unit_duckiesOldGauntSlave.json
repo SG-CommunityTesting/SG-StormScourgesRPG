@@ -1,0 +1,8 @@
+﻿{
+  "based_on": "duckiesOldGaunt",
+  "id": "duckiesOldGauntSlave",
+  "traits": [
+    "duckiesGlobalEXPReward_TriatSlave"
+  ],
+  "veterancy_given_on_death": 0
+}

@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Stormgates/Units/UI_Icons_Units_Stormgates_Darkthrone.UI_Icons_Units_Stormgates_Darkthrone'",
+  "id": "duckiesHeroTombstoneRevive_Button",
+  "name": "Revive",
+  "tooltip": "Resurrects your hero. Darkthrone revivals are limited and permanently consumed on use. \n\nOther revival methods such as Revival Prism or ally revival ability don't affect this."
+}

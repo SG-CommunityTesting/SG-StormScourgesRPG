@@ -1,0 +1,28 @@
+﻿{
+  "__base_type": "GameEffectRemoveBuff",
+  "based_on": "GameEffectRemoveBuff",
+  "buff": "duckiesBoss2Manifest_AMMO",
+  "editor_icon": "",
+  "effect_target": {
+    "effect_parent": "none",
+    "target": "Caster"
+  },
+  "id": "duckiesBoss2Manifest_AmmoStackRemove",
+  "impact_fx": "",
+  "source_match": "None",
+  "stacks": 1,
+  "stacks_expression": {},
+  "store_value": {
+    "add_to_existing": true,
+    "effect_parent": "",
+    "store_name": ""
+  },
+  "tag_filter": {
+    "alignment": "All",
+    "ignored": [],
+    "required": []
+  },
+  "target": "Caster",
+  "tracker": "",
+  "validator": "emptyRef"
+}

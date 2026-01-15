@@ -1,0 +1,11 @@
+﻿{
+  "based_on": "duckiesMassTeleporter1A",
+  "buffs": [],
+  "id": "duckiesMassTeleporter1B",
+  "show_name_on_hover": false,
+  "starting_snowtags": [
+    "entity_unit_structure",
+    "status_invulnerable",
+    "tag_duckiesMassTeleporterB"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "__base_type": "GameEffectKill",
+  "based_on": "GameEffectKill",
+  "death_type": "Normal_DeathType",
+  "editor_icon": "",
+  "effect_target": {
+    "effect_parent": "none",
+    "target": "Target"
+  },
+  "id": "duckiesCheatTravel3_PrismKill",
+  "impact_fx": "",
+  "tracker": "",
+  "validator": "Valid_TargetIsduckiesStage3AnchorPrism"
+}

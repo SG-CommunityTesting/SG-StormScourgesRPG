@@ -1,0 +1,37 @@
+﻿{
+  "__base_type": "GameEffectSwitch",
+  "based_on": "GameEffectSwitch",
+  "cases": [
+    {
+      "action": "duckiesHeroRykerRoll_ASBuffStacksApplierLVL1",
+      "case_condition": "Valid_duckiesHeroRykerRoll_StackLVL1"
+    },
+    {
+      "action": "duckiesHeroRykerRoll_ASBuffStacksApplierLVL2",
+      "case_condition": "Valid_duckiesHeroRykerRoll_StackLVL2"
+    },
+    {
+      "action": "duckiesHeroRykerRoll_ASBuffStacksApplierLVL3",
+      "case_condition": "Valid_duckiesHeroRykerRoll_StackLVL3"
+    },
+    {
+      "action": "duckiesHeroRykerRoll_ASBuffStacksApplierLVL4",
+      "case_condition": "Valid_duckiesHeroRykerRoll_StackLVL4"
+    },
+    {
+      "action": "duckiesHeroRykerRoll_ASBuffStacksApplierLVL5",
+      "case_condition": "Valid_duckiesHeroRykerRoll_StackLVL5"
+    }
+  ],
+  "default_action": "duckiesHeroRykerRoll_ASBuffStacksApplier",
+  "editor_icon": "",
+  "effect_location": {
+    "effect_parent": "none",
+    "entity_or_point": "EntityOrPoint",
+    "target": "Target"
+  },
+  "id": "duckiesHeroRykerRoll_ASBuffStacksApplierSwitch",
+  "impact_fx": "",
+  "tracker": "",
+  "validator": "emptyRef"
+}

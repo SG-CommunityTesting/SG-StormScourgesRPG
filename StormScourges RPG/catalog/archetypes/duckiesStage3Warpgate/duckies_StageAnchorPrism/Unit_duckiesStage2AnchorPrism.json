@@ -1,0 +1,7 @@
+﻿{
+  "based_on": "duckiesStage3AnchorPrism",
+  "buffs": [
+    "duckiesMeteorHag_PhaseUnlock1Trigger"
+  ],
+  "id": "duckiesStage2AnchorPrism"
+}

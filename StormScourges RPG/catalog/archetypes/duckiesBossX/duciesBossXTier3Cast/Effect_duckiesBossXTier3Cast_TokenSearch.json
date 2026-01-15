@@ -1,0 +1,44 @@
+﻿{
+  "__base_type": "GameEffectSearchRadius",
+  "based_on": "GameEffectSearchRadius",
+  "black_white_list": {
+    "exclude": [],
+    "include": []
+  },
+  "editor_icon": "",
+  "effect_no_target_found ": "duckiesBossXTier3Cast_DebugTokenFail",
+  "flags": {
+    "target_becomes_instigator": false,
+    "use_search_location_outer_radius": true
+  },
+  "game_effect": "duckiesBossXTier3Cast_TokenImpactSet",
+  "id": "duckiesBossXTier3Cast_TokenSearch",
+  "impact_fx": "",
+  "max_targets": 1,
+  "radius": 1000.0,
+  "search_filter": {
+    "alliance": {
+      "ally": true,
+      "enemy": true,
+      "neutral": true,
+      "player": true,
+      "self": true
+    },
+    "tags": {
+      "excluded": [],
+      "required": [
+        "tag_duckiesBossXCastTokenT3"
+      ]
+    }
+  },
+  "search_location": {
+    "effect_parent": "origin",
+    "entity_or_point": "Entity",
+    "target": "Caster"
+  },
+  "target_sorts": [
+    "TS_Random"
+  ],
+  "tracker": "",
+  "validator": "emptyRef"
+}

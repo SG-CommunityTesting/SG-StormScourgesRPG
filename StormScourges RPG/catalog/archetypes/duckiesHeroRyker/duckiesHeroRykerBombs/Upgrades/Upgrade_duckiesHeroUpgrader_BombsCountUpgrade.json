@@ -1,0 +1,26 @@
+﻿{
+  "__base_type": "UpgradeData",
+  "based_on": "duckiesHeroUpgrader_GenericAbilUpgradePowerMajor",
+  "button": "duckiesHeroUpgrader_BombsCountButton",
+  "id": "duckiesHeroUpgrader_BombsCountUpgrade",
+  "name": "",
+  "player_modifiers": [],
+  "player_responses": [],
+  "research_effect": "emptyRef",
+  "set_values": [
+    {
+      "target_archetype": "duckiesHeroRykerBombs_StartPersistent",
+      "target_command_index": 0,
+      "target_property": "periodic.count",
+      "target_value": 12.0
+    },
+    {
+      "target_archetype": "duckiesHeroUpgrader_BombsCountLVLDummy",
+      "target_command_index": 0,
+      "target_property": "amount",
+      "target_value": 1.0
+    }
+  ],
+  "supply_provided": 0.0,
+  "unit_modifiers": []
+}

@@ -1,0 +1,45 @@
+﻿{
+  "abilityList": [
+    "duckiesLifePickupClaim",
+    "duckiesLifePickupClaim_ReviveResearch",
+    "structureProductionQueueAbilityData"
+  ],
+  "based_on": "duckiesGoldPickup5",
+  "build_cost": {
+    "resource_a": 0.0,
+    "resource_b": 0.0,
+    "resource_c": 0.0,
+    "resource_d": 0.0
+  },
+  "commandList": [
+    {
+      "ability": "duckiesLifePickupClaim",
+      "button": "duckiesHeroTombstoneRevive_Button",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 2,
+      "slot": 1,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "duckiesLifePickupClaim_ReviveResearch",
+      "button": "duckiesHeroTombstoneRevive_Button",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 2,
+      "slot": 2,
+      "submenu": 0,
+      "targetSubmenu": -1
+    }
+  ],
+  "id": "duckiesLifePickup",
+  "name": "+<d ref=\"1\" style=\"Bold\"/> Darkthrone Revive (Approach to Collect)",
+  "unit_button": "StormgateAbilityCreateTier3Tornado_Button",
+  "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_Totem5.UI_Portrait_Demon_Default_Totem5'",
+  "unreal_actor": "BP_UN_Totem5"
+}

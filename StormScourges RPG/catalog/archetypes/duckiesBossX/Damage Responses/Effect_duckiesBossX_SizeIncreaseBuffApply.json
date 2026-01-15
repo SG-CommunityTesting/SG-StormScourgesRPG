@@ -1,0 +1,16 @@
+﻿{
+  "__base_type": "GameEffectApplyBuff",
+  "based_on": "GameEffectApplyBuff",
+  "buff": "duckiesBossX_SizeIncreaseBuff",
+  "editor_icon": "",
+  "effect_target": {
+    "effect_parent": "none",
+    "target": "Caster"
+  },
+  "id": "duckiesBossX_SizeIncreaseBuffApply",
+  "impact_fx": "",
+  "stacks": 1,
+  "stacks_expression": {},
+  "tracker": "",
+  "validator": "emptyRef"
+}

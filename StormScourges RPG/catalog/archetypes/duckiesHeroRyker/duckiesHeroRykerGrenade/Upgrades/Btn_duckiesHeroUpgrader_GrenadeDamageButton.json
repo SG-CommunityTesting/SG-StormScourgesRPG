@@ -1,0 +1,9 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "duckiesHeroRykerGrenade_Button",
+  "extended_tooltips": [],
+  "id": "duckiesHeroUpgrader_GrenadeDamageButton",
+  "name": "Suppressor Grenade Damage",
+  "tooltip": "[<d ref=\"duckiesHeroUpgrader_GrenadeDamageLVLDummy.amount\" style=\"Bold\"/>/<d ref=\"5\" style=\"Bold\"/>] \n\nIncrease Suppressor Grenade damage by <d ref=\"duckiesHeroUpgrader_GrenadeDamageUpgrade.set_values[0].target_value\" style=\"Bold\"/>."
+}

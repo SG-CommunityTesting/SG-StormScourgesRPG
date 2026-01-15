@@ -1,0 +1,16 @@
+﻿{
+  "__base_type": "GameEffectChangeOwner",
+  "based_on": "GameEffectChangeOwner",
+  "effect_owner": {
+    "effect_parent": "none",
+    "target": "Caster"
+  },
+  "effect_target": {
+    "effect_parent": "none",
+    "target": "Target"
+  },
+  "id": "duckiesPartyArrangerSoloPartyMode_ChangeOwner",
+  "impact_fx": "BP_FX_VanguardLevelUp_Tier1",
+  "tracker": "",
+  "validator": "Valid_TargetIsduckiesHeroSelector"
+}

@@ -1,0 +1,31 @@
+﻿{
+  "__base_type": "GameEffectRefund",
+  "based_on": "GameEffectRefund",
+  "death_type": "Normal_DeathType",
+  "editor_icon": "",
+  "effect_target": {
+    "effect_parent": "none",
+    "target": "Caster"
+  },
+  "flags": {
+    "is_salvage": false,
+    "kill_on_refund": false,
+    "shared_with_team": false
+  },
+  "id": "BossResourcePickup_Refund",
+  "impact_fx": "",
+  "refund_percent": {
+    "resource_a": 100.0,
+    "resource_b": 100.0,
+    "resource_c": 0.0,
+    "resource_d": 0.0
+  },
+  "refund_player": {
+    "effect_parent": "none",
+    "target": "Target"
+  },
+  "refund_scaling_percentage": {},
+  "tracker": "",
+  "validator": "emptyRef",
+  "victory_points_percent": 100.0
+}

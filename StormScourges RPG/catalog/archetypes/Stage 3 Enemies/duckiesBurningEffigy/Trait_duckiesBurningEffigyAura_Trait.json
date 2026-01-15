@@ -1,0 +1,7 @@
+﻿{
+  "__base_type": "TraitData",
+  "based_on": "TraitData",
+  "button": "duckiesBurningEffigyAura_ButtonTrait",
+  "id": "duckiesBurningEffigyAura_Trait",
+  "requirement": "emptyRef"
+}

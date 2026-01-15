@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_HeroicCharge.UI_Icons_Abilities_HeroicCharge'",
+  "id": "duckiesClonePaladinLeap_Button",
+  "name": "Heavy Leap",
+  "tooltip": "Leaps to target location, dealing <d ref=\"duckiesClonePaladinLeap_ImpactDamageRadius.amount\" style=\"Red\"/> damage to enemies in the area and stunning them for <d ref=\"duckiesClonePaladinLeap_ImpactStun.duration\"/> seconds."
+}

@@ -1,0 +1,9 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "duckiesHeroPaladinSpin_Button",
+  "extended_tooltips": [],
+  "id": "duckiesHeroUpgrader_SpinDamageButton",
+  "name": "Hammer Time Damage",
+  "tooltip": "[<d ref=\"duckiesHeroUpgrader_SpinDamageLVLDummy.amount\" style=\"Bold\"/>/<d ref=\"5\" style=\"Bold\"/>] \n\nIncrease Hammer Time damage by <d ref=\"duckiesHeroUpgrader_SpinDamageUpgrade.set_values[0].target_value/duckiesHeroPaladinSpin_HostBuff.periodic_duration\" style=\"Bold\"/>."
+}

@@ -1,0 +1,5 @@
+﻿{
+  "based_on": "duckiesHeroSelector_KastielUpgradeCreate",
+  "id": "duckiesHeroSelector_CasterUpgradeCreate",
+  "spawn_unit": "duckiesHeroUpgraderCaster"
+}

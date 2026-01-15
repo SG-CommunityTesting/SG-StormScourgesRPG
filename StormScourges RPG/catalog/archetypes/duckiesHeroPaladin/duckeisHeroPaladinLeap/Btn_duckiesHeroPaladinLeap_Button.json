@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_HeroicCharge.UI_Icons_Abilities_HeroicCharge'",
+  "id": "duckiesHeroPaladinLeap_Button",
+  "name": "pegasus_heroes|Button_Name_Barclay_HeroicCharge_Button",
+  "tooltip": "Leaps to target location, dealing <d ref=\"duckiesHeroPaladinLeap_ImpactDamageRadius.amount\" style=\"Blue\"/> damage to enemies in the area and stunning them for <d ref=\"duckiesHeroPaladinLeap_ImpactStun.duration\" style=\"Blue\"/> seconds.\n\nDoes not leap over unpathable terrain."
+}

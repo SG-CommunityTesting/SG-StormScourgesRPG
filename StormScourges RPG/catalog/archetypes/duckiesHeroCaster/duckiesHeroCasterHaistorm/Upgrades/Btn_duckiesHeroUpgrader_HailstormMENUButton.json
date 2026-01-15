@@ -1,0 +1,9 @@
+﻿{
+  "UseUITint": true,
+  "__base_type": "Button",
+  "based_on": "duckiesHeroCasterHailstorm_Button",
+  "extended_tooltips": [],
+  "id": "duckiesHeroUpgrader_HailstormMENUButton",
+  "name": "Upgrade Hailstorm",
+  "tooltip": "View upgrades for Hailstorm."
+}

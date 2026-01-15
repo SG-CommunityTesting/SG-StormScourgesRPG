@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_InfernalAvatar.UI_Icons_Abilities_InfernalAvatar'",
+  "id": "duckiesGenericSpellArmor_Button",
+  "name": "Nightmare Armor",
+  "tooltip": "Unit is resilient. Incoming spell damage reduced by <d ref=\"(1-duckiesGenericSpellArmor_DR.modify_fraction)*100\" style=\"Purple\"/>%."
+}

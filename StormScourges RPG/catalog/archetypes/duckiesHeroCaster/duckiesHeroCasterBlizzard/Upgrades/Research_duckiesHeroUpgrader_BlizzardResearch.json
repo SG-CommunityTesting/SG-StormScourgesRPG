@@ -1,0 +1,15 @@
+﻿{
+  "__base_type": "ResearchAbilityData",
+  "based_on": "ResearchAbilityData",
+  "commands": [
+    {
+      "requirement": "duckiesHeroUpgrader_BlizzardDamageLearn",
+      "upgrade": "duckiesHeroUpgrader_BlizzardDamageUpgrade"
+    },
+    {
+      "requirement": "duckiesHeroUpgrader_BlizzardHealLearn",
+      "upgrade": "duckiesHeroUpgrader_BlizzardHealUpgrade"
+    }
+  ],
+  "id": "duckiesHeroUpgrader_BlizzardResearch"
+}

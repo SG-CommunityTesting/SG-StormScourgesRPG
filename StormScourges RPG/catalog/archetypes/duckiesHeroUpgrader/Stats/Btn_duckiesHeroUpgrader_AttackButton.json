@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Weapons/UI_Icons_Weapons_Nethersword.UI_Icons_Weapons_Nethersword'",
+  "id": "duckiesHeroUpgrader_AttackButton",
+  "name": "Upgrade Attack Damage",
+  "tooltip": "[<d ref=\"duckiesHeroUpgrader_DisplayDummy.amount\" style=\"Bold\"/>/<d ref=\"10\" style=\"Bold\"/>] \n\nIncrease your hero's weapon attack damage by <Bold>20%</> (isn't displayed in weapon tooltip) and summon damage by <Bold>10%</>."
+}

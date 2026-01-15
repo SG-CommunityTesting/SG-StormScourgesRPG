@@ -1,0 +1,11 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_Hush.UI_Icons_Abilities_Hush'",
+  "icon_secondary": "",
+  "id": "duckiesCloneCasterHush_Button",
+  "name": "Hush",
+  "tooltip": "Pacifies enemies for <d ref=\"duckiesCloneCasterHush_DebuffInitial.duration\"/> second and reduces their attack damage and attack range by 50%.\nWhen killed affected enemies will spawn a short-lived phantom that has <d ref=\"duckiesCloneCasterPhantom.vital_health.maximum\"/> life and attacks for <d ref=\"duckiesCloneCasterPhantom_WeaponDamage.amount\"/> damage every <d ref=\"duckiesCloneCasterPhantom_Weapon.period\"/> seconds.\nResilient and Hero enemies are immune to the effect."
+}

@@ -1,0 +1,11 @@
+﻿{
+  "__base_type": "ResearchAbilityData",
+  "based_on": "ResearchAbilityData",
+  "commands": [
+    {
+      "requirement": "duckiesHeroUpgrader_HushPowerLearn",
+      "upgrade": "duckiesHeroUpgrader_HushPowerUpgrade"
+    }
+  ],
+  "id": "duckiesHeroUpgrader_HushResearch"
+}

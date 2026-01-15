@@ -1,0 +1,11 @@
+﻿{
+  "__base_type": "ResearchAbilityData",
+  "based_on": "ResearchAbilityData",
+  "commands": [
+    {
+      "requirement": "duckiesHeroUpgrader_KastielPassiveLearn",
+      "upgrade": "duckiesHeroUpgrader_KastielPassiveUpgrade"
+    }
+  ],
+  "id": "duckiesHeroUpgrader_KastielPassiveResearch"
+}

@@ -1,0 +1,28 @@
+﻿{
+  "__base_type": "GameEffectRemoveBuff",
+  "based_on": "GameEffectRemoveBuff",
+  "buff": "duckiesAmbushAI_AmbusherBuff4",
+  "editor_icon": "",
+  "effect_target": {
+    "effect_parent": "none",
+    "target": "Target"
+  },
+  "id": "duckiesAmbushAI_AmbuhserBuffRemove4",
+  "impact_fx": "BP_FXS_InfernalTeleport_TeleportIn",
+  "source_match": "None",
+  "stacks": 1,
+  "stacks_expression": {},
+  "store_value": {
+    "add_to_existing": true,
+    "effect_parent": "",
+    "store_name": ""
+  },
+  "tag_filter": {
+    "alignment": "All",
+    "ignored": [],
+    "required": []
+  },
+  "target": "Target",
+  "tracker": "",
+  "validator": "emptyRef"
+}

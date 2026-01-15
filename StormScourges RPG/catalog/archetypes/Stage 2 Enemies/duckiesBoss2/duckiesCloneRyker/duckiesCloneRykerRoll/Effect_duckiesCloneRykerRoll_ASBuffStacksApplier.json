@@ -1,0 +1,16 @@
+﻿{
+  "__base_type": "GameEffectApplyBuff",
+  "based_on": "BaseGameEffectApplyBuff",
+  "buff": "duckiesCloneRykerRoll_ASBuffStacks",
+  "editor_icon": "",
+  "effect_target": {
+    "effect_parent": "none",
+    "target": "Caster"
+  },
+  "id": "duckiesCloneRykerRoll_ASBuffStacksApplier",
+  "impact_fx": "",
+  "stacks": 5,
+  "stacks_expression": {},
+  "tracker": "",
+  "validator": "emptyRef"
+}

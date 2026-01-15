@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_Reinforce.UI_Icons_Abilities_Reinforce'",
+  "id": "duckiesClonePaladinShields_Button",
+  "name": "Fortify",
+  "tooltip": "Protects an allied hero with a shield which absorbs up to <d ref=\"duckiesClonePaladinShield_ResponseDamage.damage_shield_settings.shields_max\"/> damage and makes them resilient to stuns. Lasts <d ref=\"duckiesClonePaladinShields_Buff.duration\"/> seconds."
+}

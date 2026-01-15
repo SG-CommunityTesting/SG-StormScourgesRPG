@@ -1,0 +1,17 @@
+﻿{
+  "__base_type": "GameEffectPersistent",
+  "based_on": "duckiesHeroCasterHailstorm_StartPersistent",
+  "id": "duckiesHeroCasterHailstorm_StartPersistentLVL5",
+  "periodic": {
+    "count": 14,
+    "durations": [
+      0.15
+    ],
+    "durations_method": "RepeatLast",
+    "effects": [
+      "duckiesHeroCasterHailstorm_MissileLauncher"
+    ],
+    "effects_method": "RepeatLast",
+    "validator": "NoValidator"
+  }
+}

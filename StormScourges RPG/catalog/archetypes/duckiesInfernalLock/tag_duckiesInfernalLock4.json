@@ -1,0 +1,11 @@
+﻿{
+  "__base_type": "SnowTag",
+  "based_on": "SnowTag",
+  "display_name": "",
+  "display_name_noun_phrase": "",
+  "flags": {
+    "display_as_attribute": false,
+    "display_as_callout": false
+  },
+  "id": "tag_duckiesInfernalLock4"
+}

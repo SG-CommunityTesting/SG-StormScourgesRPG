@@ -1,0 +1,8 @@
+﻿{
+  "based_on": "duckiesStage3WarpgateA",
+  "buffs": [
+    "Uncontrollable_Buff"
+  ],
+  "id": "duckiesStageWarpgateB",
+  "show_name_on_hover": false
+}

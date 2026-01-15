@@ -1,0 +1,9 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "duckiesHeroPaladinRevive_Button",
+  "extended_tooltips": [],
+  "id": "duckiesHeroUpgrader_ReviveGlobalButton",
+  "name": "Revive: Sacrament",
+  "tooltip": "[<d ref=\"duckiesHeroUpgrader_ReviveGlobalLVLDummy.amount\" style=\"Bold\"/>/<d ref=\"1\" style=\"Bold\"/>] \n\nAll heroes are revived regardless of their location and enemeis in the target revival area are struck for <d ref=\"duckiesHeroPaladinRevive_ImpactDamageRadius.amount\" style=\"Blue\"/> damage."
+}

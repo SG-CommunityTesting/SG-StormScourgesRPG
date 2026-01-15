@@ -1,0 +1,5 @@
+﻿{
+  "based_on": "duckiesVisionRevealer",
+  "id": "duckiesVisionRevealerSmall",
+  "vision_radius": 5.0
+}

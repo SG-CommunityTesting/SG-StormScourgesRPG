@@ -1,0 +1,35 @@
+﻿{
+  "__base_type": "Validator",
+  "based_on": "Validator",
+  "check": {
+    "root": {
+      "name": "ExpressionApi::is_unit_archetype",
+      "node": "FunctionCall",
+      "parameters": [
+        {
+          "argument": {
+            "name": "ExpressionApi::effect_caster",
+            "node": "FunctionCall",
+            "parameters": [],
+            "type": "Entity"
+          },
+          "name": "entity",
+          "type": "Entity"
+        },
+        {
+          "argument": {
+            "node": "Literal",
+            "type": "UnitData",
+            "value": "duckiesStage2WarpgateA"
+          },
+          "name": "archetype",
+          "type": "UnitData"
+        }
+      ],
+      "type": "Bool"
+    },
+    "type": "Bool"
+  },
+  "error_string": "",
+  "id": "Valid_CasterIsduckiesStage2WarpgateA"
+}

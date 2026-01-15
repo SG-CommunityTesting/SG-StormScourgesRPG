@@ -1,0 +1,9 @@
+﻿{
+  "UseUITint": true,
+  "__base_type": "Button",
+  "based_on": "duckiesHeroKastielSoulblade_Button",
+  "extended_tooltips": [],
+  "id": "duckiesHeroUpgrader_SoulbladeMENUButton",
+  "name": "Upgrade Soulblade",
+  "tooltip": "View upgrades for Soulblade."
+}

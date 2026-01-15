@@ -1,0 +1,23 @@
+﻿{
+  "__base_type": "GameEffectSet",
+  "based_on": "GameEffectSet",
+  "editor_icon": "",
+  "effect_location": {
+    "effect_parent": "none",
+    "entity_or_point": "EntityOrPoint",
+    "target": "Caster"
+  },
+  "effects": [
+    "duckiesBossXAI_T2_TimerEXStackApplyPhase1",
+    "duckiesBossXAI_T2_TimerEXStackApplyPhase2",
+    "duckiesBossXAI_T2_TimerEXProcessorApply"
+  ],
+  "flags": {
+    "target_becomes_instigator": false
+  },
+  "id": "duckiesBossXAI_T2_TimerEXStackApplySet",
+  "impact_fx": "",
+  "repetition_limit": 0,
+  "tracker": "",
+  "validator": "emptyRef"
+}

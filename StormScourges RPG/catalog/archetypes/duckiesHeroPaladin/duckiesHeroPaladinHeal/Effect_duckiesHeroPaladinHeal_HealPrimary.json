@@ -1,0 +1,16 @@
+﻿{
+  "__base_type": "GameEffectHeal",
+  "amount": 400.0,
+  "based_on": "GameEffectHeal",
+  "editor_icon": "",
+  "effect_target": {
+    "effect_parent": "none",
+    "target": "Target"
+  },
+  "id": "duckiesHeroPaladinHeal_HealPrimary",
+  "impact_fx": "BP_FXS_Revitalize_Target",
+  "percentage": 0.0,
+  "tag_bonuses": [],
+  "tracker": "",
+  "validator": "emptyRef"
+}

@@ -1,0 +1,6 @@
+﻿{
+  "__base_type": "GameEffectApplyBuff",
+  "based_on": "duckiesHeroRykerRoll_ASBuffStacksApplier",
+  "id": "duckiesHeroRykerRoll_ASBuffStacksApplierLVL2",
+  "stacks": 9
+}

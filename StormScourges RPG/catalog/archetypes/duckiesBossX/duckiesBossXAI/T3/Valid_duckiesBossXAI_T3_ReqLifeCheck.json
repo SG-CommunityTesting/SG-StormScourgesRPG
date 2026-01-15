@@ -1,0 +1,36 @@
+﻿{
+  "__base_type": "Validator",
+  "based_on": "Validator",
+  "check": {
+    "root": {
+      "left": {
+        "name": "ExpressionApi::get_health_pct",
+        "node": "FunctionCall",
+        "parameters": [
+          {
+            "argument": {
+              "name": "ExpressionApi::effect_caster",
+              "node": "FunctionCall",
+              "parameters": [],
+              "type": "Entity"
+            },
+            "name": "who",
+            "type": "Entity"
+          }
+        ],
+        "type": "Value"
+      },
+      "node": "Logical",
+      "operator": "<=",
+      "right": {
+        "node": "Literal",
+        "type": "Value",
+        "value": 80.0
+      },
+      "type": "Bool"
+    },
+    "type": "Bool"
+  },
+  "error_string": "",
+  "id": "Valid_duckiesBossXAI_T3_ReqLifeCheck"
+}

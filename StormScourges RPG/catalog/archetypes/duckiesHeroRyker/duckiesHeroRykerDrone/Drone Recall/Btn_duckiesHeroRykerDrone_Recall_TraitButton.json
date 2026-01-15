@@ -1,0 +1,11 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Units/Human/UI_Icons_Units_Human_SensorDrone.UI_Icons_Units_Human_SensorDrone'",
+  "icon_secondary": "",
+  "id": "duckiesHeroRykerDrone_Recall_TraitButton",
+  "name": "Assault Drone Protocol",
+  "tooltip": "Will attempt to relocate to caster's position after staying idle for a while."
+}

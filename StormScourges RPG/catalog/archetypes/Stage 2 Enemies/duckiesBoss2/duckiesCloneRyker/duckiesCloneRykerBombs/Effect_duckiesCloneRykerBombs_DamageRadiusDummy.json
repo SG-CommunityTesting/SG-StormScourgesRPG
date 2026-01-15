@@ -1,0 +1,64 @@
+﻿{
+  "__base_type": "GameEffectDamageRadius",
+  "amount": 1.0,
+  "areas": [
+    {
+      "damage_fraction": 1.0,
+      "radius": 8.0
+    }
+  ],
+  "based_on": "BaseGameEffectDamageRadius",
+  "black_white_list": {
+    "exclude": [],
+    "include": []
+  },
+  "damage_impact_fx": "",
+  "damage_tags": [],
+  "death_type": "Normal_DeathType",
+  "editor_icon": "",
+  "flags": {
+    "alert": true,
+    "damage_response": true,
+    "use_search_location_outer_radius": false
+  },
+  "friendly_fire_percentage": 50.0,
+  "id": "duckiesCloneRykerBombs_DamageRadiusDummy",
+  "location_impact_fx": "",
+  "search_filter": {
+    "alliance": {
+      "ally": true,
+      "enemy": true,
+      "neutral": true,
+      "player": true,
+      "self": true
+    },
+    "tags": {
+      "excluded": [
+        "dead",
+        "status_invulnerable"
+      ],
+      "required": []
+    }
+  },
+  "search_location": {
+    "effect_parent": "none",
+    "entity_or_point": "EntityOrPoint",
+    "target": "Target"
+  },
+  "tag_bonuses": [],
+  "target_armor_multiplier": 1.0,
+  "tracker": "",
+  "validator": "emptyRef",
+  "vitals_leech": {
+    "energy": {
+      "max": 0.0,
+      "min": 0.0,
+      "percent": 0.0
+    },
+    "health": {
+      "max": 0.0,
+      "min": 0.0,
+      "percent": 0.0
+    }
+  }
+}

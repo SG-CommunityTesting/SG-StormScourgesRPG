@@ -1,0 +1,54 @@
+﻿{
+  "__base_type": "GameEffectLaunchProjectile",
+  "anim_montage_component": "/Script/Engine.BlueprintGeneratedClass'/Game/Pegasus/Blueprints/EntityComponents/AnimMontageComponents/AMC_LaunchUnitFly.AMC_LaunchUnitFly_C'",
+  "based_on": "BaseGameEffectLaunchProjectile",
+  "cancel_fx": "",
+  "editor_icon": "",
+  "fallback_unit": {
+    "effect_parent": "none",
+    "target": "Source"
+  },
+  "flags": {
+    "channeling": false,
+    "ignore_destructible_tree": false,
+    "landing_spot_find": false,
+    "landing_spot_reserve": false,
+    "mark_exclusive_target": false,
+    "stop_at_unpathable": false
+  },
+  "id": "duckiesArchangelFlyingWeapon_MissileLauncher",
+  "impact_effect": "duckiesArchangelFlyingWeapon_ImpactSet",
+  "impact_fx": "",
+  "impact_location": {
+    "effect_parent": "none",
+    "entity_or_point": "Point",
+    "target": "Target"
+  },
+  "launch_fx": "",
+  "launch_location": {
+    "effect_parent": "none",
+    "entity_or_point": "EntityOrPoint",
+    "target": "Source"
+  },
+  "movement": {
+    "acceleration_time": 0,
+    "impact_offset": 2.0,
+    "lob": true,
+    "lob_gravity": 40.0,
+    "lock_facing": true,
+    "lock_height_offset": false,
+    "max_speed": 12.0,
+    "socket": "Auto"
+  },
+  "periodic": {
+    "duration": 0.0,
+    "effect": "emptyRef"
+  },
+  "projectile": "emptyRef",
+  "range_max": 0.0,
+  "skillshots": [],
+  "tracker": "",
+  "validator": "Valid_DivebombLocation",
+  "validator_chase": "emptyRef",
+  "warning_fx": ""
+}

@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_Wildfire.UI_Icons_Abilities_Wildfire'",
+  "id": "duckiesPandoraWildfire_Button",
+  "name": "pegasus_heroes|Button_Name_Wildfire_Button",
+  "tooltip": "Summons a fire cyclone that deals <d ref=\"duckiesPandoraWildfire_DamageRadius.amount/duckiesPandoraWildfire_DamageAura.periodic_duration\" style=\"Red\"/> area damage per second."
+}

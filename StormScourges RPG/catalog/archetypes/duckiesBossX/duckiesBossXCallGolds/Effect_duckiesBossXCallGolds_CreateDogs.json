@@ -1,0 +1,6 @@
+﻿{
+  "based_on": "duckiesBossXCallGolds_CreateRockGolem",
+  "id": "duckiesBossXCallGolds_CreateDogs",
+  "spawn_count": 12,
+  "spawn_unit": "duckiesGoldDogSuicider"
+}

@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Structures/Demon/UI_Icons_Structures_Demon_EffigyV2.UI_Icons_Structures_Demon_EffigyV2'",
+  "id": "duckiesBurningEffigyAura_ButtonTrait",
+  "name": "pegasus_core|Button_Name_ShroudGenerator_ButtonTrait",
+  "tooltip": "Restores 50 shields per second to nearby units."
+}

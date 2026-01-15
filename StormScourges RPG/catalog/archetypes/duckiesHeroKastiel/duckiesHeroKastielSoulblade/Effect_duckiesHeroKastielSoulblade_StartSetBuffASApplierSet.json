@@ -1,0 +1,26 @@
+﻿{
+  "__base_type": "GameEffectSet",
+  "based_on": "GameEffectSet",
+  "editor_icon": "",
+  "effect_location": {
+    "effect_parent": "none",
+    "entity_or_point": "EntityOrPoint",
+    "target": "Target"
+  },
+  "effects": [
+    "duckiesHeroKastielSoulblade_BuffASApplier",
+    "duckiesHeroKastielSoulblade_BuffASApplierLVL1",
+    "duckiesHeroKastielSoulblade_BuffASApplierLVL2",
+    "duckiesHeroKastielSoulblade_BuffASApplierLVL3",
+    "duckiesHeroKastielSoulblade_BuffASApplierLVL4",
+    "duckiesHeroKastielSoulblade_BuffASApplierLVL5"
+  ],
+  "flags": {
+    "target_becomes_instigator": false
+  },
+  "id": "duckiesHeroKastielSoulblade_StartSetBuffASApplierSet",
+  "impact_fx": "",
+  "repetition_limit": 0,
+  "tracker": "",
+  "validator": "emptyRef"
+}

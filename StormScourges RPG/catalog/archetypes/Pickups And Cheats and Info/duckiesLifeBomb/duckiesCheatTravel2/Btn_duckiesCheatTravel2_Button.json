@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/BasicCommands/UI_Icons_BasicCommands_Move.UI_Icons_BasicCommands_Move'",
+  "id": "duckiesCheatTravel2_Button",
+  "name": "[CHEAT] Warp Stage 2",
+  "tooltip": "Warp party to stage 2."
+}

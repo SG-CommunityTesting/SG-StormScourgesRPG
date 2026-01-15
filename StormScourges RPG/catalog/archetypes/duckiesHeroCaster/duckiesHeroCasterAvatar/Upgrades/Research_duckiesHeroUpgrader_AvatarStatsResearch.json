@@ -1,0 +1,11 @@
+﻿{
+  "__base_type": "ResearchAbilityData",
+  "based_on": "ResearchAbilityData",
+  "commands": [
+    {
+      "requirement": "duckiesHeroUpgrader_AvatarStatsLearn",
+      "upgrade": "duckiesHeroUpgrader_AvatarStatsUpgrade"
+    }
+  ],
+  "id": "duckiesHeroUpgrader_AvatarResearch"
+}

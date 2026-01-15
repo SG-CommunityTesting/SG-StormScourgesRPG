@@ -1,0 +1,15 @@
+﻿{
+  "__base_type": "ResearchAbilityData",
+  "based_on": "ResearchAbilityData",
+  "commands": [
+    {
+      "requirement": "duckiesHeroUpgrader_MarkSpreadLearn",
+      "upgrade": "duckiesHeroUpgrader_MarkSpreadUpgrade"
+    },
+    {
+      "requirement": "duckiesHeroUpgrader_MarkAOELearn",
+      "upgrade": "duckiesHeroUpgrader_MarkAOEUpgrade"
+    }
+  ],
+  "id": "duckiesHeroUpgrader_MarkResearch"
+}

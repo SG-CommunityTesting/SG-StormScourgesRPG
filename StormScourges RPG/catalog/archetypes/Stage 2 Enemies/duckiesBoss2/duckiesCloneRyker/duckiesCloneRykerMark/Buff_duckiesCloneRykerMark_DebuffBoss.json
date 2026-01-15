@@ -1,0 +1,9 @@
+﻿{
+  "based_on": "duckiesCloneRykerMark_DebuffNormal",
+  "id": "duckiesCloneRykerMark_DebuffBoss",
+  "name": "Marked for Death (Hero)",
+  "responses": [
+    "duckiesCloneRykerMark_DebuffDRBoss"
+  ],
+  "tooltip": "Unit takes <d ref=\"(duckiesCloneRykerMark_DebuffDRBoss.modify_fraction-1)*100\" style=\"Blue\"/>% increased damage"
+}

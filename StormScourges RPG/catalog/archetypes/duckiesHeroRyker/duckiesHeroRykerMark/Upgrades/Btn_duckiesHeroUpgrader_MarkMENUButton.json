@@ -1,0 +1,9 @@
+﻿{
+  "UseUITint": true,
+  "__base_type": "Button",
+  "based_on": "duckiesHeroRykerMark_Button",
+  "extended_tooltips": [],
+  "id": "duckiesHeroUpgrader_MarkMENUButton",
+  "name": "Upgrade Mark",
+  "tooltip": "View upgrades for Mark."
+}

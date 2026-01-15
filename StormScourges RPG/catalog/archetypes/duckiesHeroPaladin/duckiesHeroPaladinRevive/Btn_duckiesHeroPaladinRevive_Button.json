@@ -1,0 +1,19 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [
+    {
+      "text": "Channels for <d ref=\"duckiesHeroPaladinRevive_StartPersistent.effect_expire_delay\"/> seconds on a dead hero's Darkthrone and then revives all heroes in the target area.",
+      "validator": "Valid_duckiesHeroPaladinRevive_GlobalLVL0"
+    },
+    {
+      "text": "Channels for <d ref=\"duckiesHeroPaladinRevive_StartPersistent.effect_expire_delay\"/> seconds on a dead hero's Darkthrone and then revives all heroes regardless of their location. Enemies in target area will be struck for <d ref=\"duckiesHeroPaladinRevive_ImpactDamageRadius.amount\" style=\"Blue\"/> damage.",
+      "validator": "Valid_duckiesHeroPaladinRevive_GlobalLVL1"
+    }
+  ],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_JusticeJump.UI_Icons_Abilities_JusticeJump'",
+  "id": "duckiesHeroPaladinRevive_Button",
+  "name": "Revive",
+  "tooltip": ""
+}

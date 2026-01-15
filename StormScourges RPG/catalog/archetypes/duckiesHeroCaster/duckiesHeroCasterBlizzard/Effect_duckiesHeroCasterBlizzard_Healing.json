@@ -1,0 +1,16 @@
+﻿{
+  "__base_type": "GameEffectHeal",
+  "amount": 0.0,
+  "based_on": "GameEffectHeal",
+  "editor_icon": "",
+  "effect_target": {
+    "effect_parent": "none",
+    "target": "Target"
+  },
+  "id": "duckiesHeroCasterBlizzard_Healing",
+  "impact_fx": "",
+  "percentage": 1.0,
+  "tag_bonuses": [],
+  "tracker": "",
+  "validator": "emptyRef"
+}

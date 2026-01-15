@@ -1,0 +1,23 @@
+﻿{
+  "__base_type": "GameEffectSet",
+  "based_on": "GameEffectSet",
+  "editor_icon": "",
+  "effect_location": {
+    "effect_parent": "none",
+    "entity_or_point": "EntityOrPoint",
+    "target": "Target"
+  },
+  "effects": [
+    "duckiesHeroPaladinLeap_ImpactSearchRadius",
+    "duckiesHeroPaladinLeap_ImpactDamageRadius",
+    "duckiesHeroPaladinLeap_OutroStunApplier"
+  ],
+  "flags": {
+    "target_becomes_instigator": false
+  },
+  "id": "duckiesHeroPaladinLeap_ImpactSet",
+  "impact_fx": "",
+  "repetition_limit": 0,
+  "tracker": "",
+  "validator": "emptyRef"
+}

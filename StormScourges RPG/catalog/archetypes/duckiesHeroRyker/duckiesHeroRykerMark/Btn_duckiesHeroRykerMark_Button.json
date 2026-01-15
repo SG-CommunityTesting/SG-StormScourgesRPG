@@ -1,0 +1,23 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [
+    {
+      "text": "Mark is applied to up to <d ref=\"duckiesHeroRykerMark_AOEStartSearch.max_targets\" style=\"Bold\"/> additional enemies next to primary target.\n",
+      "validator": "Valid_duckiesHeroRykerMark_AOELVL1"
+    },
+    {
+      "text": "When a marked unit dies the mark will spread to another nearby enemy.\n",
+      "validator": "Valid_duckiesHeroRykerMark_SpreadLVL1"
+    },
+    {
+      "text": "Effect is diminished against resilient and boss enemies.",
+      "validator": "emptyRef"
+    }
+  ],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_MarkedForDeath.UI_Icons_Abilities_MarkedForDeath'",
+  "id": "duckiesHeroRykerMark_Button",
+  "name": "Mark",
+  "tooltip": "Marks target enemy, causing it to take <d ref=\"(duckiesHeroRykerMark_DebuffDRNormal.modify_fraction-1)*100\" style=\"Blue\"/><Blue>%</> more damage for <d ref=\"duckiesHeroRykerMark_DebuffNormal.duration\"/> seconds."
+}

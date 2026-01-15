@@ -1,0 +1,11 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Units/Human/UI_Icons_Units_Human_SensorDrone.UI_Icons_Units_Human_SensorDrone'",
+  "icon_secondary": "",
+  "id": "duckiesCloneRykerDrone_Button",
+  "name": "Assault Drone",
+  "tooltip": "Releases an Assault Drone which has <d ref=\"duckiesCloneRykerDrone_Unit.vital_health.maximum\"/> life and a weapon that attacks for <d ref=\"duckiesCloneRykerDrone_UnitWeaponDamage.amount\" style=\"Red\"/> damage every <d ref=\"duckiesCloneRykerDrone_UnitWeapon.period\"/> seconds. Times out in <d ref=\"duckiesCloneRykerDrone_TimedLife.duration\"/> seconds."
+}

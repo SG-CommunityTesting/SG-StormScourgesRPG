@@ -1,0 +1,5 @@
+﻿{
+  "based_on": "duckiesBoss2Manifest_CreateDebug",
+  "id": "duckiesBoss2Manifest_CreateRyker",
+  "spawn_unit": "duckiesCloneRyker"
+}

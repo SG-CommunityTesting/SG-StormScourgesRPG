@@ -1,0 +1,7 @@
+﻿{
+  "based_on": "duckiesBossXCallGolds_CreateRockGolem",
+  "id": "duckiesBossXCallGolds_CreateRockGolemBig",
+  "spawn_count": 1,
+  "spawn_effect": "duckiesBossXCallGolds_WarpApplier",
+  "spawn_unit": "duckiesRockGolemBigSuicider"
+}

@@ -1,0 +1,19 @@
+﻿{
+  "__base_type": "GameEffectCommand",
+  "ability": "duckiesBossXTier2Cast",
+  "based_on": "GameEffectCommand",
+  "commanded_target": {
+    "effect_parent": "duckiesBossXAI_T2_PlayerCheck",
+    "target": "Caster"
+  },
+  "editor_icon": "",
+  "effect_target": {
+    "effect_parent": "duckiesBossXAI_T2_PlayerCheck",
+    "entity_or_point": "Entity",
+    "target": "Caster"
+  },
+  "id": "duckiesBossXAI_T2_Command",
+  "impact_fx": "",
+  "tracker": "",
+  "validator": "emptyRef"
+}

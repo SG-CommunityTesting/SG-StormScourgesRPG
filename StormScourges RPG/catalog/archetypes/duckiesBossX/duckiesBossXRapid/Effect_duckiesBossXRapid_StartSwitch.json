@@ -1,0 +1,25 @@
+﻿{
+  "__base_type": "GameEffectSwitch",
+  "based_on": "GameEffectSwitch",
+  "cases": [
+    {
+      "action": "duckiesBossXRapid_StartSetLVL3",
+      "case_condition": "Valid_duckiesBossX_Augment3ReqLifeCheck"
+    },
+    {
+      "action": "duckiesBossXRapid_StartSetLVL2",
+      "case_condition": "Valid_duckiesBossX_Augment2ReqLifeCheck"
+    }
+  ],
+  "default_action": "duckiesBossXRapid_InitialTargetSearch",
+  "editor_icon": "",
+  "effect_location": {
+    "effect_parent": "none",
+    "entity_or_point": "EntityOrPoint",
+    "target": "Caster"
+  },
+  "id": "duckiesBossXRapid_StartSwitch",
+  "impact_fx": "",
+  "tracker": "",
+  "validator": "emptyRef"
+}

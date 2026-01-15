@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Stormgates/Units/UI_Icons_Units_Stormgates_DimensionalStorm.UI_Icons_Units_Stormgates_DimensionalStorm'",
+  "id": "duckiesBossXTier3Cast_Button",
+  "name": "Cast a random ultimate skill",
+  "tooltip": ""
+}

@@ -1,0 +1,9 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "duckiesHeroCasterAvatar_Button",
+  "extended_tooltips": [],
+  "id": "duckiesHeroUpgrader_AvatarStatsButton",
+  "name": "Avatar Power",
+  "tooltip": "[<d ref=\"duckiesHeroUpgrader_AvatarStatsLVLDummy.amount\" style=\"Bold\"/>/<d ref=\"2\" style=\"Bold\"/>] \n\nIncrease Avatar life bonus by <d ref=\"duckiesHeroUpgrader_AvatarStatsUpgrade.set_values[0].target_value\" style=\"Bold\"/><Bold>%</>, damage by <d ref=\"duckiesHeroUpgrader_AvatarStatsUpgrade.set_values[1].target_value\" style=\"Bold\"/> and duration by <d ref=\"duckiesHeroUpgrader_AvatarStatsUpgrade.set_values[2].target_value\" style=\"Bold\"/> seconds."
+}

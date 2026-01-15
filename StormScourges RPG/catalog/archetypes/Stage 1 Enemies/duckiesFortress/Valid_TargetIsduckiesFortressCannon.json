@@ -1,0 +1,45 @@
+﻿{
+  "__base_type": "Validator",
+  "based_on": "Validator",
+  "check": {
+    "root": {
+      "name": "ExpressionApi::is_unit_archetype",
+      "node": "FunctionCall",
+      "parameters": [
+        {
+          "argument": {
+            "name": "ExpressionApi::effect_target",
+            "node": "FunctionCall",
+            "parameters": [
+              {
+                "argument": {
+                  "node": "Literal",
+                  "type": "Name",
+                  "value": ""
+                },
+                "name": "effect_parent",
+                "type": "Name"
+              }
+            ],
+            "type": "Entity"
+          },
+          "name": "entity",
+          "type": "Entity"
+        },
+        {
+          "argument": {
+            "node": "Literal",
+            "type": "UnitData",
+            "value": "duckiesFortressCannon"
+          },
+          "name": "archetype",
+          "type": "UnitData"
+        }
+      ],
+      "type": "Bool"
+    },
+    "type": "Bool"
+  },
+  "error_string": "",
+  "id": "Valid_TargetIsduckiesFortressCannon"
+}

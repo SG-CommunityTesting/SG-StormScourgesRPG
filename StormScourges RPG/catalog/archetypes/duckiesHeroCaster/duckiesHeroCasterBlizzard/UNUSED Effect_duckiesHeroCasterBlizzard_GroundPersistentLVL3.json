@@ -1,0 +1,16 @@
+﻿{
+  "based_on": "duckiesHeroCasterBlizzard_GroundPersistent",
+  "id": "duckiesHeroCasterBlizzard_GroundPersistentLVL3",
+  "periodic": {
+    "count": 50,
+    "durations": [
+      1.0
+    ],
+    "durations_method": "RepeatLast",
+    "effects": [
+      "duckiesHeroCasterBlizzard_GroundPersistentPeriodicSet"
+    ],
+    "effects_method": "RepeatLast",
+    "validator": "NoValidator"
+  }
+}

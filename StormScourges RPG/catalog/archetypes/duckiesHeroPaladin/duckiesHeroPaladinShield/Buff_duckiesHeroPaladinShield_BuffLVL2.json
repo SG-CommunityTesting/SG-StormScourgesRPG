@@ -1,0 +1,11 @@
+﻿{
+  "based_on": "duckiesHeroPaladinShields_Buff",
+  "effect_initial": "duckiesHeroPaladinShield_HealingLVL2",
+  "effect_periodic": "duckiesHeroPaladinShield_HealingLVL2",
+  "id": "duckiesHeroPaladinShields_BuffLVL2",
+  "name": "Reinforced +2",
+  "responses": [
+    "duckiesHeroPaladinShield_ResponseDamageLVL2"
+  ],
+  "tooltip": "Unit protected by a shield that absobs up to <d ref=\"duckiesHeroPaladinShield_ResponseDamageLVL2.damage_shield_settings.shields_max\" style=\"Bold\"/> damage, regenerates <d ref=\"duckiesHeroPaladinShield_HealingLVL2.percentage\" style=\"Bold\"/>% life per second and makes it resilient to stuns."
+}

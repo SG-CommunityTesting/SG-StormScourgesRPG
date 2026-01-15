@@ -1,0 +1,14 @@
+﻿{
+  "__base_type": "GameEffectKill",
+  "based_on": "GameEffectKill",
+  "death_type": "Normal_DeathType",
+  "editor_icon": "",
+  "effect_target": {
+    "effect_parent": "none",
+    "target": "Target"
+  },
+  "id": "duckiesInfernalLock_LockKill",
+  "impact_fx": "",
+  "tracker": "",
+  "validator": "emptyRef"
+}

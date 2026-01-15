@@ -1,0 +1,47 @@
+﻿{
+  "__base_type": "GameEffectSearchRadius",
+  "based_on": "GameEffectSearchRadius",
+  "black_white_list": {
+    "exclude": [],
+    "include": []
+  },
+  "editor_icon": "",
+  "effect_no_target_found ": "emptyRef",
+  "flags": {
+    "target_becomes_instigator": false,
+    "use_search_location_outer_radius": true
+  },
+  "game_effect": "duckiesRevengeAI_AttackSet",
+  "id": "duckiesRevengeAI_SearchEnemies",
+  "impact_fx": "",
+  "max_targets": 1,
+  "radius": 30.0,
+  "search_filter": {
+    "alliance": {
+      "ally": true,
+      "enemy": false,
+      "neutral": false,
+      "player": true,
+      "self": true
+    },
+    "tags": {
+      "excluded": [
+        "dead",
+        "status_invulnerable"
+      ],
+      "required": [
+        "entity_unit"
+      ]
+    }
+  },
+  "search_location": {
+    "effect_parent": "origin",
+    "entity_or_point": "Entity",
+    "target": "Caster"
+  },
+  "target_sorts": [
+    "TS_DistanceClosest"
+  ],
+  "tracker": "",
+  "validator": "emptyRef"
+}

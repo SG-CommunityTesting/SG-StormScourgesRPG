@@ -1,0 +1,28 @@
+﻿{
+  "__base_type": "GameEffectRemoveBuff",
+  "based_on": "GameEffectRemoveBuff",
+  "buff": "duckiesBossXStormgateCanceler_Buff",
+  "editor_icon": "",
+  "effect_target": {
+    "effect_parent": "none",
+    "target": "Caster"
+  },
+  "id": "duckiesBossXStormgateCanceler_CancelerRemove",
+  "impact_fx": "",
+  "source_match": "None",
+  "stacks": 1,
+  "stacks_expression": {},
+  "store_value": {
+    "add_to_existing": true,
+    "effect_parent": "",
+    "store_name": ""
+  },
+  "tag_filter": {
+    "alignment": "Neutral",
+    "ignored": [],
+    "required": []
+  },
+  "target": "Source",
+  "tracker": "",
+  "validator": "emptyRef"
+}

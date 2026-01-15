@@ -1,0 +1,4042 @@
+﻿{
+  "map": {
+    "_AuralannaDestructibleTree0": {
+      "based_on": "AuralannaDestructibleTree",
+      "buffs": [
+        "duckiesAmbushAI_TriggererBuff2"
+      ],
+      "id": "_AuralannaDestructibleTree0"
+    },
+    "_BossCreep0": {
+      "based_on": "BossCreep",
+      "id": "_BossCreep0",
+      "starting_snowtags": [
+        "entity_unit_creep",
+        "heightplane_ground",
+        "attribute_heavy",
+        "attribute_biological",
+        "attribute_resilient",
+        "tag_duckiesHasShields"
+      ]
+    },
+    "_Felhog0": {
+      "based_on": "Felhog",
+      "buffs": [
+        "Buff_TurningLock"
+      ],
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": false,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_Felhog0"
+    },
+    "_FlyingTransportReward0": {
+      "based_on": "FlyingTransportReward",
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": false,
+        "stealth": true,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_FlyingTransportReward0"
+    },
+    "_Goat0": {
+      "based_on": "Goat",
+      "id": "_Goat0",
+      "starting_snowtags": [
+        "entity_unit_critter",
+        "heightplane_ground",
+        "status_invulnerable"
+      ]
+    },
+    "_Obelisk0": {
+      "based_on": "Obelisk",
+      "id": "_Obelisk0",
+      "shroud_radius": 0.0
+    },
+    "_Region0": {
+      "based_on": "Region",
+      "color": {
+        "b": 122,
+        "g": 255,
+        "r": 0
+      },
+      "id": "_Region0",
+      "placed_name": "RegionSelectKastiel",
+      "shapes": [
+        {
+          "circle": {
+            "radius": 0.0
+          },
+          "mode": "additive",
+          "rectangle": {
+            "height": 2.0,
+            "rotation": 0,
+            "width": 2.0
+          },
+          "translation": {
+            "x": 0,
+            "y": 0
+          },
+          "type": "rectangle"
+        }
+      ]
+    },
+    "_Region1": {
+      "based_on": "Region",
+      "color": {
+        "b": 122,
+        "g": 255,
+        "r": 0
+      },
+      "id": "_Region1",
+      "placed_name": "RegionSelectCaster",
+      "shapes": [
+        {
+          "circle": {
+            "radius": 0.0
+          },
+          "mode": "additive",
+          "rectangle": {
+            "height": 2.0,
+            "rotation": 0,
+            "width": 2.0
+          },
+          "translation": {
+            "x": 0,
+            "y": 0
+          },
+          "type": "rectangle"
+        }
+      ]
+    },
+    "_Region2": {
+      "based_on": "Region",
+      "color": {
+        "b": 122,
+        "g": 255,
+        "r": 0
+      },
+      "id": "_Region2",
+      "placed_name": "RegionSelectPaladin",
+      "shapes": [
+        {
+          "circle": {
+            "radius": 0.0
+          },
+          "mode": "additive",
+          "rectangle": {
+            "height": 2.0,
+            "rotation": 0,
+            "width": 2.0
+          },
+          "translation": {
+            "x": 0,
+            "y": 0
+          },
+          "type": "rectangle"
+        }
+      ]
+    },
+    "_Region3": {
+      "based_on": "Region",
+      "color": {
+        "b": 122,
+        "g": 255,
+        "r": 0
+      },
+      "id": "_Region3",
+      "placed_name": "RegionSelectRyker",
+      "shapes": [
+        {
+          "circle": {
+            "radius": 0.0
+          },
+          "mode": "additive",
+          "rectangle": {
+            "height": 2.0,
+            "rotation": 0,
+            "width": 2.0
+          },
+          "translation": {
+            "x": 0,
+            "y": 0
+          },
+          "type": "rectangle"
+        }
+      ]
+    },
+    "_Region4": {
+      "based_on": "Region",
+      "color": {
+        "b": 122,
+        "g": 255,
+        "r": 0
+      },
+      "id": "_Region4",
+      "placed_name": "UpgraderSpawnDetect",
+      "shapes": [
+        {
+          "circle": {
+            "radius": 0.0
+          },
+          "mode": "additive",
+          "rectangle": {
+            "height": 8.0,
+            "rotation": 0,
+            "width": 16.0
+          },
+          "translation": {
+            "x": 0,
+            "y": 0
+          },
+          "type": "rectangle"
+        }
+      ]
+    },
+    "_Shadowflyer0": {
+      "abilityList": [
+        "attackData",
+        "moveData",
+        "stopData",
+        "holdPositionData"
+      ],
+      "based_on": "Shadowflyer",
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": false,
+        "stealth": true,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_Shadowflyer0",
+      "starting_snowtags": [
+        "entity_unit",
+        "heightplane_air",
+        "attribute_biological",
+        "status_invulnerable"
+      ],
+      "vision_radius": 30.0
+    },
+    "_StormgateObjectiveSubmerged0": {
+      "based_on": "StormgateObjectiveSubmerged",
+      "buffs": [
+        "Uncontrollable_Buff"
+      ],
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": true,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": false,
+        "stealth": false,
+        "uncommandable": true,
+        "unselectable": true,
+        "untargetable": true,
+        "victory_expansion": false
+      },
+      "footprint": {
+        "angled": false,
+        "clumpable": false,
+        "snap": true,
+        "unbuildable": false,
+        "vision_block_height": 0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "id": "_StormgateObjectiveSubmerged0",
+      "inner_radius": 0.0,
+      "movement": {
+        "acceleration_time": 0.0,
+        "collision": {
+          "air": false,
+          "burrowed": false,
+          "ground": false,
+          "ground_tall": false,
+          "item": false,
+          "worker": false
+        },
+        "deceleration_time": 0.0,
+        "flocking": {
+          "separation_delay": 0.5,
+          "separation_radius": 0,
+          "separation_strength": 1.0
+        },
+        "idle_pushable": false,
+        "lock_facing": false,
+        "moving_turn_period": 0.0,
+        "pathing_mode": "Flying",
+        "push_priority": 0,
+        "push_priority_same_team": 0,
+        "speed": 0.0,
+        "stationary_turn_period": 0.0,
+        "turn_radius": 0.0,
+        "turn_without_slowing": false,
+        "unpushable": false
+      },
+      "outer_radius": 0.0
+    },
+    "_Worker0": {
+      "based_on": "Worker",
+      "id": "_Worker0",
+      "name": "Hero Select",
+      "weaponList": []
+    },
+    "_Worker1": {
+      "based_on": "Worker",
+      "id": "_Worker1",
+      "movement": {
+        "acceleration_time": 0.0,
+        "collision": {
+          "air": false,
+          "burrowed": false,
+          "ground": true,
+          "ground_tall": false,
+          "item": false,
+          "worker": true
+        },
+        "deceleration_time": 0.0,
+        "flocking": {
+          "separation_delay": 0,
+          "separation_radius": 0,
+          "separation_strength": 1.0
+        },
+        "idle_pushable": false,
+        "lock_facing": false,
+        "moving_turn_period": 0.25,
+        "pathing_mode": "Ground",
+        "push_priority": 0,
+        "push_priority_same_team": 0,
+        "speed": 5.5,
+        "stationary_turn_period": 0.25,
+        "turn_radius": 0.0,
+        "turn_without_slowing": false,
+        "unpushable": false
+      },
+      "name": "Hero Select",
+      "weaponList": []
+    },
+    "_WorldPoint0": {
+      "based_on": "WorldPointRed",
+      "id": "_WorldPoint0",
+      "placed_name": "HeroSpawnPoint"
+    },
+    "_WorldPoint1": {
+      "based_on": "WorldPointRed",
+      "id": "_WorldPoint1",
+      "placed_name": "UpgraderSpawnPoint"
+    },
+    "_WorldPoint2": {
+      "based_on": "WorldPointRed",
+      "id": "_WorldPoint2",
+      "placed_name": "Stage3EntryPoint"
+    },
+    "_WorldPoint3": {
+      "based_on": "WorldPointRed",
+      "id": "_WorldPoint3",
+      "placed_name": "Stage2EntryPoint"
+    },
+    "_duckiesBoss0": {
+      "based_on": "duckiesBoss1",
+      "buffs": [
+        "duckiesInfernalLock_KeyUnitBuff1"
+      ],
+      "build_cost": {
+        "resource_a": 100.0,
+        "resource_b": 50.0,
+        "resource_c": 0.0,
+        "resource_d": 0.0
+      },
+      "id": "_duckiesBoss0"
+    },
+    "_duckiesBossX0": {
+      "based_on": "duckiesBossX",
+      "id": "_duckiesBossX0"
+    },
+    "_duckiesBossX1": {
+      "based_on": "duckiesBossX",
+      "id": "_duckiesBossX1"
+    },
+    "_duckiesBossX2": {
+      "based_on": "duckiesBossX",
+      "id": "_duckiesBossX2"
+    },
+    "_duckiesBossXCastTokenT0": {
+      "based_on": "duckiesBossXCastTokenT3",
+      "buffs": [
+        "duckiesBossXTier3Cast_CDBuff"
+      ],
+      "id": "_duckiesBossXCastTokenT0",
+      "starting_snowtags": [
+        "status_invulnerable",
+        "status_hidden",
+        "tag_duckiesBossXCastTokenT3",
+        "tag_duckiesBossXCastTokenT3_Wildfire"
+      ]
+    },
+    "_duckiesBossXCastTokenT1": {
+      "based_on": "duckiesBossXCastTokenT3",
+      "buffs": [
+        "duckiesBossXTier3Cast_CDBuff"
+      ],
+      "id": "_duckiesBossXCastTokenT1",
+      "starting_snowtags": [
+        "status_invulnerable",
+        "status_hidden",
+        "tag_duckiesBossXCastTokenT3",
+        "tag_duckiesBossXCastTokenT3_Cinderstorm"
+      ]
+    },
+    "_duckiesBossXCastTokenT2": {
+      "based_on": "duckiesBossXCastTokenT3",
+      "buffs": [],
+      "id": "_duckiesBossXCastTokenT2",
+      "starting_snowtags": [
+        "status_invulnerable",
+        "status_hidden",
+        "tag_duckiesBossXCastTokenT3",
+        "tag_duckiesBossXCastTokenT3_Stormgate"
+      ]
+    },
+    "_duckiesBossXCastTokenT3": {
+      "based_on": "duckiesBossXCastTokenT3",
+      "id": "_duckiesBossXCastTokenT3",
+      "starting_snowtags": [
+        "status_invulnerable",
+        "status_hidden",
+        "tag_duckiesBossXCallGolds_Token",
+        "tag_duckiesBossXCallGolds_TokenHealers"
+      ]
+    },
+    "_duckiesBossXCastTokenT4": {
+      "based_on": "duckiesBossXCastTokenT3",
+      "id": "_duckiesBossXCastTokenT4",
+      "starting_snowtags": [
+        "status_invulnerable",
+        "status_hidden",
+        "tag_duckiesBossXCallGolds_Token",
+        "tag_duckiesBossXCallGolds_TokenRockGolems"
+      ]
+    },
+    "_duckiesBossXCastTokenT5": {
+      "based_on": "duckiesBossXCastTokenT3",
+      "id": "_duckiesBossXCastTokenT5",
+      "starting_snowtags": [
+        "status_invulnerable",
+        "status_hidden",
+        "tag_duckiesBossXCallGolds_Token",
+        "tag_duckiesBossXCallGolds_TokenSwarmer"
+      ]
+    },
+    "_duckiesBossXCastTokenT6": {
+      "based_on": "duckiesBossXCastTokenT3",
+      "id": "_duckiesBossXCastTokenT6",
+      "starting_snowtags": [
+        "status_invulnerable",
+        "status_hidden",
+        "tag_duckiesBossXCastTokenT2",
+        "tag_duckiesBossXCastTokenT2_CallGolds"
+      ]
+    },
+    "_duckiesBossXCastTokenT7": {
+      "based_on": "duckiesBossXCastTokenT3",
+      "id": "_duckiesBossXCastTokenT7",
+      "starting_snowtags": [
+        "status_invulnerable",
+        "status_hidden",
+        "tag_duckiesBossXCastTokenT2",
+        "tag_duckiesBossXCastTokenT2_Decimate"
+      ]
+    },
+    "_duckiesBossXCastTokenT8": {
+      "based_on": "duckiesBossXCastTokenT3",
+      "id": "_duckiesBossXCastTokenT8",
+      "starting_snowtags": [
+        "status_invulnerable",
+        "status_hidden",
+        "tag_duckiesBossXCastTokenT2",
+        "tag_duckiesBossXCastTokenT2_Rapid"
+      ]
+    },
+    "_duckiesBossXCastTokenT9": {
+      "based_on": "duckiesBossXCastTokenT3",
+      "id": "_duckiesBossXCastTokenT9",
+      "starting_snowtags": [
+        "status_invulnerable",
+        "status_hidden",
+        "tag_duckiesBossXCallGolds_Token",
+        "tag_duckiesBossXCallGolds_TokenDogs"
+      ]
+    },
+    "_duckiesBossXCastToken_Cinderstorm0": {
+      "based_on": "duckiesBossXCastToken_Cinderstorm",
+      "id": "_duckiesBossXCastToken_Cinderstorm0"
+    },
+    "_duckiesBossXCastToken_Stormgate0": {
+      "based_on": "duckiesBossXCastToken_Stormgate",
+      "id": "_duckiesBossXCastToken_Stormgate0"
+    },
+    "_duckiesBossXCastToken_Wildfire0": {
+      "based_on": "duckiesBossXCastToken_Wildfire",
+      "id": "_duckiesBossXCastToken_Wildfire0"
+    },
+    "_duckiesBrute0": {
+      "based_on": "duckiesBrute",
+      "buffs": [
+        "duckiesAmbushAI_TriggererBuff"
+      ],
+      "id": "_duckiesBrute0"
+    },
+    "_duckiesBrute1": {
+      "based_on": "duckiesBrute",
+      "buffs": [
+        "duckiesAmbushAI_AmbusherBuff"
+      ],
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": true,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesBrute1"
+    },
+    "_duckiesBrute2": {
+      "based_on": "duckiesBrute",
+      "buffs": [
+        "duckiesAmbushAI_TriggererBuff2"
+      ],
+      "id": "_duckiesBrute2"
+    },
+    "_duckiesBrute3": {
+      "based_on": "duckiesBrute",
+      "buffs": [
+        "duckiesHidingAI_HidingBuff"
+      ],
+      "id": "_duckiesBrute3"
+    },
+    "_duckiesBruteChamber0": {
+      "based_on": "duckiesBruteChamber",
+      "buffs": [
+        "duckiesAmbushAI_TriggererBuff3DieOnly"
+      ],
+      "id": "_duckiesBruteChamber0"
+    },
+    "_duckiesBurningEffigy0": {
+      "based_on": "duckiesBurningEffigy",
+      "id": "_duckiesBurningEffigy0"
+    },
+    "_duckiesBurningEffigy1": {
+      "based_on": "duckiesBurningEffigy",
+      "effects": {
+        "birth": "emptyRef",
+        "constructed": "emptyRef",
+        "creation": "emptyRef",
+        "death": "duckiesBossXCallGolds_CreateRockGolemBig",
+        "revenge": "emptyRef"
+      },
+      "id": "_duckiesBurningEffigy1"
+    },
+    "_duckiesBurningEffigy2": {
+      "based_on": "duckiesBurningEffigy",
+      "buffs": [
+        "duckiesBurningEffigyAura_BuffSearcher",
+        "duckiesAmbushAI_TriggererBuffDieOnly"
+      ],
+      "id": "_duckiesBurningEffigy2"
+    },
+    "_duckiesCloneCaster0": {
+      "abilityList": [
+        "attackData",
+        "stopData",
+        "holdPositionData",
+        "duckiesCloneCasterHailstorm",
+        "duckiesCloneCasterLightStrike",
+        "duckiesCloneCasterHush",
+        "duckiesCloneCasterBlizzard",
+        "duckiesCloneCasterAvatar"
+      ],
+      "based_on": "duckiesCloneCaster",
+      "id": "_duckiesCloneCaster0"
+    },
+    "_duckiesClonePaladin0": {
+      "based_on": "duckiesClonePaladin",
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": false,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesClonePaladin0"
+    },
+    "_duckiesClonePaladin1": {
+      "abilityList": [
+        "attackData",
+        "stopData",
+        "holdPositionData",
+        "duckiesClonePaladinHeal",
+        "duckiesClonePaladinLeap",
+        "duckiesClonePaladinSpin",
+        "duckiesClonePaladinShield",
+        "duckiesClonePaladinRevive"
+      ],
+      "based_on": "duckiesClonePaladin",
+      "id": "_duckiesClonePaladin1"
+    },
+    "_duckiesClonePaladin2": {
+      "__base_type": "UnitData",
+      "abilityList": [
+        "attackData",
+        "stopData",
+        "holdPositionData",
+        "duckiesClonePaladinHeal",
+        "duckiesClonePaladinLeap",
+        "duckiesClonePaladinSpin",
+        "duckiesClonePaladinShield",
+        "duckiesClonePaladinRevive"
+      ],
+      "additional_black_mask_vision_radius": 5.0,
+      "alias_tech": [],
+      "armor": 20.0,
+      "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Vanguard_Infantry_Heavy.UI_Icons_Armor_Vanguard_Infantry_Heavy'",
+      "armor_name": "pegasus_core|ArmorName_VanguardHeroicArmor",
+      "attack_target_priority": 20,
+      "based_on": "BaseUnit_VanguardHero",
+      "behaviors": [],
+      "buffs": [
+        "duckiesBoss2Clone_Buff"
+      ],
+      "build_cost": {
+        "resource_a": 0.0,
+        "resource_b": 0.0,
+        "resource_c": 0.0,
+        "resource_d": 0.0
+      },
+      "build_time": 10.0,
+      "cascade_field_radius": 0,
+      "commandList": [
+        {
+          "ability": "attackData",
+          "button": "AttackButton",
+          "commandIndex": 0,
+          "hotkey_should_hide": false,
+          "panel": "CommandPanel",
+          "repeatable": false,
+          "row": 2,
+          "slot": 1,
+          "submenu": 0,
+          "targetSubmenu": -1
+        },
+        {
+          "ability": "stopData",
+          "button": "StopButton",
+          "commandIndex": 0,
+          "hotkey_should_hide": false,
+          "panel": "CommandPanel",
+          "repeatable": false,
+          "row": 2,
+          "slot": 2,
+          "submenu": 0,
+          "targetSubmenu": -1
+        },
+        {
+          "ability": "holdPositionData",
+          "button": "HoldPositionButton",
+          "commandIndex": 0,
+          "hotkey_should_hide": false,
+          "panel": "CommandPanel",
+          "repeatable": false,
+          "row": 2,
+          "slot": 3,
+          "submenu": 0,
+          "targetSubmenu": -1
+        },
+        {
+          "ability": "moveData",
+          "button": "MoveButton",
+          "commandIndex": 0,
+          "hotkey_should_hide": false,
+          "panel": "CommandPanel",
+          "repeatable": false,
+          "row": 2,
+          "slot": 4,
+          "submenu": 0,
+          "targetSubmenu": -1
+        },
+        {
+          "ability": "moveData",
+          "button": "PatrolButton",
+          "commandIndex": 1,
+          "hotkey_should_hide": false,
+          "panel": "CommandPanel",
+          "repeatable": false,
+          "row": 2,
+          "slot": 5,
+          "submenu": 0,
+          "targetSubmenu": -1
+        },
+        {
+          "ability": "duckiesClonePaladinHeal",
+          "button": "duckiesClonePaladinHeal_Button",
+          "commandIndex": 0,
+          "hotkey_should_hide": false,
+          "panel": "CommandPanel",
+          "repeatable": false,
+          "row": 1,
+          "slot": 1,
+          "submenu": 0,
+          "targetSubmenu": -1
+        },
+        {
+          "ability": "duckiesClonePaladinLeap",
+          "button": "duckiesClonePaladinLeap_Button",
+          "commandIndex": 0,
+          "hotkey_should_hide": false,
+          "panel": "CommandPanel",
+          "repeatable": false,
+          "row": 1,
+          "slot": 3,
+          "submenu": 0,
+          "targetSubmenu": -1
+        },
+        {
+          "ability": "duckiesClonePaladinSpin",
+          "button": "duckiesClonePaladinSpin_Button",
+          "commandIndex": 0,
+          "hotkey_should_hide": false,
+          "panel": "CommandPanel",
+          "repeatable": false,
+          "row": 1,
+          "slot": 2,
+          "submenu": 0,
+          "targetSubmenu": -1
+        },
+        {
+          "ability": "duckiesClonePaladinShield",
+          "button": "duckiesClonePaladinShields_Button",
+          "commandIndex": 0,
+          "hotkey_should_hide": false,
+          "panel": "CommandPanel",
+          "repeatable": false,
+          "row": 1,
+          "slot": 4,
+          "submenu": 0,
+          "targetSubmenu": -1
+        },
+        {
+          "ability": "duckiesClonePaladinRevive",
+          "button": "duckiesClonePaladinRevive_Button",
+          "commandIndex": 0,
+          "hotkey_should_hide": false,
+          "panel": "CommandPanel",
+          "repeatable": false,
+          "row": 1,
+          "slot": 5,
+          "submenu": 0,
+          "targetSubmenu": -1
+        }
+      ],
+      "construction_set_sfx": "OnConstructionSet",
+      "damage_response": "Acquire_or_Flee",
+      "default_acquire_level": "Offensive",
+      "default_control_groups": [
+        0,
+        10
+      ],
+      "effects": {
+        "birth": "emptyRef",
+        "constructed": "emptyRef",
+        "creation": "duckiesBoss2Clone_Promote",
+        "death": "duckiesCloneTombstone_DeathCreate",
+        "revenge": "emptyRef"
+      },
+      "enabled_unit_tech": [],
+      "energy_type": "Energy",
+      "faction": "Vanguard",
+      "fidget": {
+        "delay_maximum": 30.0,
+        "delay_minimum": 10.0,
+        "turning_angle": 90.0,
+        "turning_duration": 1.0,
+        "weights": {
+          "animate": 33.0,
+          "idle": 66.0,
+          "turn": 0.0
+        }
+      },
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": true,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "fog_visibility": "Hidden",
+      "footprint": {
+        "angled": false,
+        "clumpable": false,
+        "snap": true,
+        "unbuildable": false,
+        "vision_block_height": 0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "global_energy": "emptyRef",
+      "global_resource_overrides": [],
+      "height": 0.0,
+      "id": "_duckiesClonePaladin2",
+      "inner_radius": 0.5,
+      "minimap_icon_custom_color": "FFFFFFFF",
+      "minimap_icon_no_color_override": false,
+      "minimap_material_instance": "MaterialInterface'/Game/Pegasus/UI/Assets/Materials/MI_UI_MinimapCharacterPortraitMask_Barclay.MI_UI_MinimapCharacterPortraitMask_Barclay'",
+      "minimap_widget": "/Script/UMG.WidgetBlueprintGeneratedClass'/Game/Pegasus/UI/Minimap/WBP_Minimap_Icon_Hero.WBP_Minimap_Icon_Hero_C'",
+      "movement": {
+        "acceleration_time": 0.0,
+        "collision": {
+          "air": false,
+          "burrowed": false,
+          "ground": true,
+          "ground_tall": false,
+          "item": false,
+          "worker": false
+        },
+        "deceleration_time": 0.0,
+        "flocking": {
+          "separation_delay": 0.5,
+          "separation_radius": 0,
+          "separation_strength": 1.5
+        },
+        "idle_pushable": false,
+        "lock_facing": false,
+        "moving_turn_period": 0.13,
+        "pathing_mode": "Ground",
+        "push_priority": 0,
+        "push_priority_same_team": 3,
+        "speed": 5.0,
+        "stationary_turn_period": 0.18,
+        "turn_radius": 0.0,
+        "turn_without_slowing": false,
+        "unpushable": false
+      },
+      "name": "Absolver",
+      "num_corpses": 1,
+      "outer_radius": 1.0,
+      "placed_name": "",
+      "power_consumed": 0.0,
+      "power_produced": 0.0,
+      "responses": [],
+      "sb_id": "barclay",
+      "selection_alias": "",
+      "show_name_on_hover": false,
+      "shroud_radius": 0.0,
+      "sound_cooldown_data_list": [
+        "BaseSoundCooldownData_Unit_Attack",
+        "BaseSoundCooldownData_Unit_AttackGround",
+        "BaseSoundCooldownData_Unit_AttackMove",
+        "BaseSoundCooldownData_Unit_AttackStructure",
+        "BaseSoundCooldownData_Unit_Build",
+        "BaseSoundCooldownData_Unit_Follow",
+        "BaseSoundCooldownData_Unit_Harvest",
+        "BaseSoundCooldownData_Unit_Hold",
+        "BaseSoundCooldownData_Unit_Morph",
+        "BaseSoundCooldownData_Unit_Move",
+        "BaseSoundCooldownData_Unit_Patrol",
+        "BaseSoundCooldownData_Unit_Rally",
+        "BaseSoundCooldownData_Unit_Selection",
+        "BaseSoundCooldownData_Unit_Stop",
+        "BaseSoundCooldownData_Unit_Trained",
+        "BaseSoundCooldownData_Unit_UnderConstruction"
+      ],
+      "starting_snowtags": [
+        "entity_unit",
+        "heightplane_ground",
+        "attribute_boss",
+        "tag_duckiesBoss2Clone",
+        "attribute_biological"
+      ],
+      "subgroup_priority": 200,
+      "supply_add": 0.0,
+      "supply_cost": 0.0,
+      "targeting_participation_alias": [],
+      "traits": [],
+      "turret_list": [],
+      "ui_flags": {
+        "callout_attacks_air": false,
+        "callout_attacks_ground": true
+      },
+      "ui_kind": "unit",
+      "unit_button": "Barclay_Button",
+      "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Humans/UI_Portrait_Human_Default_Barclay.UI_Portrait_Human_Default_Barclay'",
+      "unreal_actor": "BP_UH_Hero_Barclay",
+      "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
+      "veterancy_starting_tier": 0,
+      "veterancy_tiers": [
+        {
+          "stat_modifiers": [
+            {
+              "amount": 10.0,
+              "stat": "HealthMaxPercentageAdditiveMultiplier"
+            },
+            {
+              "amount": 10.0,
+              "stat": "AttackDamagePercentageBonus"
+            },
+            {
+              "amount": 50.0,
+              "stat": "EnergyMaxAdditiveBonus"
+            },
+            {
+              "amount": 0.5,
+              "stat": "EnergyRegenScaledAdditiveBonus"
+            }
+          ],
+          "threshold": 3000,
+          "tier_up_effect": "HeroRespawnCostLevelUpPlayerBuffApplier",
+          "visual_fx": "BP_FX_HeroLevelUp"
+        },
+        {
+          "stat_modifiers": [
+            {
+              "amount": 10.0,
+              "stat": "HealthMaxPercentageAdditiveMultiplier"
+            },
+            {
+              "amount": 10.0,
+              "stat": "AttackDamagePercentageBonus"
+            },
+            {
+              "amount": 50.0,
+              "stat": "EnergyMaxAdditiveBonus"
+            },
+            {
+              "amount": 0.5,
+              "stat": "EnergyRegenScaledAdditiveBonus"
+            }
+          ],
+          "threshold": 7000,
+          "tier_up_effect": "HeroRespawnCostLevelUpPlayerBuffApplier",
+          "visual_fx": "BP_FX_HeroLevelUp"
+        },
+        {
+          "stat_modifiers": [
+            {
+              "amount": 10.0,
+              "stat": "HealthMaxPercentageAdditiveMultiplier"
+            },
+            {
+              "amount": 10.0,
+              "stat": "AttackDamagePercentageBonus"
+            },
+            {
+              "amount": 50.0,
+              "stat": "EnergyMaxAdditiveBonus"
+            },
+            {
+              "amount": 0.5,
+              "stat": "EnergyRegenScaledAdditiveBonus"
+            }
+          ],
+          "threshold": 12000,
+          "tier_up_effect": "HeroRespawnCostLevelUpPlayerBuffApplier",
+          "visual_fx": "BP_FX_HeroLevelUp"
+        },
+        {
+          "stat_modifiers": [
+            {
+              "amount": 10.0,
+              "stat": "HealthMaxPercentageAdditiveMultiplier"
+            },
+            {
+              "amount": 10.0,
+              "stat": "AttackDamagePercentageBonus"
+            },
+            {
+              "amount": 50.0,
+              "stat": "EnergyMaxAdditiveBonus"
+            },
+            {
+              "amount": 0.5,
+              "stat": "EnergyRegenScaledAdditiveBonus"
+            }
+          ],
+          "threshold": 18000,
+          "tier_up_effect": "HeroRespawnCostLevelUpPlayerBuffApplier",
+          "visual_fx": "BP_FX_HeroLevelUp"
+        },
+        {
+          "stat_modifiers": [
+            {
+              "amount": 10.0,
+              "stat": "HealthMaxPercentageAdditiveMultiplier"
+            },
+            {
+              "amount": 10.0,
+              "stat": "AttackDamagePercentageBonus"
+            },
+            {
+              "amount": 50.0,
+              "stat": "EnergyMaxAdditiveBonus"
+            },
+            {
+              "amount": 0.5,
+              "stat": "EnergyRegenScaledAdditiveBonus"
+            }
+          ],
+          "threshold": 25000,
+          "tier_up_effect": "HeroRespawnCostLevelUpPlayerBuffApplier",
+          "visual_fx": "BP_FX_HeroLevelUp"
+        },
+        {
+          "stat_modifiers": [
+            {
+              "amount": 10.0,
+              "stat": "HealthMaxPercentageAdditiveMultiplier"
+            },
+            {
+              "amount": 10.0,
+              "stat": "AttackDamagePercentageBonus"
+            },
+            {
+              "amount": 50.0,
+              "stat": "EnergyMaxAdditiveBonus"
+            },
+            {
+              "amount": 0.5,
+              "stat": "EnergyRegenScaledAdditiveBonus"
+            }
+          ],
+          "threshold": 33000,
+          "tier_up_effect": "HeroRespawnCostLevelUpPlayerBuffApplier",
+          "visual_fx": "BP_FX_HeroLevelUp"
+        },
+        {
+          "stat_modifiers": [
+            {
+              "amount": 10.0,
+              "stat": "HealthMaxPercentageAdditiveMultiplier"
+            },
+            {
+              "amount": 10.0,
+              "stat": "AttackDamagePercentageBonus"
+            },
+            {
+              "amount": 50.0,
+              "stat": "EnergyMaxAdditiveBonus"
+            },
+            {
+              "amount": 0.5,
+              "stat": "EnergyRegenScaledAdditiveBonus"
+            }
+          ],
+          "threshold": 42000,
+          "tier_up_effect": "HeroRespawnCostLevelUpPlayerBuffApplier",
+          "visual_fx": "BP_FX_HeroLevelUp"
+        },
+        {
+          "stat_modifiers": [
+            {
+              "amount": 10.0,
+              "stat": "HealthMaxPercentageAdditiveMultiplier"
+            },
+            {
+              "amount": 10.0,
+              "stat": "AttackDamagePercentageBonus"
+            },
+            {
+              "amount": 50.0,
+              "stat": "EnergyMaxAdditiveBonus"
+            },
+            {
+              "amount": 0.5,
+              "stat": "EnergyRegenScaledAdditiveBonus"
+            }
+          ],
+          "threshold": 52000,
+          "tier_up_effect": "HeroRespawnCostLevelUpPlayerBuffApplier",
+          "visual_fx": "BP_FX_HeroLevelUp"
+        },
+        {
+          "stat_modifiers": [
+            {
+              "amount": 10.0,
+              "stat": "HealthMaxPercentageAdditiveMultiplier"
+            },
+            {
+              "amount": 10.0,
+              "stat": "AttackDamagePercentageBonus"
+            },
+            {
+              "amount": 50.0,
+              "stat": "EnergyMaxAdditiveBonus"
+            },
+            {
+              "amount": 0.5,
+              "stat": "EnergyRegenScaledAdditiveBonus"
+            }
+          ],
+          "threshold": 63000,
+          "tier_up_effect": "HeroRespawnCostLevelUpPlayerBuffApplier",
+          "visual_fx": "BP_FX_HeroLevelUp"
+        },
+        {
+          "stat_modifiers": [
+            {
+              "amount": 10.0,
+              "stat": "HealthMaxPercentageAdditiveMultiplier"
+            },
+            {
+              "amount": 10.0,
+              "stat": "AttackDamagePercentageBonus"
+            },
+            {
+              "amount": 50.0,
+              "stat": "EnergyMaxAdditiveBonus"
+            },
+            {
+              "amount": 0.5,
+              "stat": "EnergyRegenScaledAdditiveBonus"
+            }
+          ],
+          "threshold": 75000,
+          "tier_up_effect": "HeroRespawnCostLevelUpPlayerBuffApplier",
+          "visual_fx": "BP_FX_HeroLevelUp"
+        }
+      ],
+      "victory_points": 0.0,
+      "vision_height": 0.0,
+      "vision_radius": 12.0,
+      "vital_health": {
+        "maximum": 480.0,
+        "regen": 1.2,
+        "starting": 480.0
+      },
+      "vital_out_shroud_deduction_energy_flat": 0.0,
+      "vital_out_shroud_deduction_energy_multiplier": 0.0,
+      "vital_out_shroud_deduction_health_flat": 0.0,
+      "vital_out_shroud_deduction_health_multiplier": 0.0,
+      "vital_out_shroud_deduction_shield_flat": 0.0,
+      "vital_out_shroud_deduction_shield_multiplier": 0.0,
+      "vital_shield": {
+        "maximum": 0.0,
+        "regen": 0.0,
+        "starting": 0.0
+      },
+      "vital_shroud_bonus_energy_flat": 0.0,
+      "vital_shroud_bonus_energy_multiplier": 0.0,
+      "vital_shroud_bonus_health_flat": 0.0,
+      "vital_shroud_bonus_health_multiplier": 0.0,
+      "vital_shroud_bonus_shield_flat": 0.0,
+      "vital_shroud_bonus_shield_multiplier": 0.0,
+      "vital_shroud_combat_delay": 5.0,
+      "vitals_force_hide": false,
+      "weaponList": [
+        "duckiesClonePaladinWeapon"
+      ]
+    },
+    "_duckiesClonePaladin3": {
+      "abilityList": [
+        "attackData",
+        "stopData",
+        "holdPositionData",
+        "duckiesClonePaladinHeal",
+        "duckiesClonePaladinLeap",
+        "duckiesClonePaladinSpin",
+        "duckiesClonePaladinShield",
+        "duckiesClonePaladinRevive"
+      ],
+      "based_on": "duckiesClonePaladin2",
+      "id": "_duckiesClonePaladin3"
+    },
+    "_duckiesCloneRyker0": {
+      "abilityList": [
+        "attackData",
+        "stopData",
+        "holdPositionData",
+        "duckiesCloneRykerGrenade",
+        "duckiesCloneRykerRoll",
+        "duckiesCloneRykerDrone",
+        "duckiesCloneRykerBombs",
+        "duckiesCloneRykerMark"
+      ],
+      "based_on": "duckiesCloneRyker",
+      "id": "_duckiesCloneRyker0"
+    },
+    "_duckiesCrusader0": {
+      "based_on": "duckiesCrusader",
+      "buffs": [
+        "duckiesRevengeAI_HostBuff",
+        "duckiesAmbushAI_AmbusherBuff"
+      ],
+      "id": "_duckiesCrusader0"
+    },
+    "_duckiesCrusader1": {
+      "based_on": "duckiesCrusader",
+      "buffs": [
+        "duckiesRevengeAI_HostBuff",
+        "duckiesAmbushAI_AmbusherBuff"
+      ],
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": true,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesCrusader1"
+    },
+    "_duckiesCrusader2": {
+      "based_on": "duckiesCrusader",
+      "buffs": [
+        "duckiesRevengeAI_HostBuff",
+        "duckiesAmbushAI_AmbusherBuff"
+      ],
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": true,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesCrusader2"
+    },
+    "_duckiesCrusader3": {
+      "based_on": "duckiesCrusader",
+      "buffs": [
+        "duckiesRevengeAI_HostBuff",
+        "duckiesHidingAI_HidingBuff"
+      ],
+      "id": "_duckiesCrusader3"
+    },
+    "_duckiesDTree0": {
+      "based_on": "duckiesDTree",
+      "id": "_duckiesDTree0",
+      "unreal_actor": "BP_Randomized_Destructible_UrbanRuinsTrees"
+    },
+    "_duckiesDTree1": {
+      "based_on": "duckiesDTree",
+      "id": "_duckiesDTree1",
+      "unreal_actor": "BP_Randomized_Destructible_DeadLightForestTree"
+    },
+    "_duckiesDesolator0": {
+      "based_on": "duckiesDesolator",
+      "id": "_duckiesDesolator0",
+      "unreal_actor": "BP_CampaignUnit_Desolator"
+    },
+    "_duckiesDesolator1": {
+      "based_on": "duckiesDesolator",
+      "id": "_duckiesDesolator1",
+      "unreal_actor": "BP_UD_DesolatorCampaign"
+    },
+    "_duckiesDesolator2": {
+      "based_on": "duckiesDesolator",
+      "id": "_duckiesDesolator2"
+    },
+    "_duckiesDesolator3": {
+      "based_on": "duckiesDesolator",
+      "buffs": [
+        "duckiesAmbushAI_TriggererBuffDieOnly"
+      ],
+      "id": "_duckiesDesolator3"
+    },
+    "_duckiesFiend0": {
+      "based_on": "duckiesFiend",
+      "buffs": [
+        "duckiesAmbushAI_AmbusherBuff"
+      ],
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": true,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesFiend0"
+    },
+    "_duckiesFirestarter0": {
+      "based_on": "duckiesFirestarter",
+      "buffs": [
+        "duckiesAmbushAI_AmbusherBuff2"
+      ],
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": true,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesFirestarter0"
+    },
+    "_duckiesFirestarter1": {
+      "based_on": "duckiesFirestarter",
+      "buffs": [
+        "duckiesAmbushAI_AmbusherBuff2"
+      ],
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": true,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesFirestarter1"
+    },
+    "_duckiesFirestarter2": {
+      "based_on": "duckiesFirestarter",
+      "buffs": [
+        "duckiesAmbushAI_AmbusherBuff"
+      ],
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": true,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesFirestarter2"
+    },
+    "_duckiesGaunt0": {
+      "based_on": "duckiesGaunt",
+      "buffs": [
+        "duckiesGauntShrine_GlobalSpotterActivatorBuff"
+      ],
+      "id": "_duckiesGaunt0"
+    },
+    "_duckiesGaunt1": {
+      "based_on": "duckiesGaunt",
+      "buffs": [
+        "duckiesAmbushAI_TriggererBuff"
+      ],
+      "id": "_duckiesGaunt1"
+    },
+    "_duckiesGaunt2": {
+      "based_on": "duckiesGaunt",
+      "buffs": [
+        "duckiesGauntShrine_GlobalSpotterActivatorBuff"
+      ],
+      "id": "_duckiesGaunt2"
+    },
+    "_duckiesGoldDog0": {
+      "based_on": "duckiesGoldDog",
+      "buffs": [
+        "duckiesAmbushAI_AmbusherBuff"
+      ],
+      "id": "_duckiesGoldDog0"
+    },
+    "_duckiesGoldDog1": {
+      "based_on": "duckiesGoldDog",
+      "buffs": [
+        "duckiesHidingAI_HidingBuff"
+      ],
+      "id": "_duckiesGoldDog1"
+    },
+    "_duckiesGoldDog2": {
+      "based_on": "duckiesGoldDog",
+      "buffs": [
+        "duckiesAmbushAI_TriggererBuff"
+      ],
+      "id": "_duckiesGoldDog2"
+    },
+    "_duckiesGoldPickup0": {
+      "based_on": "duckiesGoldPickup25",
+      "buffs": [
+        "duckiesBuffTesterAbil1_Buff",
+        "duckiesAmbushAI_TriggererBuff2DieOnly",
+        "Uncontrollable_Buff"
+      ],
+      "id": "_duckiesGoldPickup0"
+    },
+    "_duckiesGoldPickup1": {
+      "based_on": "duckiesGoldPickup100",
+      "buffs": [
+        "duckiesBuffTesterAbil1_Buff",
+        "Uncontrollable_Buff",
+        "duckiesAmbushAI_TriggererBuff"
+      ],
+      "id": "_duckiesGoldPickup1"
+    },
+    "_duckiesGraven0": {
+      "based_on": "duckiesGraven",
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": false,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesGraven0"
+    },
+    "_duckiesGraven1": {
+      "based_on": "duckiesGraven",
+      "buffs": [
+        "duckiesFleeAI_HostBuff",
+        "duckiesAmbushAI_AmbusherBuff2"
+      ],
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": true,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesGraven1"
+    },
+    "_duckiesGraven2": {
+      "based_on": "duckiesGraven",
+      "buffs": [
+        "duckiesFleeAI_HostBuff",
+        "duckiesAmbushAI_TriggererBuff2"
+      ],
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": false,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesGraven2"
+    },
+    "_duckiesGraven3": {
+      "based_on": "duckiesGraven",
+      "buffs": [
+        "duckiesFleeAI_HostBuff",
+        "duckiesAmbushAI_AmbusherBuff2"
+      ],
+      "id": "_duckiesGraven3"
+    },
+    "_duckiesGraven4": {
+      "based_on": "duckiesGraven",
+      "buffs": [
+        "duckiesFleeAI_HostBuff",
+        "duckiesAmbushAI_TriggererBuff"
+      ],
+      "id": "_duckiesGraven4"
+    },
+    "_duckiesGunner0": {
+      "based_on": "duckiesGunner",
+      "id": "_duckiesGunner0",
+      "minimap_icon": "None"
+    },
+    "_duckiesGunner1": {
+      "based_on": "duckiesGunner",
+      "buffs": [
+        "duckiesRevengeAI_HostBuff",
+        "duckiesAmbushAI_TriggererBuff"
+      ],
+      "id": "_duckiesGunner1"
+    },
+    "_duckiesGunner2": {
+      "based_on": "duckiesGunner",
+      "buffs": [
+        "duckiesRevengeAI_HostBuff",
+        "duckiesAmbushAI_TriggererBuff2"
+      ],
+      "id": "_duckiesGunner2"
+    },
+    "_duckiesGunner3": {
+      "based_on": "duckiesGunner",
+      "buffs": [
+        "duckiesRevengeAI_HostBuff",
+        "duckiesAmbushAI_AmbusherBuff2"
+      ],
+      "id": "_duckiesGunner3"
+    },
+    "_duckiesGunner4": {
+      "based_on": "duckiesGunner",
+      "buffs": [
+        "Buff10XDamage"
+      ],
+      "id": "_duckiesGunner4"
+    },
+    "_duckiesGunner5": {
+      "based_on": "duckiesGunner",
+      "buffs": [
+        "duckiesAmbushAI_AmbusherBuff2"
+      ],
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": true,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesGunner5"
+    },
+    "_duckiesGunner6": {
+      "based_on": "duckiesGunner",
+      "buffs": [
+        "duckiesAmbushAI_AmbusherBuff"
+      ],
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": true,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesGunner6"
+    },
+    "_duckiesGunnerSlave0": {
+      "based_on": "duckiesGunnerSlave",
+      "id": "_duckiesGunnerSlave0",
+      "veterancy_tiers": [
+        {
+          "stat_modifiers": [
+            {
+              "amount": 0,
+              "stat": "emptyRef"
+            }
+          ],
+          "threshold": 0,
+          "tier_up_effect": "emptyRef",
+          "visual_fx": ""
+        }
+      ]
+    },
+    "_duckiesHarbinger0": {
+      "based_on": "duckiesHarbinger",
+      "buffs": [
+        "duckiesAmbushAI_AmbusherBuff2"
+      ],
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": true,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesHarbinger0"
+    },
+    "_duckiesHeroCaster0": {
+      "based_on": "duckiesHeroCaster",
+      "id": "_duckiesHeroCaster0",
+      "starting_snowtags": [
+        "entity_unit",
+        "heightplane_ground",
+        "attribute_hero",
+        "attribute_biological",
+        "attribute_ranged",
+        "preventdefeat_elimination"
+      ]
+    },
+    "_duckiesHeroCaster1": {
+      "based_on": "duckiesHeroCaster",
+      "buffs": [
+        "Buff10XDamage",
+        "DamageImmunityBuff"
+      ],
+      "id": "_duckiesHeroCaster1"
+    },
+    "_duckiesHeroCaster2": {
+      "based_on": "duckiesHeroCaster",
+      "buffs": [
+        "duckiesHidingAI_PlayerRapidBuff",
+        "Buff10XDamage",
+        "DamageImmunityBuff"
+      ],
+      "id": "_duckiesHeroCaster2"
+    },
+    "_duckiesHeroCaster3": {
+      "based_on": "duckiesHeroCaster",
+      "id": "_duckiesHeroCaster3",
+      "vital_health": {
+        "maximum": 600.0,
+        "regen": 0.0,
+        "starting": 600.0
+      }
+    },
+    "_duckiesHeroCaster4": {
+      "based_on": "duckiesHeroCaster",
+      "id": "_duckiesHeroCaster4",
+      "vital_health": {
+        "maximum": 600.0,
+        "regen": 0.0,
+        "starting": 600.0
+      }
+    },
+    "_duckiesHeroCaster5": {
+      "based_on": "duckiesHeroCaster",
+      "id": "_duckiesHeroCaster5",
+      "vital_energy": {
+        "maximum": 1000.0,
+        "regen": 2.0,
+        "starting": 1000.0
+      },
+      "vital_health": {
+        "maximum": 600.0,
+        "regen": 0.0,
+        "starting": 10.0
+      }
+    },
+    "_duckiesHeroKastiel0": {
+      "based_on": "duckiesHeroKastiel",
+      "id": "_duckiesHeroKastiel0",
+      "vital_health": {
+        "maximum": 1000.0,
+        "regen": 0.0,
+        "starting": 1.0
+      }
+    },
+    "_duckiesHeroKastiel1": {
+      "based_on": "duckiesHeroKastiel",
+      "id": "_duckiesHeroKastiel1"
+    },
+    "_duckiesHeroKastiel10": {
+      "based_on": "duckiesHeroKastiel",
+      "buffs": [
+        "Buff10XDamage",
+        "DamageImmunityBuff"
+      ],
+      "id": "_duckiesHeroKastiel10"
+    },
+    "_duckiesHeroKastiel11": {
+      "based_on": "duckiesHeroKastiel",
+      "buffs": [
+        "duckiesHidingAI_PlayerRapidBuff",
+        "Buff10XDamage",
+        "DamageImmunityBuff"
+      ],
+      "id": "_duckiesHeroKastiel11"
+    },
+    "_duckiesHeroKastiel12": {
+      "based_on": "duckiesHeroKastiel",
+      "buffs": [
+        "duckiesHidingAI_PlayerRapidBuff",
+        "DamageImmunityBuff"
+      ],
+      "id": "_duckiesHeroKastiel12"
+    },
+    "_duckiesHeroKastiel2": {
+      "based_on": "duckiesHeroKastiel",
+      "id": "_duckiesHeroKastiel2",
+      "starting_snowtags": [
+        "entity_unit",
+        "heightplane_ground",
+        "attribute_hero",
+        "preventdefeat_elimination",
+        "attribute_biological"
+      ]
+    },
+    "_duckiesHeroKastiel3": {
+      "based_on": "duckiesHeroKastiel",
+      "id": "_duckiesHeroKastiel3",
+      "vital_energy": {
+        "maximum": 1000.0,
+        "regen": 5.0,
+        "starting": 1000.0
+      },
+      "vital_health": {
+        "maximum": 5000.0,
+        "regen": 0.0,
+        "starting": 1.0
+      }
+    },
+    "_duckiesHeroKastiel4": {
+      "based_on": "duckiesHeroKastiel",
+      "id": "_duckiesHeroKastiel4",
+      "vital_energy": {
+        "maximum": 1000.0,
+        "regen": 5.0,
+        "starting": 1000.0
+      },
+      "vital_health": {
+        "maximum": 5000.0,
+        "regen": 0.0,
+        "starting": 5000.0
+      }
+    },
+    "_duckiesHeroKastiel5": {
+      "based_on": "duckiesHeroKastiel",
+      "id": "_duckiesHeroKastiel5",
+      "starting_snowtags": [
+        "entity_unit",
+        "heightplane_ground",
+        "attribute_hero",
+        "tag_PrismRevive",
+        "preventdefeat_elimination",
+        "attribute_resilient"
+      ],
+      "vital_energy": {
+        "maximum": 1000.0,
+        "regen": 5.0,
+        "starting": 1000.0
+      },
+      "vital_health": {
+        "maximum": 5000.0,
+        "regen": 0.0,
+        "starting": 5000.0
+      }
+    },
+    "_duckiesHeroKastiel6": {
+      "based_on": "duckiesHeroKastiel",
+      "id": "_duckiesHeroKastiel6",
+      "starting_snowtags": [
+        "entity_unit",
+        "heightplane_ground",
+        "attribute_hero",
+        "tag_PrismRevive",
+        "preventdefeat_elimination",
+        "attribute_boss"
+      ],
+      "vital_energy": {
+        "maximum": 1000.0,
+        "regen": 5.0,
+        "starting": 1000.0
+      },
+      "vital_health": {
+        "maximum": 5000.0,
+        "regen": 0.0,
+        "starting": 5000.0
+      }
+    },
+    "_duckiesHeroKastiel7": {
+      "based_on": "duckiesHeroKastiel",
+      "id": "_duckiesHeroKastiel7",
+      "starting_snowtags": [
+        "entity_unit",
+        "heightplane_ground",
+        "attribute_hero",
+        "tag_PrismRevive",
+        "preventdefeat_elimination",
+        "attribute_resilient"
+      ],
+      "vital_health": {
+        "maximum": 1000.0,
+        "regen": 100.0,
+        "starting": 1000.0
+      }
+    },
+    "_duckiesHeroKastiel8": {
+      "based_on": "duckiesHeroKastiel",
+      "id": "_duckiesHeroKastiel8",
+      "starting_snowtags": [
+        "entity_unit",
+        "heightplane_ground",
+        "attribute_hero",
+        "tag_PrismRevive",
+        "preventdefeat_elimination"
+      ],
+      "vital_health": {
+        "maximum": 1000.0,
+        "regen": 100.0,
+        "starting": 1000.0
+      }
+    },
+    "_duckiesHeroKastiel9": {
+      "based_on": "duckiesHeroKastiel",
+      "id": "_duckiesHeroKastiel9",
+      "starting_snowtags": [
+        "entity_unit",
+        "heightplane_ground",
+        "attribute_hero",
+        "tag_PrismRevive",
+        "preventdefeat_elimination",
+        "attribute_light"
+      ],
+      "vital_health": {
+        "maximum": 1000.0,
+        "regen": 100.0,
+        "starting": 1000.0
+      }
+    },
+    "_duckiesHeroPaladin0": {
+      "based_on": "duckiesHeroPaladin",
+      "id": "_duckiesHeroPaladin0",
+      "starting_snowtags": [
+        "entity_unit",
+        "heightplane_ground",
+        "attribute_hero",
+        "preventdefeat_elimination",
+        "attribute_biological"
+      ]
+    },
+    "_duckiesHeroPaladin1": {
+      "abilityList": [],
+      "based_on": "duckiesHeroPaladin",
+      "id": "_duckiesHeroPaladin1",
+      "vital_health": {
+        "maximum": 1000.0,
+        "regen": 1.2,
+        "starting": 1000.0
+      }
+    },
+    "_duckiesHeroPaladin10": {
+      "based_on": "duckiesHeroPaladin",
+      "buffs": [
+        "duckiesHidingAI_PlayerRapidBuff",
+        "DamageImmunityBuff"
+      ],
+      "id": "_duckiesHeroPaladin10"
+    },
+    "_duckiesHeroPaladin11": {
+      "abilityList": [
+        "attackData",
+        "stopData",
+        "holdPositionData",
+        "duckiesHeroPaladinHeal",
+        "duckiesHeroPaladinLeap",
+        "duckiesHeroPaladinSpin",
+        "duckiesHeroPaladinShield",
+        "duckiesHeroPaladinRevive"
+      ],
+      "based_on": "duckiesHeroPaladin",
+      "buffs": [
+        "DamageImmunityBuff"
+      ],
+      "id": "_duckiesHeroPaladin11"
+    },
+    "_duckiesHeroPaladin2": {
+      "abilityList": [],
+      "based_on": "duckiesHeroPaladin",
+      "id": "_duckiesHeroPaladin2",
+      "vital_health": {
+        "maximum": 1000.0,
+        "regen": 100.0,
+        "starting": 1000.0
+      }
+    },
+    "_duckiesHeroPaladin3": {
+      "abilityList": [],
+      "based_on": "duckiesHeroPaladin",
+      "id": "_duckiesHeroPaladin3",
+      "vital_health": {
+        "maximum": 1000.0,
+        "regen": 250.0,
+        "starting": 1000.0
+      }
+    },
+    "_duckiesHeroPaladin4": {
+      "abilityList": [
+        "attackData",
+        "stopData",
+        "holdPositionData",
+        "duckiesHeroPaladinHeal",
+        "duckiesHeroPaladinLeap",
+        "duckiesHeroPaladinSpin",
+        "duckiesHeroPaladinShield",
+        "duckiesHeroPaladinRevive"
+      ],
+      "based_on": "duckiesHeroPaladin",
+      "id": "_duckiesHeroPaladin4",
+      "vital_health": {
+        "maximum": 1000.0,
+        "regen": 250.0,
+        "starting": 1000.0
+      }
+    },
+    "_duckiesHeroPaladin5": {
+      "abilityList": [
+        "attackData",
+        "stopData",
+        "holdPositionData",
+        "duckiesHeroPaladinHeal",
+        "duckiesHeroPaladinLeap",
+        "duckiesHeroPaladinSpin",
+        "duckiesHeroPaladinShield",
+        "duckiesHeroPaladinRevive"
+      ],
+      "based_on": "duckiesHeroPaladin",
+      "id": "_duckiesHeroPaladin5",
+      "vital_health": {
+        "maximum": 1000.0,
+        "regen": 250.0,
+        "starting": 1000.0
+      }
+    },
+    "_duckiesHeroPaladin6": {
+      "based_on": "duckiesHeroPaladin",
+      "buffs": [
+        "Buff10XDamage",
+        "DamageImmunityBuff"
+      ],
+      "id": "_duckiesHeroPaladin6"
+    },
+    "_duckiesHeroPaladin7": {
+      "abilityList": [
+        "holdPositionData",
+        "duckiesHeroPaladinHeal",
+        "duckiesHeroPaladinLeap",
+        "duckiesHeroPaladinSpin",
+        "duckiesHeroPaladinShield",
+        "duckiesHeroPaladinRevive"
+      ],
+      "based_on": "duckiesHeroPaladin",
+      "buffs": [
+        "Buff10XDamage",
+        "DamageImmunityBuff"
+      ],
+      "id": "_duckiesHeroPaladin7"
+    },
+    "_duckiesHeroPaladin8": {
+      "abilityList": [
+        "stopData",
+        "holdPositionData",
+        "duckiesHeroPaladinHeal",
+        "duckiesHeroPaladinLeap",
+        "duckiesHeroPaladinSpin",
+        "duckiesHeroPaladinShield",
+        "duckiesHeroPaladinRevive"
+      ],
+      "based_on": "duckiesHeroPaladin",
+      "buffs": [
+        "Buff10XDamage",
+        "DamageImmunityBuff"
+      ],
+      "id": "_duckiesHeroPaladin8",
+      "vital_health": {
+        "maximum": 4800.0,
+        "regen": 1000.0,
+        "starting": 4800.0
+      }
+    },
+    "_duckiesHeroPaladin9": {
+      "based_on": "duckiesHeroPaladin",
+      "buffs": [
+        "duckiesHidingAI_PlayerRapidBuff",
+        "Buff10XDamage",
+        "DamageImmunityBuff"
+      ],
+      "id": "_duckiesHeroPaladin9"
+    },
+    "_duckiesHeroRyker0": {
+      "based_on": "duckiesHeroRyker",
+      "id": "_duckiesHeroRyker0",
+      "starting_snowtags": [
+        "entity_unit",
+        "heightplane_ground",
+        "attribute_biological",
+        "attribute_hero",
+        "attribute_ranged",
+        "preventdefeat_elimination"
+      ]
+    },
+    "_duckiesHeroRyker1": {
+      "based_on": "duckiesHeroRyker",
+      "buffs": [
+        "Buff10XDamage",
+        "DamageImmunityBuff"
+      ],
+      "id": "_duckiesHeroRyker1"
+    },
+    "_duckiesHeroRyker10": {
+      "based_on": "duckiesHeroRyker",
+      "buffs": [
+        "duckiesHidingAI_PlayerRapidBuff",
+        "DamageImmunityBuff",
+        "Buff10XDamage"
+      ],
+      "id": "_duckiesHeroRyker10"
+    },
+    "_duckiesHeroRyker11": {
+      "abilityList": [
+        "attackData",
+        "stopData",
+        "holdPositionData",
+        "duckiesHeroRykerGrenade",
+        "duckiesHeroRykerRoll",
+        "duckiesHeroRykerDrone",
+        "duckiesHeroRykerBombs",
+        "duckiesHeroRykerMark"
+      ],
+      "based_on": "duckiesHeroRyker",
+      "buffs": [
+        "duckiesHidingAI_PlayerRapidBuff",
+        "DamageImmunityBuff",
+        "Buff10XDamage"
+      ],
+      "id": "_duckiesHeroRyker11"
+    },
+    "_duckiesHeroRyker12": {
+      "abilityList": [
+        "attackData",
+        "stopData",
+        "holdPositionData",
+        "duckiesHeroRykerGrenade",
+        "duckiesHeroRykerRoll",
+        "duckiesHeroRykerDrone",
+        "duckiesHeroRykerBombs",
+        "duckiesHeroRykerMark"
+      ],
+      "based_on": "duckiesHeroRyker",
+      "buffs": [
+        "duckiesHidingAI_PlayerRapidBuff",
+        "DamageImmunityBuff",
+        "Buff10XDamage"
+      ],
+      "id": "_duckiesHeroRyker12"
+    },
+    "_duckiesHeroRyker2": {
+      "based_on": "duckiesHeroRyker",
+      "buffs": [
+        "duckiesHidingAI_PlayerRapidBuff",
+        "Buff10XDamage",
+        "DamageImmunityBuff"
+      ],
+      "id": "_duckiesHeroRyker2"
+    },
+    "_duckiesHeroRyker3": {
+      "based_on": "duckiesHeroRyker",
+      "buffs": [
+        "duckiesHidingAI_PlayerRapidBuff",
+        "DamageImmunityBuff",
+        "Buff10XDamage"
+      ],
+      "id": "_duckiesHeroRyker3"
+    },
+    "_duckiesHeroRyker4": {
+      "based_on": "duckiesHeroRyker",
+      "buffs": [
+        "duckiesHidingAI_PlayerRapidBuff",
+        "Buff10XDamage"
+      ],
+      "id": "_duckiesHeroRyker4"
+    },
+    "_duckiesHeroRyker5": {
+      "based_on": "duckiesHeroRyker",
+      "id": "_duckiesHeroRyker5",
+      "vital_health": {
+        "maximum": 380.0,
+        "regen": 0.0,
+        "starting": 380.0
+      }
+    },
+    "_duckiesHeroRyker6": {
+      "based_on": "duckiesHeroRyker",
+      "id": "_duckiesHeroRyker6",
+      "vital_health": {
+        "maximum": 10000.0,
+        "regen": 0.0,
+        "starting": 10000.0
+      }
+    },
+    "_duckiesHeroRyker7": {
+      "based_on": "duckiesHeroRyker",
+      "buffs": [
+        "duckiesHidingAI_PlayerRapidBuff",
+        "DamageImmunityBuff"
+      ],
+      "id": "_duckiesHeroRyker7"
+    },
+    "_duckiesHeroRyker8": {
+      "based_on": "duckiesHeroRyker",
+      "buffs": [
+        "duckiesHidingAI_PlayerRapidBuff",
+        "DamageImmunityBuff",
+        "Buff10XDamage"
+      ],
+      "id": "_duckiesHeroRyker8"
+    },
+    "_duckiesHeroRyker9": {
+      "based_on": "duckiesHeroRyker",
+      "buffs": [
+        "duckiesHidingAI_PlayerRapidBuff",
+        "Buff10XDamage",
+        "DamageImmunityBuff"
+      ],
+      "id": "_duckiesHeroRyker9"
+    },
+    "_duckiesHintPost0": {
+      "based_on": "duckiesHintPost",
+      "id": "_duckiesHintPost0",
+      "unit_button": "duckiesHintPost_LevelingButton"
+    },
+    "_duckiesHintPost1": {
+      "based_on": "duckiesHintPost",
+      "id": "_duckiesHintPost1",
+      "unit_button": "duckiesHintPostResilience_Button"
+    },
+    "_duckiesHintPost2": {
+      "based_on": "duckiesHintPost",
+      "id": "_duckiesHintPost2",
+      "unit_button": "duckiesHintPost_LevelingButton",
+      "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Pings/RadialMenu/Sprays/Spray_Bob_QuestionMark.Spray_Bob_QuestionMark'"
+    },
+    "_duckiesHintPost3": {
+      "based_on": "duckiesHintPost",
+      "id": "_duckiesHintPost3",
+      "unit_button": "duckiesHintPost_LevelingButton"
+    },
+    "_duckiesHoplite0": {
+      "based_on": "duckiesHoplite",
+      "buffs": [
+        "PowerLeap_BuffAutoCastListener",
+        "duckiesAmbushAI_AmbusherBuff2"
+      ],
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": true,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesHoplite0"
+    },
+    "_duckiesIncarnate0": {
+      "based_on": "duckiesIncarnate",
+      "buffs": [
+        "duckiesAmbushAI_AmbusherBuff"
+      ],
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": true,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesIncarnate0"
+    },
+    "_duckiesInfernalLock0": {
+      "based_on": "duckiesInfernalLock",
+      "id": "_duckiesInfernalLock0",
+      "starting_snowtags": [
+        "entity_unit",
+        "status_invulnerable",
+        "tag_duckiesInfernalLock1"
+      ]
+    },
+    "_duckiesInfernalLock1": {
+      "based_on": "duckiesInfernalLock",
+      "id": "_duckiesInfernalLock1",
+      "starting_snowtags": [
+        "entity_unit",
+        "status_invulnerable",
+        "tag_duckiesInfernalLock2"
+      ]
+    },
+    "_duckiesInfernalLock2": {
+      "based_on": "duckiesInfernalLock",
+      "id": "_duckiesInfernalLock2",
+      "starting_snowtags": [
+        "entity_unit",
+        "status_invulnerable"
+      ]
+    },
+    "_duckiesInfernalLock3": {
+      "based_on": "duckiesInfernalLock",
+      "id": "_duckiesInfernalLock3",
+      "starting_snowtags": [
+        "entity_unit",
+        "status_invulnerable",
+        "tag_duckiesInfernalLock3"
+      ]
+    },
+    "_duckiesInfernalLock4": {
+      "based_on": "duckiesInfernalLock",
+      "id": "_duckiesInfernalLock4",
+      "starting_snowtags": [
+        "entity_unit",
+        "status_invulnerable",
+        "tag_duckiesInfernalLock3"
+      ]
+    },
+    "_duckiesInfernalLock5": {
+      "based_on": "duckiesInfernalLock",
+      "id": "_duckiesInfernalLock5",
+      "starting_snowtags": [
+        "entity_unit"
+      ],
+      "vital_health": {
+        "maximum": 1000.0,
+        "regen": 1000.0,
+        "starting": 1000.0
+      }
+    },
+    "_duckiesInfernalLock6": {
+      "based_on": "duckiesInfernalLock",
+      "id": "_duckiesInfernalLock6",
+      "starting_snowtags": [
+        "entity_unit",
+        "status_invulnerable",
+        "tag_duckiesInfernalLock4"
+      ]
+    },
+    "_duckiesInfernalLock7": {
+      "based_on": "duckiesInfernalLock",
+      "id": "_duckiesInfernalLock7",
+      "starting_snowtags": [
+        "entity_unit",
+        "status_invulnerable",
+        "tag_duckiesInfernalLock4"
+      ]
+    },
+    "_duckiesLancer0": {
+      "based_on": "duckiesLancer",
+      "buffs": [
+        "duckiesRevengeAI_HostBuff",
+        "duckiesAmbushAI_AmbusherBuff"
+      ],
+      "id": "_duckiesLancer0"
+    },
+    "_duckiesLancer1": {
+      "based_on": "duckiesLancer",
+      "buffs": [
+        "duckiesRevengeAI_HostBuff",
+        "duckiesAmbushAI_AmbusherBuff"
+      ],
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": true,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesLancer1"
+    },
+    "_duckiesLancer2": {
+      "based_on": "duckiesLancer",
+      "buffs": [
+        "duckiesRevengeAI_HostBuff",
+        "duckiesAmbushAI_AmbusherBuff"
+      ],
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": true,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesLancer2"
+    },
+    "_duckiesLancer3": {
+      "based_on": "duckiesLancer",
+      "buffs": [
+        "duckiesRevengeAI_HostBuff",
+        "duckiesAmbushAI_AmbusherBuff"
+      ],
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": true,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesLancer3"
+    },
+    "_duckiesLancer4": {
+      "based_on": "duckiesLancer",
+      "buffs": [
+        "duckiesRevengeAI_HostBuff",
+        "duckiesAmbushAI_AmbusherBuff"
+      ],
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": true,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesLancer4"
+    },
+    "_duckiesLancer5": {
+      "based_on": "duckiesLancer",
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": true,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesLancer5"
+    },
+    "_duckiesLancer6": {
+      "based_on": "duckiesLancer",
+      "buffs": [
+        "duckiesRevengeAI_HostBuff",
+        "duckiesHidingAI_HidingBuff"
+      ],
+      "id": "_duckiesLancer6"
+    },
+    "_duckiesLavaBrute0": {
+      "based_on": "duckiesLavaBrute",
+      "buffs": [
+        "duckiesAmbushAI_AmbusherBuff4"
+      ],
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": true,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesLavaBrute0"
+    },
+    "_duckiesLavaBrute1": {
+      "based_on": "duckiesLavaBrute",
+      "buffs": [
+        "duckiesAmbushAI_TriggererBuff4DieOnly"
+      ],
+      "id": "_duckiesLavaBrute1"
+    },
+    "_duckiesLavaBrute2": {
+      "based_on": "duckiesLavaBrute",
+      "buffs": [
+        "duckiesAmbushAI_AmbusherBuff4"
+      ],
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": true,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesLavaBrute2"
+    },
+    "_duckiesLavaBrute3": {
+      "based_on": "duckiesLavaBrute",
+      "buffs": [
+        "duckiesAmbushAI_AmbusherBuff2"
+      ],
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": true,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesLavaBrute3"
+    },
+    "_duckiesLifeBomb0": {
+      "abilityList": [],
+      "based_on": "duckiesLifeBomb",
+      "commandList": [],
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": true,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": true,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": false,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesLifeBomb0",
+      "name": "GAME TIP/INFO - Resilience",
+      "show_name_on_hover": true,
+      "unit_button": "duckiesHintPost_ResilienceButton",
+      "vital_energy": {
+        "maximum": 0.0,
+        "regen": 0.0,
+        "starting": 0.0
+      }
+    },
+    "_duckiesLifeBomb1": {
+      "abilityList": [],
+      "based_on": "duckiesLifeBomb",
+      "commandList": [],
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": true,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": true,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": false,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesLifeBomb1",
+      "name": "GAME TIP/INFO - Leveling",
+      "show_name_on_hover": true,
+      "unit_button": "duckiesHintPost_LevelingButton",
+      "vital_energy": {
+        "maximum": 0.0,
+        "regen": 0.0,
+        "starting": 0.0
+      }
+    },
+    "_duckiesLifeBomb2": {
+      "based_on": "duckiesLifeBomb",
+      "id": "_duckiesLifeBomb2",
+      "name": "[DEBUG/CHEAT COMMANDS]//0.8"
+    },
+    "_duckiesLifeBomb3": {
+      "abilityList": [],
+      "based_on": "duckiesLifeBomb",
+      "commandList": [],
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": true,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": false,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": true,
+        "untargetable": true,
+        "victory_expansion": false
+      },
+      "id": "_duckiesLifeBomb3",
+      "name": "HOTKEY YOUR UPGRADED AT TOP LEFT OF THE MAP",
+      "show_name_on_hover": true,
+      "unit_button": "duckiesHintPost_ResilienceButton",
+      "vital_energy": {
+        "maximum": 0.0,
+        "regen": 0.0,
+        "starting": 0.0
+      }
+    },
+    "_duckiesLifeBomb4": {
+      "abilityList": [],
+      "based_on": "duckiesLifeBomb",
+      "commandList": [],
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": true,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": true,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": false,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesLifeBomb4",
+      "name": "GAME TIP/INFO - Upgrades",
+      "show_name_on_hover": true,
+      "unit_button": "duckiesHintPost_UpgraderButton",
+      "vital_energy": {
+        "maximum": 0.0,
+        "regen": 0.0,
+        "starting": 0.0
+      }
+    },
+    "_duckiesLifeBomb5": {
+      "abilityList": [],
+      "based_on": "duckiesLifeBomb",
+      "commandList": [],
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": true,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": true,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": false,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesLifeBomb5",
+      "name": "GAME TIP/INFO - Armor",
+      "show_name_on_hover": true,
+      "unit_button": "duckiesHintPost_ArmorButton",
+      "vital_energy": {
+        "maximum": 0.0,
+        "regen": 0.0,
+        "starting": 0.0
+      }
+    },
+    "_duckiesLifeBomb6": {
+      "abilityList": [],
+      "based_on": "duckiesLifeBomb",
+      "commandList": [],
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": true,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": true,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": false,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesLifeBomb6",
+      "name": "GAME TIP/INFO - Map Info",
+      "show_name_on_hover": true,
+      "unit_button": "duckiesHintPost_MapInfoButton",
+      "vital_energy": {
+        "maximum": 0.0,
+        "regen": 0.0,
+        "starting": 0.0
+      }
+    },
+    "_duckiesLifePickup0": {
+      "based_on": "duckiesLifePickup",
+      "buffs": [
+        "duckiesBuffTesterAbil1_Buff",
+        "duckiesHidingAI_HidingBuff"
+      ],
+      "id": "_duckiesLifePickup0"
+    },
+    "_duckiesLifePickup1": {
+      "based_on": "duckiesLifePickup",
+      "buffs": [
+        "duckiesBuffTesterAbil1_Buff",
+        "duckiesAmbushAI_TriggererBuff2DieOnly"
+      ],
+      "id": "_duckiesLifePickup1"
+    },
+    "_duckiesMassTeleporter1A0": {
+      "based_on": "duckiesMassTeleporter1A",
+      "buffs": [
+        "duckiesMassTeleporter1_HostBuff",
+        "ImbueAvatar_Buff"
+      ],
+      "id": "_duckiesMassTeleporter1A0"
+    },
+    "_duckiesMassTeleporter1A1": {
+      "based_on": "duckiesMassTeleporter1A",
+      "id": "_duckiesMassTeleporter1A1"
+    },
+    "_duckiesMeteorHag0": {
+      "abilityList": [
+        "attackData",
+        "stopData",
+        "holdPositionData",
+        "duckiesHagVoidRift"
+      ],
+      "based_on": "duckiesMeteorHag",
+      "id": "_duckiesMeteorHag0"
+    },
+    "_duckiesMeteorHag1": {
+      "based_on": "duckiesMeteorHag",
+      "buffs": [
+        "duckiesGenericSpellArmor_Host",
+        "duckiesMeteorHag_PhaseLock1"
+      ],
+      "id": "_duckiesMeteorHag1"
+    },
+    "_duckiesMeteorHag2": {
+      "based_on": "duckiesMeteorHag",
+      "buffs": [
+        "duckiesGenericSpellArmor_Host"
+      ],
+      "id": "_duckiesMeteorHag2"
+    },
+    "_duckiesMeteorHag3": {
+      "based_on": "duckiesMeteorHag",
+      "buffs": [
+        "duckiesGenericSpellArmor_Host"
+      ],
+      "id": "_duckiesMeteorHag3",
+      "vital_health": {
+        "maximum": 4200.0,
+        "regen": 0.0,
+        "starting": 420.0
+      }
+    },
+    "_duckiesMeteorHag4": {
+      "based_on": "duckiesMeteorHag",
+      "buffs": [
+        "duckiesGenericSpellArmor_Host"
+      ],
+      "id": "_duckiesMeteorHag4",
+      "vital_health": {
+        "maximum": 4200.0,
+        "regen": 0.0,
+        "starting": 4200.0
+      }
+    },
+    "_duckiesMeteorHag5": {
+      "based_on": "duckiesMeteorHag",
+      "buffs": [
+        "duckiesGenericSpellArmor_Host"
+      ],
+      "id": "_duckiesMeteorHag5",
+      "starting_snowtags": [
+        "entity_unit",
+        "heightplane_ground",
+        "attribute_biological",
+        "attribute_light",
+        "attribute_ranged"
+      ],
+      "vital_health": {
+        "maximum": 4200.0,
+        "regen": 0.0,
+        "starting": 4200.0
+      }
+    },
+    "_duckiesMeteorHag6": {
+      "based_on": "duckiesMeteorHag",
+      "buffs": [],
+      "id": "_duckiesMeteorHag6",
+      "vital_health": {
+        "maximum": 4200.0,
+        "regen": 0.0,
+        "starting": 4200.0
+      }
+    },
+    "_duckiesMeteorHag7": {
+      "based_on": "duckiesMeteorHag",
+      "buffs": [
+        "duckiesGenericSpellArmor_Host"
+      ],
+      "id": "_duckiesMeteorHag7"
+    },
+    "_duckiesObelisk0": {
+      "based_on": "duckiesObelisk",
+      "buffs": [
+        "duckiesInfernalLock_KeyUnitBuff3"
+      ],
+      "id": "_duckiesObelisk0"
+    },
+    "_duckiesOrePickup0": {
+      "based_on": "duckiesOrePickup25",
+      "buffs": [
+        "duckiesBuffTesterAbil1_Buff",
+        "duckiesAmbushAI_TriggererBuffDieOnly",
+        "Uncontrollable_Buff"
+      ],
+      "id": "_duckiesOrePickup0"
+    },
+    "_duckiesOrePickup1": {
+      "based_on": "duckiesOrePickup25",
+      "buffs": [
+        "duckiesBuffTesterAbil1_Buff",
+        "duckiesAmbushAI_TriggererBuffG1DieOnly",
+        "Uncontrollable_Buff"
+      ],
+      "id": "_duckiesOrePickup1"
+    },
+    "_duckiesPandora0": {
+      "based_on": "duckiesPandora",
+      "buffs": [
+        "duckiesBossRandomMovementAI_InitialActivatorBuff",
+        "duckiesPandoraAI_Wildfire_Holder",
+        "duckiesInfernalLock_KeyUnitBuff2"
+      ],
+      "id": "_duckiesPandora0"
+    },
+    "_duckiesPandora1": {
+      "based_on": "duckiesPandora",
+      "behaviors": [
+        "duckiesPandora_Wander"
+      ],
+      "id": "_duckiesPandora1"
+    },
+    "_duckiesPitFiend0": {
+      "based_on": "duckiesPitFiend",
+      "buffs": [
+        "duckiesAmbushAI_AmbusherBuff3"
+      ],
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": true,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesPitFiend0"
+    },
+    "_duckiesPitFiend1": {
+      "based_on": "duckiesPitFiend",
+      "buffs": [
+        "duckiesAmbushAI_AmbusherBuff3"
+      ],
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": true,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesPitFiend1"
+    },
+    "_duckiesPitFiend2": {
+      "based_on": "duckiesPitFiend",
+      "buffs": [
+        "duckiesAmbushAI_AmbusherBuff3"
+      ],
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": true,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesPitFiend2"
+    },
+    "_duckiesPitFiend3": {
+      "based_on": "duckiesPitFiend",
+      "buffs": [
+        "duckiesAmbushAI_AmbusherBuff3"
+      ],
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": true,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesPitFiend3"
+    },
+    "_duckiesPitFiend4": {
+      "based_on": "duckiesPitFiend",
+      "buffs": [
+        "duckiesAmbushAI_AmbusherBuff3"
+      ],
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": true,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesPitFiend4"
+    },
+    "_duckiesRevivePrism0": {
+      "based_on": "duckiesRevivePrism",
+      "buffs": [
+        "duckiesGauntShrine_ClearActivatorBuff"
+      ],
+      "id": "_duckiesRevivePrism0"
+    },
+    "_duckiesRockGolem0": {
+      "based_on": "duckiesRockGolem",
+      "buffs": [
+        "ImbueAvatar_Buff"
+      ],
+      "id": "_duckiesRockGolem0"
+    },
+    "_duckiesRockGolem1": {
+      "based_on": "duckiesRockGolem",
+      "buffs": [
+        "duckiesAmbushAI_AmbusherBuff2"
+      ],
+      "id": "_duckiesRockGolem1"
+    },
+    "_duckiesRockGolem2": {
+      "based_on": "duckiesRockGolem",
+      "buffs": [
+        "duckiesAmbushAI_TriggererBuff2DieOnly"
+      ],
+      "id": "_duckiesRockGolem2"
+    },
+    "_duckiesRockGolem3": {
+      "based_on": "duckiesRockGolem",
+      "id": "_duckiesRockGolem3",
+      "vital_health": {
+        "maximum": 200.0,
+        "regen": 0.0,
+        "starting": 10.0
+      }
+    },
+    "_duckiesRockGolem4": {
+      "based_on": "duckiesRockGolem",
+      "buffs": [
+        "duckiesAmbushAI_AmbusherBuff",
+        "duckiesAmbushAI_TriggererBuff2DieOnly"
+      ],
+      "id": "_duckiesRockGolem4"
+    },
+    "_duckiesRockGolem5": {
+      "based_on": "duckiesRockGolem",
+      "buffs": [
+        "duckiesAmbushAI_AmbusherBuffG1"
+      ],
+      "id": "_duckiesRockGolem5"
+    },
+    "_duckiesScourge0": {
+      "based_on": "duckiesScourge",
+      "id": "_duckiesScourge0",
+      "starting_snowtags": [
+        "entity_unit",
+        "heightplane_air",
+        "attribute_biological",
+        "status_invulnerable"
+      ]
+    },
+    "_duckiesScourge1": {
+      "abilityList": [],
+      "based_on": "duckiesScourge",
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": true,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": false,
+        "stealth": true,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesScourge1",
+      "starting_snowtags": [
+        "entity_unit",
+        "heightplane_air",
+        "attribute_biological",
+        "attribute_light",
+        "status_invulnerable"
+      ],
+      "vision_radius": 50.0
+    },
+    "_duckiesShadowDog0": {
+      "based_on": "duckiesShadowDog",
+      "buffs": [
+        "duckiesAmbushAI_AmbusherBuff"
+      ],
+      "id": "_duckiesShadowDog0"
+    },
+    "_duckiesShadowDog1": {
+      "based_on": "duckiesShadowDog",
+      "buffs": [
+        "duckiesAmbushAI_AmbusherBuff"
+      ],
+      "id": "_duckiesShadowDog1"
+    },
+    "_duckiesShadowDog2": {
+      "based_on": "duckiesShadowDog",
+      "buffs": [
+        "duckiesAmbushAI_TriggererBuff"
+      ],
+      "id": "_duckiesShadowDog2"
+    },
+    "_duckiesShadowDog3": {
+      "based_on": "duckiesShadowDog",
+      "buffs": [
+        "duckiesAmbushAI_AmbusherBuff3"
+      ],
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": true,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesShadowDog3"
+    },
+    "_duckiesShadowDog4": {
+      "based_on": "duckiesShadowDog",
+      "buffs": [
+        "duckiesAmbushAI_TriggererBuff3"
+      ],
+      "id": "_duckiesShadowDog4"
+    },
+    "_duckiesShadowVault0": {
+      "based_on": "duckiesShadowVault",
+      "buffs": [
+        "duckiesAmbushAI_TriggererBuff2DieOnly",
+        "duckiesInfernalLock_KeyUnitBuff4",
+        "duckiesMeteorHag_PhaseUnlock2Trigger"
+      ],
+      "id": "_duckiesShadowVault0"
+    },
+    "_duckiesShadowVault1": {
+      "based_on": "duckiesShadowVault",
+      "id": "_duckiesShadowVault1"
+    },
+    "_duckiesShadowVault2": {
+      "based_on": "duckiesShadowVault",
+      "id": "_duckiesShadowVault2"
+    },
+    "_duckiesShadowVault3": {
+      "based_on": "duckiesShadowVault",
+      "buffs": [
+        "duckiesBoss2PlacerLink_HostBuff",
+        "duckiesAmbushAI_TriggererBuff2DieOnly"
+      ],
+      "id": "_duckiesShadowVault3"
+    },
+    "_duckiesShadowVault4": {
+      "based_on": "duckiesShadowVault",
+      "buffs": [
+        "duckiesBoss2PlacerLink_HostInitBuff",
+        "duckiesAmbushAI_TriggererBuff3DieOnly"
+      ],
+      "id": "_duckiesShadowVault4"
+    },
+    "_duckiesSlowNode0": {
+      "based_on": "duckiesSlowNode",
+      "buffs": [
+        "duckiesAmbushAI_AmbusherBuff2"
+      ],
+      "id": "_duckiesSlowNode0"
+    },
+    "_duckiesSlowNode1": {
+      "based_on": "duckiesSlowNode",
+      "buffs": [
+        "duckiesAmbushAI_TriggererBuffDieOnly"
+      ],
+      "id": "_duckiesSlowNode1"
+    },
+    "_duckiesSmudger0": {
+      "based_on": "duckiesSmudger",
+      "buffs": [
+        "duckiesHidingAI_HidingBuff"
+      ],
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": true,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesSmudger0"
+    },
+    "_duckiesSmudgerTwo0": {
+      "based_on": "duckiesSmudgerTwo",
+      "buffs": [
+        "duckiesHidingAI_HidingBuff"
+      ],
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": true,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesSmudgerTwo0"
+    },
+    "_duckiesSpawnerGunner0": {
+      "based_on": "duckiesSpawnerGunner",
+      "id": "_duckiesSpawnerGunner0",
+      "starting_snowtags": [
+        "entity_unit_structure",
+        "attribute_mechanical",
+        "attribute_heavy",
+        "heightplane_ground",
+        "preventdefeat_elimination"
+      ]
+    },
+    "_duckiesSpawnerGunner1": {
+      "based_on": "duckiesSpawnerGunner",
+      "id": "_duckiesSpawnerGunner1"
+    },
+    "_duckiesSpawnerGunner2": {
+      "based_on": "duckiesSpawnerGunner",
+      "id": "_duckiesSpawnerGunner2"
+    },
+    "_duckiesStage3AnchorPrism0": {
+      "based_on": "duckiesStage3AnchorPrism",
+      "id": "_duckiesStage3AnchorPrism0",
+      "starting_snowtags": [
+        "entity_unit",
+        "heightplane_ground",
+        "attribute_mechanical",
+        "tag_duckiesStage3WarpgatePrism"
+      ]
+    },
+    "_duckiesSwarmDog0": {
+      "based_on": "duckiesSwarmDog",
+      "buffs": [
+        "duckiesHidingAI_HidingBuff"
+      ],
+      "id": "_duckiesSwarmDog0"
+    },
+    "_duckiesTeleporter1A0": {
+      "based_on": "duckiesTeleporter1A",
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": false,
+        "stealth": false,
+        "uncommandable": true,
+        "unselectable": true,
+        "untargetable": true,
+        "victory_expansion": false
+      },
+      "id": "_duckiesTeleporter1A0"
+    },
+    "_duckiesVulcan0": {
+      "based_on": "duckiesVulcan",
+      "buffs": [
+        "duckiesAmbushAI_AmbusherBuff"
+      ],
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": true,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesVulcan0"
+    },
+    "_duckiesVulcan1": {
+      "based_on": "duckiesVulcan",
+      "buffs": [
+        "duckiesAmbushAI_AmbusherBuff"
+      ],
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": true,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesVulcan1"
+    },
+    "_duckiesVulcan2": {
+      "based_on": "duckiesVulcan",
+      "buffs": [
+        "duckiesAmbushAI_TriggererBuff"
+      ],
+      "id": "_duckiesVulcan2"
+    },
+    "_duckiesVulcan3": {
+      "based_on": "duckiesVulcan",
+      "buffs": [
+        "duckiesAmbushAI_TriggererBuff"
+      ],
+      "id": "_duckiesVulcan3"
+    },
+    "_duckiesVulcan4": {
+      "based_on": "duckiesVulcan",
+      "buffs": [
+        "duckiesAmbushAI_AmbusherBuff"
+      ],
+      "id": "_duckiesVulcan4"
+    },
+    "duckiesClonePaladin": {
+      "__base_type": "UnitData",
+      "abilityList": [
+        "attackData",
+        "moveData",
+        "stopData",
+        "holdPositionData",
+        "duckiesClonePaladinHeal",
+        "duckiesClonePaladinLeap",
+        "duckiesClonePaladinSpin",
+        "duckiesClonePaladinShield",
+        "duckiesClonePaladinRevive"
+      ],
+      "additional_black_mask_vision_radius": 5.0,
+      "alias_tech": [],
+      "armor": 20.0,
+      "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Armor/UI_Icons_Armor_Vanguard_Infantry_Heavy.UI_Icons_Armor_Vanguard_Infantry_Heavy'",
+      "armor_name": "pegasus_core|ArmorName_VanguardHeroicArmor",
+      "attack_target_priority": 20,
+      "based_on": "BaseUnit_VanguardHero",
+      "behaviors": [],
+      "buffs": [
+        "duckiesBoss2Clone_Buff"
+      ],
+      "build_cost": {
+        "resource_a": 0.0,
+        "resource_b": 0.0,
+        "resource_c": 0.0,
+        "resource_d": 0.0
+      },
+      "build_time": 10.0,
+      "cargo_size": "Four",
+      "cascade_field_radius": 0,
+      "commandList": [
+        {
+          "ability": "attackData",
+          "button": "AttackButton",
+          "commandIndex": 0,
+          "hotkey_should_hide": false,
+          "panel": "CommandPanel",
+          "repeatable": false,
+          "row": 2,
+          "slot": 1,
+          "submenu": 0,
+          "targetSubmenu": -1
+        },
+        {
+          "ability": "stopData",
+          "button": "StopButton",
+          "commandIndex": 0,
+          "hotkey_should_hide": false,
+          "panel": "CommandPanel",
+          "repeatable": false,
+          "row": 2,
+          "slot": 2,
+          "submenu": 0,
+          "targetSubmenu": -1
+        },
+        {
+          "ability": "holdPositionData",
+          "button": "HoldPositionButton",
+          "commandIndex": 0,
+          "hotkey_should_hide": false,
+          "panel": "CommandPanel",
+          "repeatable": false,
+          "row": 2,
+          "slot": 3,
+          "submenu": 0,
+          "targetSubmenu": -1
+        },
+        {
+          "ability": "moveData",
+          "button": "MoveButton",
+          "commandIndex": 0,
+          "hotkey_should_hide": false,
+          "panel": "CommandPanel",
+          "repeatable": false,
+          "row": 2,
+          "slot": 4,
+          "submenu": 0,
+          "targetSubmenu": -1
+        },
+        {
+          "ability": "moveData",
+          "button": "PatrolButton",
+          "commandIndex": 1,
+          "hotkey_should_hide": false,
+          "panel": "CommandPanel",
+          "repeatable": false,
+          "row": 2,
+          "slot": 5,
+          "submenu": 0,
+          "targetSubmenu": -1
+        },
+        {
+          "ability": "duckiesClonePaladinHeal",
+          "button": "duckiesClonePaladinHeal_Button",
+          "commandIndex": 0,
+          "hotkey_should_hide": false,
+          "panel": "CommandPanel",
+          "repeatable": false,
+          "row": 1,
+          "slot": 1,
+          "submenu": 0,
+          "targetSubmenu": -1
+        },
+        {
+          "ability": "duckiesClonePaladinLeap",
+          "button": "duckiesClonePaladinLeap_Button",
+          "commandIndex": 0,
+          "hotkey_should_hide": false,
+          "panel": "CommandPanel",
+          "repeatable": false,
+          "row": 1,
+          "slot": 3,
+          "submenu": 0,
+          "targetSubmenu": -1
+        },
+        {
+          "ability": "duckiesClonePaladinSpin",
+          "button": "duckiesClonePaladinSpin_Button",
+          "commandIndex": 0,
+          "hotkey_should_hide": false,
+          "panel": "CommandPanel",
+          "repeatable": false,
+          "row": 1,
+          "slot": 2,
+          "submenu": 0,
+          "targetSubmenu": -1
+        },
+        {
+          "ability": "duckiesClonePaladinShield",
+          "button": "duckiesClonePaladinShields_Button",
+          "commandIndex": 0,
+          "hotkey_should_hide": false,
+          "panel": "CommandPanel",
+          "repeatable": false,
+          "row": 1,
+          "slot": 4,
+          "submenu": 0,
+          "targetSubmenu": -1
+        },
+        {
+          "ability": "duckiesClonePaladinRevive",
+          "button": "duckiesClonePaladinRevive_Button",
+          "commandIndex": 0,
+          "hotkey_should_hide": false,
+          "panel": "CommandPanel",
+          "repeatable": false,
+          "row": 1,
+          "slot": 5,
+          "submenu": 0,
+          "targetSubmenu": -1
+        }
+      ],
+      "construction_set_sfx": "OnConstructionSet",
+      "damage_response": "Acquire_or_Flee",
+      "default_acquire_level": "Offensive",
+      "default_control_groups": [
+        0,
+        10
+      ],
+      "effects": {
+        "birth": "emptyRef",
+        "constructed": "emptyRef",
+        "creation": "duckiesBoss2Clone_Promote",
+        "death": "duckiesCloneTombstone_DeathCreate",
+        "revenge": "emptyRef"
+      },
+      "enabled_unit_tech": [],
+      "energy_type": "Energy",
+      "expiration_time": -1.0,
+      "faction": "Vanguard",
+      "fidget": {
+        "delay_maximum": 30.0,
+        "delay_minimum": 10.0,
+        "turning_angle": 90.0,
+        "turning_duration": 1.0,
+        "weights": {
+          "animate": 33.0,
+          "idle": 66.0,
+          "turn": 0.0
+        }
+      },
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": false,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": false,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": true,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "fog_visibility": "Hidden",
+      "footprint": {
+        "angled": false,
+        "clumpable": false,
+        "snap": true,
+        "unbuildable": false,
+        "vision_block_height": 0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "global_energy": "emptyRef",
+      "global_resource_overrides": [],
+      "height": 0.0,
+      "id": "duckiesClonePaladin",
+      "inner_radius": 0.5,
+      "minimap_icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Minimap/UI_Icons_Minimap_Hero_Default.UI_Icons_Minimap_Hero_Default'",
+      "minimap_icon_custom_color": "FFFFFFFF",
+      "minimap_icon_no_color_override": false,
+      "minimap_icon_size": 40.0,
+      "minimap_icon_upper_layer": true,
+      "minimap_icon_use_heading": true,
+      "minimap_icon_use_team_color": true,
+      "minimap_material_instance": "MaterialInterface'/Game/Pegasus/UI/Assets/Materials/MI_UI_MinimapCharacterPortraitMask_Barclay.MI_UI_MinimapCharacterPortraitMask_Barclay'",
+      "minimap_widget": "/Script/UMG.WidgetBlueprintGeneratedClass'/Game/Pegasus/UI/Minimap/WBP_Minimap_Icon_Hero.WBP_Minimap_Icon_Hero_C'",
+      "movement": {
+        "acceleration_time": 0.0,
+        "collision": {
+          "air": false,
+          "burrowed": false,
+          "ground": true,
+          "ground_tall": false,
+          "item": false,
+          "worker": false
+        },
+        "deceleration_time": 0.0,
+        "flocking": {
+          "separation_delay": 0.5,
+          "separation_radius": 0,
+          "separation_strength": 1.5
+        },
+        "idle_pushable": false,
+        "lock_facing": false,
+        "moving_turn_period": 0.13,
+        "pathing_mode": "Ground",
+        "push_priority": 0,
+        "push_priority_same_team": 3,
+        "speed": 5.0,
+        "stationary_turn_period": 0.18,
+        "turn_radius": 0.0,
+        "turn_without_slowing": false,
+        "unpushable": false
+      },
+      "name": "Absolver",
+      "num_corpses": 1,
+      "outer_radius": 1.0,
+      "placed_name": "",
+      "power_consumed": 0.0,
+      "power_produced": 0.0,
+      "responses": [],
+      "sb_id": "barclay",
+      "selection_alias": "",
+      "show_name_on_hover": false,
+      "shroud_radius": 0.0,
+      "sound_cooldown_data_list": [
+        "BaseSoundCooldownData_Unit_Attack",
+        "BaseSoundCooldownData_Unit_AttackGround",
+        "BaseSoundCooldownData_Unit_AttackMove",
+        "BaseSoundCooldownData_Unit_AttackStructure",
+        "BaseSoundCooldownData_Unit_Build",
+        "BaseSoundCooldownData_Unit_Follow",
+        "BaseSoundCooldownData_Unit_Harvest",
+        "BaseSoundCooldownData_Unit_Hold",
+        "BaseSoundCooldownData_Unit_Morph",
+        "BaseSoundCooldownData_Unit_Move",
+        "BaseSoundCooldownData_Unit_Patrol",
+        "BaseSoundCooldownData_Unit_Rally",
+        "BaseSoundCooldownData_Unit_Selection",
+        "BaseSoundCooldownData_Unit_Stop",
+        "BaseSoundCooldownData_Unit_Trained",
+        "BaseSoundCooldownData_Unit_UnderConstruction"
+      ],
+      "starting_snowtags": [
+        "entity_unit",
+        "heightplane_ground",
+        "attribute_boss",
+        "tag_duckiesBoss2Clone",
+        "attribute_biological"
+      ],
+      "subgroup_priority": 200,
+      "supply_add": 0.0,
+      "supply_cost": 0.0,
+      "targeting_participation_alias": [],
+      "traits": [],
+      "turret_list": [],
+      "ui_flags": {
+        "callout_attacks_air": false,
+        "callout_attacks_ground": true
+      },
+      "ui_kind": "unit",
+      "unit_button": "Barclay_Button",
+      "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Humans/UI_Portrait_Human_Default_Barclay.UI_Portrait_Human_Default_Barclay'",
+      "unreal_actor": "BP_UH_Hero_Barclay",
+      "unreal_corpse_actor": "Proxy_BP_PersistentCorpse_Default",
+      "veterancy_data": "HeroVanguardVeterancyData",
+      "veterancy_given_on_death": 1000,
+      "veterancy_starting_tier": 0,
+      "veterancy_tiers": [
+        {
+          "stat_modifiers": [
+            {
+              "amount": 10.0,
+              "stat": "HealthMaxPercentageAdditiveMultiplier"
+            },
+            {
+              "amount": 10.0,
+              "stat": "AttackDamagePercentageBonus"
+            },
+            {
+              "amount": 50.0,
+              "stat": "EnergyMaxAdditiveBonus"
+            },
+            {
+              "amount": 0.5,
+              "stat": "EnergyRegenScaledAdditiveBonus"
+            }
+          ],
+          "threshold": 3000,
+          "tier_up_effect": "HeroRespawnCostLevelUpPlayerBuffApplier",
+          "visual_fx": "BP_FX_HeroLevelUp"
+        },
+        {
+          "stat_modifiers": [
+            {
+              "amount": 10.0,
+              "stat": "HealthMaxPercentageAdditiveMultiplier"
+            },
+            {
+              "amount": 10.0,
+              "stat": "AttackDamagePercentageBonus"
+            },
+            {
+              "amount": 50.0,
+              "stat": "EnergyMaxAdditiveBonus"
+            },
+            {
+              "amount": 0.5,
+              "stat": "EnergyRegenScaledAdditiveBonus"
+            }
+          ],
+          "threshold": 7000,
+          "tier_up_effect": "HeroRespawnCostLevelUpPlayerBuffApplier",
+          "visual_fx": "BP_FX_HeroLevelUp"
+        },
+        {
+          "stat_modifiers": [
+            {
+              "amount": 10.0,
+              "stat": "HealthMaxPercentageAdditiveMultiplier"
+            },
+            {
+              "amount": 10.0,
+              "stat": "AttackDamagePercentageBonus"
+            },
+            {
+              "amount": 50.0,
+              "stat": "EnergyMaxAdditiveBonus"
+            },
+            {
+              "amount": 0.5,
+              "stat": "EnergyRegenScaledAdditiveBonus"
+            }
+          ],
+          "threshold": 12000,
+          "tier_up_effect": "HeroRespawnCostLevelUpPlayerBuffApplier",
+          "visual_fx": "BP_FX_HeroLevelUp"
+        },
+        {
+          "stat_modifiers": [
+            {
+              "amount": 10.0,
+              "stat": "HealthMaxPercentageAdditiveMultiplier"
+            },
+            {
+              "amount": 10.0,
+              "stat": "AttackDamagePercentageBonus"
+            },
+            {
+              "amount": 50.0,
+              "stat": "EnergyMaxAdditiveBonus"
+            },
+            {
+              "amount": 0.5,
+              "stat": "EnergyRegenScaledAdditiveBonus"
+            }
+          ],
+          "threshold": 18000,
+          "tier_up_effect": "HeroRespawnCostLevelUpPlayerBuffApplier",
+          "visual_fx": "BP_FX_HeroLevelUp"
+        },
+        {
+          "stat_modifiers": [
+            {
+              "amount": 10.0,
+              "stat": "HealthMaxPercentageAdditiveMultiplier"
+            },
+            {
+              "amount": 10.0,
+              "stat": "AttackDamagePercentageBonus"
+            },
+            {
+              "amount": 50.0,
+              "stat": "EnergyMaxAdditiveBonus"
+            },
+            {
+              "amount": 0.5,
+              "stat": "EnergyRegenScaledAdditiveBonus"
+            }
+          ],
+          "threshold": 25000,
+          "tier_up_effect": "HeroRespawnCostLevelUpPlayerBuffApplier",
+          "visual_fx": "BP_FX_HeroLevelUp"
+        },
+        {
+          "stat_modifiers": [
+            {
+              "amount": 10.0,
+              "stat": "HealthMaxPercentageAdditiveMultiplier"
+            },
+            {
+              "amount": 10.0,
+              "stat": "AttackDamagePercentageBonus"
+            },
+            {
+              "amount": 50.0,
+              "stat": "EnergyMaxAdditiveBonus"
+            },
+            {
+              "amount": 0.5,
+              "stat": "EnergyRegenScaledAdditiveBonus"
+            }
+          ],
+          "threshold": 33000,
+          "tier_up_effect": "HeroRespawnCostLevelUpPlayerBuffApplier",
+          "visual_fx": "BP_FX_HeroLevelUp"
+        },
+        {
+          "stat_modifiers": [
+            {
+              "amount": 10.0,
+              "stat": "HealthMaxPercentageAdditiveMultiplier"
+            },
+            {
+              "amount": 10.0,
+              "stat": "AttackDamagePercentageBonus"
+            },
+            {
+              "amount": 50.0,
+              "stat": "EnergyMaxAdditiveBonus"
+            },
+            {
+              "amount": 0.5,
+              "stat": "EnergyRegenScaledAdditiveBonus"
+            }
+          ],
+          "threshold": 42000,
+          "tier_up_effect": "HeroRespawnCostLevelUpPlayerBuffApplier",
+          "visual_fx": "BP_FX_HeroLevelUp"
+        },
+        {
+          "stat_modifiers": [
+            {
+              "amount": 10.0,
+              "stat": "HealthMaxPercentageAdditiveMultiplier"
+            },
+            {
+              "amount": 10.0,
+              "stat": "AttackDamagePercentageBonus"
+            },
+            {
+              "amount": 50.0,
+              "stat": "EnergyMaxAdditiveBonus"
+            },
+            {
+              "amount": 0.5,
+              "stat": "EnergyRegenScaledAdditiveBonus"
+            }
+          ],
+          "threshold": 52000,
+          "tier_up_effect": "HeroRespawnCostLevelUpPlayerBuffApplier",
+          "visual_fx": "BP_FX_HeroLevelUp"
+        },
+        {
+          "stat_modifiers": [
+            {
+              "amount": 10.0,
+              "stat": "HealthMaxPercentageAdditiveMultiplier"
+            },
+            {
+              "amount": 10.0,
+              "stat": "AttackDamagePercentageBonus"
+            },
+            {
+              "amount": 50.0,
+              "stat": "EnergyMaxAdditiveBonus"
+            },
+            {
+              "amount": 0.5,
+              "stat": "EnergyRegenScaledAdditiveBonus"
+            }
+          ],
+          "threshold": 63000,
+          "tier_up_effect": "HeroRespawnCostLevelUpPlayerBuffApplier",
+          "visual_fx": "BP_FX_HeroLevelUp"
+        },
+        {
+          "stat_modifiers": [
+            {
+              "amount": 10.0,
+              "stat": "HealthMaxPercentageAdditiveMultiplier"
+            },
+            {
+              "amount": 10.0,
+              "stat": "AttackDamagePercentageBonus"
+            },
+            {
+              "amount": 50.0,
+              "stat": "EnergyMaxAdditiveBonus"
+            },
+            {
+              "amount": 0.5,
+              "stat": "EnergyRegenScaledAdditiveBonus"
+            }
+          ],
+          "threshold": 75000,
+          "tier_up_effect": "HeroRespawnCostLevelUpPlayerBuffApplier",
+          "visual_fx": "BP_FX_HeroLevelUp"
+        }
+      ],
+      "veterancy_vxp_weight": 1,
+      "victory_points": 0.0,
+      "vision_height": 0.0,
+      "vision_radius": 12.0,
+      "vital_energy": {
+        "maximum": 100.0,
+        "regen": 2.0,
+        "starting": 100.0
+      },
+      "vital_health": {
+        "maximum": 480.0,
+        "regen": 1.2,
+        "starting": 480.0
+      },
+      "vital_out_shroud_deduction_energy_flat": 0.0,
+      "vital_out_shroud_deduction_energy_multiplier": 0.0,
+      "vital_out_shroud_deduction_health_flat": 0.0,
+      "vital_out_shroud_deduction_health_multiplier": 0.0,
+      "vital_out_shroud_deduction_shield_flat": 0.0,
+      "vital_out_shroud_deduction_shield_multiplier": 0.0,
+      "vital_shield": {
+        "maximum": 0.0,
+        "regen": 0.0,
+        "starting": 0.0
+      },
+      "vital_shroud_bonus_energy_flat": 0.0,
+      "vital_shroud_bonus_energy_multiplier": 0.0,
+      "vital_shroud_bonus_health_flat": 0.0,
+      "vital_shroud_bonus_health_multiplier": 0.0,
+      "vital_shroud_bonus_shield_flat": 0.0,
+      "vital_shroud_bonus_shield_multiplier": 0.0,
+      "vital_shroud_combat_delay": 5.0,
+      "vitals_force_hide": false,
+      "weaponList": [
+        "duckiesClonePaladinWeapon"
+      ]
+    }
+  }
+}

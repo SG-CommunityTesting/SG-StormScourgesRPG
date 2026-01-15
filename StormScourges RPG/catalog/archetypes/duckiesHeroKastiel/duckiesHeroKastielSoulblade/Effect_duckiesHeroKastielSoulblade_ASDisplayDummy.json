@@ -1,0 +1,6 @@
+﻿{
+  "__base_type": "GameEffectDamage",
+  "amount": 40,
+  "based_on": "duckiesHeroUpgrader_GenericLVLDummy",
+  "id": "duckiesHeroKastielSoulblade_ASDisplayDummy"
+}

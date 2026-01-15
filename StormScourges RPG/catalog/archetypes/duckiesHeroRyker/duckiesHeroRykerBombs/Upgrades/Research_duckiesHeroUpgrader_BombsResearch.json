@@ -1,0 +1,11 @@
+﻿{
+  "__base_type": "ResearchAbilityData",
+  "based_on": "ResearchAbilityData",
+  "commands": [
+    {
+      "requirement": "duckiesHeroUpgrader_BombsCountLearn",
+      "upgrade": "duckiesHeroUpgrader_BombsCountUpgrade"
+    }
+  ],
+  "id": "duckiesHeroUpgrader_BombsResearch"
+}

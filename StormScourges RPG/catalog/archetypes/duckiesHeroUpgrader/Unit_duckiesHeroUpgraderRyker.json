@@ -1,0 +1,159 @@
+﻿{
+  "abilityList": [
+    "duckiesHeroUpgrader_StatResearch",
+    "duckiesHeroUpgrader_GrenadeResearch",
+    "duckiesHeroUpgrader_RollResearch",
+    "duckiesHeroUpgrader_DroneResearch",
+    "duckiesHeroUpgrader_MarkResearch",
+    "duckiesHeroUpgrader_BombsResearch",
+    "structureProductionQueueAbilityData"
+  ],
+  "based_on": "duckiesHeroUpgraderGeneric",
+  "commandList": [
+    {
+      "ability": "duckiesHeroUpgrader_StatResearch",
+      "button": "duckiesHeroUpgrader_LifeButton",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 2,
+      "slot": 1,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "duckiesHeroUpgrader_StatResearch",
+      "button": "duckiesHeroUpgrader_EnergyButton",
+      "commandIndex": 1,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 2,
+      "slot": 2,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "duckiesHeroUpgrader_StatResearch",
+      "button": "duckiesHeroUpgrader_AttackButton",
+      "commandIndex": 2,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 2,
+      "slot": 3,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "duckiesHeroUpgrader_StatResearch",
+      "button": "duckiesHeroUpgrader_ArmorButton",
+      "commandIndex": 3,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 2,
+      "slot": 4,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "duckiesHeroUpgrader_GrenadeResearch",
+      "button": "duckiesHeroUpgrader_GrenadeDamageButton",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 1,
+      "slot": 1,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "duckiesHeroUpgrader_RollResearch",
+      "button": "duckiesHeroUpgrader_RollStackButton",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 1,
+      "slot": 2,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "duckiesHeroUpgrader_DroneResearch",
+      "button": "duckiesHeroUpgrader_DroneStatsButton",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 1,
+      "slot": 3,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "DummyRykerResearch",
+      "button": "duckiesHeroUpgrader_MarkMENUButton",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 1,
+      "slot": 4,
+      "submenu": 0,
+      "targetSubmenu": 1
+    },
+    {
+      "ability": "duckiesHeroUpgrader_MarkResearch",
+      "button": "duckiesHeroUpgrader_MarkSpreadButton",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 2,
+      "slot": 1,
+      "submenu": 1,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "duckiesHeroUpgrader_MarkResearch",
+      "button": "duckiesHeroUpgrader_MarkAOEButton",
+      "commandIndex": 1,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 2,
+      "slot": 2,
+      "submenu": 1,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "DummyBuild",
+      "button": "CancelSubMenu_Button",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 1,
+      "slot": 5,
+      "submenu": 1,
+      "targetSubmenu": 0
+    },
+    {
+      "ability": "duckiesHeroUpgrader_BombsResearch",
+      "button": "duckiesHeroUpgrader_BombsCountButton",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 1,
+      "slot": 5,
+      "submenu": 0,
+      "targetSubmenu": -1
+    }
+  ],
+  "id": "duckiesHeroUpgraderRyker"
+}

@@ -1,0 +1,65 @@
+﻿{
+  "__base_type": "GameEffectDamageRadius",
+  "amount": 100.0,
+  "areas": [
+    {
+      "damage_fraction": 1.0,
+      "radius": 2.0
+    }
+  ],
+  "based_on": "GameEffectDamageRadius",
+  "black_white_list": {
+    "exclude": [],
+    "include": []
+  },
+  "damage_impact_fx": "",
+  "damage_tags": [
+    "damage_spell"
+  ],
+  "death_type": "Normal_DeathType",
+  "editor_icon": "",
+  "flags": {
+    "alert": true,
+    "damage_response": true,
+    "use_search_location_outer_radius": true
+  },
+  "friendly_fire_percentage": 50.0,
+  "id": "duckiesHeroKastielSoulblade_TreeKillerDamageRadius",
+  "location_impact_fx": "",
+  "search_filter": {
+    "alliance": {
+      "ally": true,
+      "enemy": true,
+      "neutral": true,
+      "player": true,
+      "self": true
+    },
+    "tags": {
+      "excluded": [],
+      "required": [
+        "entity_destructible_tree"
+      ]
+    }
+  },
+  "search_location": {
+    "effect_parent": "none",
+    "entity_or_point": "Point",
+    "target": "Caster"
+  },
+  "tag_bonuses": [],
+  "target_armor_multiplier": 1.0,
+  "tracker": "",
+  "validator": "emptyRef",
+  "vitals_leech": {
+    "energy": {
+      "max": 0.0,
+      "min": 0.0,
+      "percent": 0.0
+    },
+    "health": {
+      "max": 0.0,
+      "min": 0.0,
+      "percent": 0.0
+    }
+  }
+}

@@ -1,0 +1,21 @@
+﻿{
+  "__base_type": "GameEffectSwitch",
+  "based_on": "GameEffectSwitch",
+  "cases": [
+    {
+      "action": "duckiesBossXAI_T2_TimerEXStackFinalSet",
+      "case_condition": "Valid_duckiesBossXAI_T2_NoTimerExStack"
+    }
+  ],
+  "default_action": "duckiesBossXAI_T2_TimerEXStackRemove",
+  "editor_icon": "",
+  "effect_location": {
+    "effect_parent": "none",
+    "entity_or_point": "EntityOrPoint",
+    "target": "Caster"
+  },
+  "id": "duckiesBossXAI_T2_TimerEXStackRemoveSwitch",
+  "impact_fx": "",
+  "tracker": "",
+  "validator": "emptyRef"
+}

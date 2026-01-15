@@ -1,0 +1,110 @@
+﻿{
+  "__base_type": "GameEffectPersistent",
+  "based_on": "GameEffectPersistent",
+  "display_effect": "emptyRef",
+  "editor_icon": "",
+  "effect_expire": "emptyRef",
+  "effect_expire_delay": 0.0,
+  "effect_finish": "emptyRef",
+  "effect_initial": "emptyRef",
+  "effect_initial_delay": 0.0,
+  "effect_location": {
+    "effect_parent": "origin",
+    "entity_or_point": "Point",
+    "target": "Source"
+  },
+  "expire_fx": "",
+  "finish_fx": "",
+  "flags": {
+    "channel_execute_event": false,
+    "channeling": false,
+    "mark_exclusive_target": false,
+    "use_attack_speed": false
+  },
+  "id": "duckiesPandoraXStrike_LinePersistent135",
+  "impact_fx": "",
+  "initial_fx": "",
+  "offsets": {
+    "expire": {
+      "angle": 0.0,
+      "radius": 0.0
+    },
+    "final": {
+      "angle": 0.0,
+      "radius": 0.0
+    },
+    "initial": {
+      "angle": 0.0,
+      "radius": 0.0
+    },
+    "periodic": [
+      {
+        "angle": 135.0,
+        "radius": 15.0
+      },
+      {
+        "angle": 135.0,
+        "radius": 12.5
+      },
+      {
+        "angle": 135.0,
+        "radius": 10.0
+      },
+      {
+        "angle": 135.0,
+        "radius": 7.5
+      },
+      {
+        "angle": 135.0,
+        "radius": 5.0
+      },
+      {
+        "angle": 135.0,
+        "radius": 2.5
+      },
+      {
+        "angle": 135.0,
+        "radius": 0.1
+      }
+    ],
+    "periodic_method": "Loop",
+    "variance": {
+      "angle": 0.0,
+      "radius": 0.0
+    },
+    "vector_facing_end": {
+      "effect_parent": "origin",
+      "entity_or_point": "Point",
+      "target": "Target"
+    },
+    "vector_facing_start": {
+      "effect_parent": "origin",
+      "entity_or_point": "Point",
+      "target": "Source"
+    }
+  },
+  "periodic": {
+    "count": 7,
+    "durations": [
+      0.2
+    ],
+    "durations_method": "RepeatLast",
+    "effects": [
+      "duckiesPandoraXStrike_NodeRepeatPersistent"
+    ],
+    "effects_method": "RepeatLast",
+    "validator": "NoValidator"
+  },
+  "reveal": {
+    "detector": false,
+    "vision_height": 20.0,
+    "vision_holder": {
+      "effect_parent": "none",
+      "target": "Target"
+    },
+    "vision_radius": 0
+  },
+  "tracker": "",
+  "unreal_actor": "",
+  "validator": "emptyRef"
+}

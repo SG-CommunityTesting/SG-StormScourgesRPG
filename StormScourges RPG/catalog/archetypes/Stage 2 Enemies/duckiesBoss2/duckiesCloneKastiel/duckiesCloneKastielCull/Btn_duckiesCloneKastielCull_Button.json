@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_CullTheUnworthy.UI_Icons_Abilities_CullTheUnworthy'",
+  "id": "duckiesCloneKastielCull_Button",
+  "name": "Cull The Unworthy",
+  "tooltip": "Purges target, inflicting <d ref=\"duckiesCloneKastielCull_Damage.amount\" style=\"Red\"/> damage and restoring his own life based on damage dealt. Ability cooldown scales with target's life.\n\nEffect is diminished against resilient and hero targets."
+}

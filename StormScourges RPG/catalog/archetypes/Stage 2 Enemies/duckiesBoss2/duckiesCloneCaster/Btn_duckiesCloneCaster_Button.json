@@ -1,0 +1,31 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "BaseButton",
+  "extended_tooltips": [
+    {
+      "text": "Hailstorm: Launches <d ref=\"duckiesCloneCasterHailstorm_StartPersistent.periodic.count+1\"/> piercing shards of ice in target direction. Each shard inflicts <d ref=\"duckiesCloneCasterHailstorm_Damage.amount\" style=\"Red\"/> damage to ground enemies.",
+      "validator": "emptyRef"
+    },
+    {
+      "text": "\n\nLightning Strike: Calls down lighting strike to inflict <d ref=\"duckiesCloneCasterLightStrike_DamageRadius.amount\" style=\"Red\"/> damage to enemies in target area.",
+      "validator": "emptyRef"
+    },
+    {
+      "text": "\n\nHush: Pacifies enemies for <d ref=\"duckiesCloneCasterHush_DebuffInitial.duration\"/> second and reduces their attack damage and attack range by 50%.\nWhen killed affected enemies will spawn a short-lived phantom that has <d ref=\"duckiesCloneCasterPhantom.vital_health.maximum\"/> life and attacks for <d ref=\"duckiesCloneCasterPhantom_WeaponDamage.amount\"/> damage every <d ref=\"duckiesCloneCasterPhantom_Weapon.period\"/> seconds.\nResilient and Hero enemies are immune to the effect.",
+      "validator": "emptyRef"
+    },
+    {
+      "text": "\n\nMeteor Shower: Bombards area with frozen meteors, dealing <d ref=\"duckiesCloneCasterBlizzard_PeriodicDamageRadius.amount*duckiesCloneCaster_PeriodicPersistent.periodic.count*(duckiesCloneCasterBlizzard_InitialPersistent.periodic.count+1)\" style=\"Red\" precision=\"0\"/> damage over <d ref=\"(duckiesCloneCasterBlizzard_InitialPersistent.periodic.count+1)*duckiesCloneCasterBlizzard_InitialPersistent.periodic.durations[0]\"/> seconds.",
+      "validator": "emptyRef"
+    },
+    {
+      "text": "\n\nAvatar: Increases health by <d ref=\"duckiesCloneCasterAvatar_HealthDisplayDummy.amount\" style=\"Bold\"/>%, gains resilience and an empowered attack that deals <d ref=\"duckiesCloneCasterAvatar_WeaponDamage.amount\" style=\"Red\"/> damage. Lasts <d ref=\"duckiesCloneCasterAvatar_Buff.duration\"/> seconds.",
+      "validator": "emptyRef"
+    }
+  ],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Units/Angel/UI_Icons_Units_Angel_Auralanna.UI_Icons_Units_Angel_Auralanna'",
+  "id": "duckiesCloneCaster_Button",
+  "name": "Spectral Warrior Aurora",
+  "tooltip": "Hailstorm: Launches <d ref=\"duckiesCloneCasterHailstorm_StartPersistent.periodic.count+1\"/> piercing shards of ice in target direction. Each shard inflicts <d ref=\"duckiesCloneCasterHailstorm_Damage.amount\" style=\"Red\"/> damage to ground enemies.\n\nLightning Strike: Calls down lighting strike to inflict <d ref=\"duckiesCloneCasterLightStrike_DamageRadius.amount\" style=\"Red\"/> damage to enemies in target area.\n\nHush: Pacifies enemies for <d ref=\"duckiesCloneCasterHush_DebuffInitial.duration\"/> second and reduces their attack damage and attack range by 50%.\nWhen killed affected enemies will spawn a short-lived phantom that has <d ref=\"duckiesCloneCasterPhantom.vital_health.maximum\"/> life and attacks for <d ref=\"duckiesCloneCasterPhantom_WeaponDamage.amount\"/> damage every <d ref=\"duckiesCloneCasterPhantom_Weapon.period\"/> seconds.\nResilient and Hero enemies are immune to the effect.\n\nMeteor Shower: Bombards area with frozen meteors, dealing <d ref=\"duckiesCloneCasterBlizzard_PeriodicDamageRadius.amount*duckiesCloneCaster_PeriodicPersistent.periodic.count*(duckiesCloneCasterBlizzard_InitialPersistent.periodic.count+1)\" style=\"Red\" precision=\"0\"/> damage over <d ref=\"(duckiesCloneCasterBlizzard_InitialPersistent.periodic.count+1)*duckiesCloneCasterBlizzard_InitialPersistent.periodic.durations[0]\"/> seconds.\n\nAvatar: Increases health by <d ref=\"duckiesCloneCasterAvatar_Buff.modifiers[0].amount\" style=\"Bold\"/>%, gains resilience and an empowered attack that deals <d ref=\"duckiesCloneCasterAvatar_WeaponDamage.amount\" style=\"Red\"/> damage. Lasts <d ref=\"duckiesCloneCasterAvatar_Buff.duration\"/> seconds."
+}

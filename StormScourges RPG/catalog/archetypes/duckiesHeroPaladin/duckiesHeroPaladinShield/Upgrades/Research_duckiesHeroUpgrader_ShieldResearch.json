@@ -1,0 +1,11 @@
+﻿{
+  "__base_type": "ResearchAbilityData",
+  "based_on": "ResearchAbilityData",
+  "commands": [
+    {
+      "requirement": "duckiesHeroUpgrader_ShieldAmountLearn",
+      "upgrade": "duckiesHeroUpgrader_ShieldAmountUpgrade"
+    }
+  ],
+  "id": "duckiesHeroUpgrader_ShieldResearch"
+}

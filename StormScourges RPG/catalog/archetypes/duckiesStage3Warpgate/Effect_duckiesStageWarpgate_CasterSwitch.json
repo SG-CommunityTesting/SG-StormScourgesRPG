@@ -1,0 +1,25 @@
+﻿{
+  "__base_type": "GameEffectSwitch",
+  "based_on": "GameEffectSwitch",
+  "cases": [
+    {
+      "action": "duckiesStageWarpgate_Prism3SearchRadius",
+      "case_condition": "Valid_CasterIsduckiesStage3WarpgateA"
+    },
+    {
+      "action": "duckiesStageWarpgate_Prism2SearchRadius",
+      "case_condition": "Valid_CasterIsduckiesStage2WarpgateA"
+    }
+  ],
+  "default_action": "emptyRef",
+  "editor_icon": "",
+  "effect_location": {
+    "effect_parent": "none",
+    "entity_or_point": "EntityOrPoint",
+    "target": "Target"
+  },
+  "id": "duckiesStageWarpgate_CasterSwitch",
+  "impact_fx": "",
+  "tracker": "",
+  "validator": "emptyRef"
+}

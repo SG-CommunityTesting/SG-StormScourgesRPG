@@ -1,0 +1,19 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "BaseButton",
+  "extended_tooltips": [
+    {
+      "text": "pegasus_core|Button_extended_tooltips_0_text_FullSalvo_Button",
+      "validator": "Valid_AmaraFullSalvoLevel1"
+    },
+    {
+      "text": "pegasus_core|Button_extended_tooltips_1_text_FullSalvo_Button",
+      "validator": "Valid_AmaraFullSalvoLevel2"
+    }
+  ],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_FullSalvo.UI_Icons_Abilities_FullSalvo'",
+  "id": "duckiesHeroRykerBombs_Button",
+  "name": "Full Salvo",
+  "tooltip": "Unleashes <d ref=\"duckiesHeroRykerBombs_StartPersistent.periodic.count\" style=\"Blue\"/> explosive rounds towards target location that will strike area at random. Each round deals <d ref=\"duckiesHeroRykerBombs_ImpactDamageRadius.amount\" style=\"Blue\"/> area damage."
+}

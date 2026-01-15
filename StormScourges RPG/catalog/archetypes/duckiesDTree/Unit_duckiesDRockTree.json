@@ -1,0 +1,70 @@
+﻿{
+  "__base_type": "Destructible",
+  "based_on": "Tree",
+  "behaviors": [],
+  "buffs": [],
+  "build_time": 10.0,
+  "can_respawn": false,
+  "collision": {
+    "air": false,
+    "burrowed": false,
+    "ground": true,
+    "ground_tall": false,
+    "item": false,
+    "worker": false
+  },
+  "description": "pegasus_core|Destructible_description_Tree",
+  "effect_on_kill": "emptyRef",
+  "fog_visibility": "Snapshot",
+  "footprint": {
+    "angled": false,
+    "clumpable": true,
+    "snap": false,
+    "unbuildable": false,
+    "vision_block_height": 2,
+    "x": 0,
+    "y": 0
+  },
+  "footprint_concealment": {
+    "angled": false,
+    "clumpable": false,
+    "snap": true,
+    "unbuildable": false,
+    "vision_block_height": 0,
+    "x": 0.0,
+    "y": 0.0
+  },
+  "health_bar_visible": false,
+  "id": "duckiesDRockTree",
+  "info_portrait": "",
+  "item_drop_data": {
+    "custom_item_drop_table": {
+      "sets": []
+    },
+    "drop_source": "None",
+    "item_data": "emptyRef",
+    "item_drop_table_ref": "emptyRef"
+  },
+  "minimap_icon": "",
+  "minimap_icon_size": 16.0,
+  "name": "pegasus_core|Destructible Rock",
+  "nearby_cells": 0.0,
+  "placed_name": "",
+  "radius": 0.5,
+  "respawn_time": 180.0,
+  "sb_id": "tree_2x2",
+  "selectable": false,
+  "show_name_on_hover": false,
+  "smart_command_targetable": false,
+  "starting_snowtags": [
+    "entity_destructible_tree",
+    "heightplane_ground",
+    "attribute_light"
+  ],
+  "unreal_actor": "BP_Randomized_Destructible_DeadlandsSharpRocks",
+  "vital_health": {
+    "maximum": 5.0,
+    "regen": 0.0,
+    "starting": 5.0
+  }
+}

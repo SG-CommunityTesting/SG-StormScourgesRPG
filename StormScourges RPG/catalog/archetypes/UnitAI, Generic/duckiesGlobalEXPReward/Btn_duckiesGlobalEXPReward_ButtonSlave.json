@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Minimap/UI_Icons_Minimap_Attack.UI_Icons_Minimap_Attack'",
+  "id": "duckiesGlobalEXPReward_ButtonSlave",
+  "name": "Spawned Unit",
+  "tooltip": "This unit has been produced by a spawner and grants no kill bounty."
+}

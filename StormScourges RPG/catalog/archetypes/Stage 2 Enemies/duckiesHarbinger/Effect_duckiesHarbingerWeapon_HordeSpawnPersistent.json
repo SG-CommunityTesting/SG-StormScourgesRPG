@@ -1,0 +1,81 @@
+﻿{
+  "__base_type": "GameEffectPersistent",
+  "based_on": "GameEffectPersistent",
+  "display_effect": "emptyRef",
+  "editor_icon": "",
+  "effect_expire": "emptyRef",
+  "effect_expire_delay": 0.0,
+  "effect_finish": "emptyRef",
+  "effect_initial": "emptyRef",
+  "effect_initial_delay": 0.0,
+  "effect_location": {
+    "effect_parent": "none",
+    "entity_or_point": "Entity",
+    "target": "Caster"
+  },
+  "expire_fx": "",
+  "finish_fx": "",
+  "flags": {
+    "channel_execute_event": false,
+    "channeling": false,
+    "mark_exclusive_target": false,
+    "use_attack_speed": false
+  },
+  "id": "duckiesHarbingerWeapon_HordeSpawnPersistent",
+  "impact_fx": "",
+  "initial_fx": "",
+  "offsets": {
+    "expire": {
+      "angle": 0.0,
+      "radius": 0.0
+    },
+    "final": {
+      "angle": 0.0,
+      "radius": 0.0
+    },
+    "initial": {
+      "angle": 0.0,
+      "radius": 0.0
+    },
+    "periodic": [],
+    "periodic_method": "Loop",
+    "variance": {
+      "angle": 0,
+      "radius": 0
+    },
+    "vector_facing_end": {
+      "effect_parent": "none",
+      "entity_or_point": "EntityOrPoint",
+      "target": "Target"
+    },
+    "vector_facing_start": {
+      "effect_parent": "none",
+      "entity_or_point": "EntityOrPoint",
+      "target": "Target"
+    }
+  },
+  "periodic": {
+    "count": 8,
+    "durations": [
+      0.25
+    ],
+    "durations_method": "RepeatLast",
+    "effects": [
+      "duckiesHarbingerWeapon_CreateFiendsSlave"
+    ],
+    "effects_method": "Loop",
+    "validator": "Valid_CasterNotDead"
+  },
+  "reveal": {
+    "detector": false,
+    "vision_height": 20.0,
+    "vision_holder": {
+      "effect_parent": "none",
+      "target": "Target"
+    },
+    "vision_radius": 0
+  },
+  "tracker": "",
+  "unreal_actor": "",
+  "validator": "emptyRef"
+}

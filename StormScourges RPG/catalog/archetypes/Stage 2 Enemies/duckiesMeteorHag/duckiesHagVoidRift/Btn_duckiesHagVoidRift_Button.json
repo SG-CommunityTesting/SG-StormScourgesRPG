@@ -1,0 +1,11 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_VoidRift.UI_Icons_Abilities_VoidRift'",
+  "icon_secondary": "",
+  "id": "duckiesHagVoidRift_Button",
+  "name": "pegasus_heroes|Button_name_VoidRift_Button",
+  "tooltip": "pegasus_heroes|Button_tooltip_VoidRift_Button"
+}

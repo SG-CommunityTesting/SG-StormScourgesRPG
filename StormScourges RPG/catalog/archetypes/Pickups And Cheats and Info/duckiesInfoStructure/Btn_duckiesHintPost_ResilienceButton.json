@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Pings/RadialMenu/Sprays/Spray_Bob_QuestionMark.Spray_Bob_QuestionMark'",
+  "id": "duckiesHintPost_ResilienceButton",
+  "name": "[TAP]",
+  "tooltip": "Resilient enemies are immune to stuns. In turn gaining resilience protects your heroes from being stunned."
+}

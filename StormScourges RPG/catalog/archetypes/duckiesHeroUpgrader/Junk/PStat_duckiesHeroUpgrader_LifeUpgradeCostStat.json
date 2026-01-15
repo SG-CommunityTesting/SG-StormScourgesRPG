@@ -1,0 +1,8 @@
+﻿{
+  "__base_type": "PlayerStatModifier",
+  "based_on": "PlayerStatModifier",
+  "description": "",
+  "id": "duckiesHeroUpgrader_LifeUpgradeCostModifier",
+  "player_stat": "TownhallUnitBuildCostChangePercentage",
+  "stacking": "AdditivePercentage"
+}

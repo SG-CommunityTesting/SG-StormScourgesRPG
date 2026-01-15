@@ -1,0 +1,9 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "duckiesHeroRykerMark_Button",
+  "extended_tooltips": [],
+  "id": "duckiesHeroUpgrader_MarkSpreadButton",
+  "name": "Marked for Slaugter",
+  "tooltip": "[<d ref=\"duckiesHeroUpgrader_MarkSpreadLVLDummy.amount\" style=\"Bold\"/>/<d ref=\"1\" style=\"Bold\"/>] \n\nWhen a marked unit dies the mark will spread to another nearby enemy."
+}

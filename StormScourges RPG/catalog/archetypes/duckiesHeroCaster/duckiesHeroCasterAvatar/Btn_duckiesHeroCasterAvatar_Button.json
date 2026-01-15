@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_Avatar.UI_Icons_Abilities_Avatar'",
+  "id": "duckiesHeroCasterAvatar_Button",
+  "name": "pegasus_core|Button_Name_ArchangelAvatar_Button",
+  "tooltip": "Increase health by <d ref=\"duckiesHeroCasterAvatar_HealthDisplayDummy.amount\" style=\"Bold\"/><Bold>%</>, gain resilience and an empowered attack that deals <d ref=\"duckiesHeroCasterAvatar_WeaponDamage.amount\" style=\"Blue\"/> damage. Lasts <d ref=\"duckiesHeroCasterAvatar_Buff.duration\"/> seconds."
+}

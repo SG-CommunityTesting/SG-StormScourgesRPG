@@ -1,0 +1,5 @@
+﻿{
+  "based_on": "duckiesHeroSelector_KastielHeroPlacerSearch",
+  "game_effect": "duckiesHeroSelector_RykerUpgradePlacerSearchImpactSet",
+  "id": "duckiesHeroSelector_RykerUpgradePlacerSearch"
+}

@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_FireWave.UI_Icons_Abilities_FireWave'",
+  "id": "duckiesPandoraXStrike_Button",
+  "name": "Sunder",
+  "tooltip": "Sunders the land in X shape, creating flaming fissues which erupt multiple times. Each eruption deals <d ref=\"duckiesPandoraXStrike_Damage.amount\" style=\"Red\"/> damage."
+}

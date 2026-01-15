@@ -1,0 +1,25 @@
+﻿{
+  "__base_type": "GameEffectSwitch",
+  "based_on": "GameEffectSwitch",
+  "cases": [
+    {
+      "action": "duckiesCloneRykerMark_DebuffApplyBoss",
+      "case_condition": "Valid_TargetIsHero"
+    },
+    {
+      "action": "duckiesCloneRykerMark_DebuffApplyResilient",
+      "case_condition": "Valid_duckiesTargetIsResilient"
+    }
+  ],
+  "default_action": "duckiesCloneRykerMark_DebuffApplyNormal",
+  "editor_icon": "",
+  "effect_location": {
+    "effect_parent": "none",
+    "entity_or_point": "EntityOrPoint",
+    "target": "Target"
+  },
+  "id": "duckiesCloneRykerMark_ImpactSwitch",
+  "impact_fx": "",
+  "tracker": "",
+  "validator": "emptyRef"
+}
