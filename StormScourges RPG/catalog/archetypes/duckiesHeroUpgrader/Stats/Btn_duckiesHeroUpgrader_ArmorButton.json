@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_AmaraShields.UI_Icons_Abilities_AmaraShields'",
+  "id": "duckiesHeroUpgrader_ArmorButton",
+  "name": "Upgrade Armor",
+  "tooltip": "[<d ref=\"duckiesHeroUpgrader_DisplayDummy.target_armor_multiplier\" style=\"Bold\"/>/<d ref=\"10\" style=\"Bold\"/>] \n\nIncrease your hero's and summon's armor by <d ref=\"duckiesHeroUpgrader_ArmorUpgrade.set_values[0].target_value\" style=\"Bold\"/> (isn't displayed in armor tooltip)."
+}

@@ -1,0 +1,19 @@
+﻿{
+  "__base_type": "GameEffectCommand",
+  "ability": "moveData",
+  "based_on": "GameEffectCommand",
+  "commanded_target": {
+    "effect_parent": "none",
+    "target": "Caster"
+  },
+  "editor_icon": "",
+  "effect_target": {
+    "effect_parent": "duckiesFleeAI_Set",
+    "entity_or_point": "Point",
+    "target": "Target"
+  },
+  "id": "duckiesFleeAI_CommandMove",
+  "impact_fx": "",
+  "tracker": "",
+  "validator": "emptyRef"
+}

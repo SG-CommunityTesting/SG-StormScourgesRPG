@@ -1,0 +1,11 @@
+﻿{
+  "__base_type": "ResearchAbilityData",
+  "based_on": "ResearchAbilityData",
+  "commands": [
+    {
+      "requirement": "duckiesHeroUpgrader_SpinDamageLearn",
+      "upgrade": "duckiesHeroUpgrader_SpinDamageUpgrade"
+    }
+  ],
+  "id": "duckiesHeroUpgrader_SpinResearch"
+}

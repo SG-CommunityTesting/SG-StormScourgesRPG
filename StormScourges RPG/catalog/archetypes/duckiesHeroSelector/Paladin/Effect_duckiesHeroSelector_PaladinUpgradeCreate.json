@@ -1,0 +1,5 @@
+﻿{
+  "based_on": "duckiesHeroSelector_KastielUpgradeCreate",
+  "id": "duckiesHeroSelector_PaladinUpgradeCreate",
+  "spawn_unit": "duckiesHeroUpgraderPaladin"
+}

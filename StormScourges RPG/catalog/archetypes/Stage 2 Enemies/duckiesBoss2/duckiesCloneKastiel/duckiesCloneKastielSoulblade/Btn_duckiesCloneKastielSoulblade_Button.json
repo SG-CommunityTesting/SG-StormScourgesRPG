@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_Soulblade.UI_Icons_Abilities_Soulblade'",
+  "id": "duckiesCloneKastielSoulblade_Button",
+  "name": "Soulblade",
+  "tooltip": "Augments weapon to attack <d ref=\"duckiesCloneKastielSoulblade_Buff.modifiers[0].amount\" style=\"Red\"/>% faster. While augmented weapon attack also inflicts a <d ref=\"duckiesCloneKastielSoulblade_WpnStun.duration\"/> second stun. Lasts <d ref=\"duckiesCloneKastielSoulblade_Buff.duration\"/> seconds."
+}

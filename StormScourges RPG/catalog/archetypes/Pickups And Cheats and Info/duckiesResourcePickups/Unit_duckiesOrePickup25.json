@@ -1,0 +1,11 @@
+﻿{
+  "based_on": "duckiesOrePickup5",
+  "build_cost": {
+    "resource_a": 0.0,
+    "resource_b": 25.0,
+    "resource_c": 0.0,
+    "resource_d": 0.0
+  },
+  "id": "duckiesOrePickup25",
+  "name": "+<d ref=\"duckiesOrePickup25.build_cost.resource_b\" style=\"Gold\"/> Therium (Approach to Collect)"
+}

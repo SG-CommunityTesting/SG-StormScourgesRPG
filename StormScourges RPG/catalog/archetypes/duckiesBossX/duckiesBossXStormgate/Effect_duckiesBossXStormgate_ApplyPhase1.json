@@ -1,0 +1,16 @@
+﻿{
+  "__base_type": "GameEffectApplyBuff",
+  "based_on": "GameEffectApplyBuff",
+  "buff": "duckiesBossXStormgate_BuffPhase1Prepare",
+  "editor_icon": "",
+  "effect_target": {
+    "effect_parent": "none",
+    "target": "Caster"
+  },
+  "id": "duckiesBossXStormgate_ApplyPhase1",
+  "impact_fx": "",
+  "stacks": 0,
+  "stacks_expression": {},
+  "tracker": "",
+  "validator": "emptyRef"
+}

@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_KineticLifeblades.UI_Icons_Abilities_KineticLifeblades'",
+  "id": "duckiesCloneDarkKriWeapon_Button",
+  "name": "pegasus_heroes|Button_name_KineticLifeblades_ButtonTrait",
+  "tooltip": "<d ref=\"duckiesCloneDarkKri_WeaponDamage.vitals_leech.health.percent\" style=\"Red\"/><Red>%</> of damage dealt restored as health."
+}

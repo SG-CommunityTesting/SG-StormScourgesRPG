@@ -1,0 +1,16 @@
+﻿{
+  "__base_type": "GameEffectApplyBuff",
+  "based_on": "GameEffectApplyBuff",
+  "buff": "duckiesVisionRevealer_TinyActivate",
+  "editor_icon": "",
+  "effect_target": {
+    "effect_parent": "none",
+    "target": "Caster"
+  },
+  "id": "duckiesVisionRevealer_TinyActivateApply",
+  "impact_fx": "",
+  "stacks": 0,
+  "stacks_expression": {},
+  "tracker": "",
+  "validator": "emptyRef"
+}

@@ -1,0 +1,17 @@
+﻿{
+  "__base_type": "GameEffectApplyBuff",
+  "based_on": "GameEffectApplyBuff",
+  "buff": "duckiesFortressDefender_ShieldBuff",
+  "editor_icon": "",
+  "effect_target": {
+    "effect_parent": "none",
+    "target": "Target"
+  },
+  "id": "duckiesFortressDefender_ShieldBuffApply",
+  "impact_fx": "",
+  "stacks": 0,
+  "stacks_expression": {},
+  "target": "Target",
+  "tracker": "",
+  "validator": "emptyRef"
+}

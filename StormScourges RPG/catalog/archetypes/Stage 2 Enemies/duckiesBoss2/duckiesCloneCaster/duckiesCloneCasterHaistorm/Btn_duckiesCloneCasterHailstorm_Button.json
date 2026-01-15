@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_MeteorShower.UI_Icons_Abilities_MeteorShower'",
+  "id": "duckiesCloneCasterHailstorm_Button",
+  "name": "Hailstorm",
+  "tooltip": "Launches <d ref=\"duckiesCloneCasterHailstorm_StartPersistent.periodic.count+1\"/> piercing shards of ice in target direction. Each shard inflicts <d ref=\"duckiesCloneCasterHailstorm_Damage.amount\" style=\"Red\"/> damage to ground enemies."
+}

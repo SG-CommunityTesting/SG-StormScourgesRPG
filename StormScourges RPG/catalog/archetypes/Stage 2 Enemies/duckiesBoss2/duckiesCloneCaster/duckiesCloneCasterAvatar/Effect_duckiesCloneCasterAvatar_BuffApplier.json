@@ -1,0 +1,17 @@
+﻿{
+  "__base_type": "GameEffectApplyBuff",
+  "based_on": "GameEffectApplyBuff",
+  "buff": "duckiesCloneCasterAvatar_Buff",
+  "editor_icon": "",
+  "effect_target": {
+    "effect_parent": "none",
+    "target": "Caster"
+  },
+  "id": "duckiesCloneCasterAvatar_BuffApplier",
+  "impact_fx": "",
+  "stacks": 0,
+  "stacks_expression": {},
+  "target": "Caster",
+  "tracker": "",
+  "validator": "emptyRef"
+}

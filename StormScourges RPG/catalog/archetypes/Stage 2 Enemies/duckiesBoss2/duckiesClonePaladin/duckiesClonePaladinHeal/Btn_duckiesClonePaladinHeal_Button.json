@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_Revitalize.UI_Icons_Abilities_Revitalize'",
+  "id": "duckiesClonePaladinHeal_Button",
+  "name": "Revitalize",
+  "tooltip": "Heals an ally for <d ref=\"duckiesClonePaladinHeal_HealPrimary.amount\"/> health. Nearby friendly units are healed for <d ref=\"duckiesClonePaladin_HealSecondary.amount\"/> health."
+}

@@ -1,0 +1,42 @@
+﻿{
+  "__base_type": "GameEffectSearchRadius",
+  "based_on": "GameEffectSearchRadius",
+  "black_white_list": {
+    "exclude": [],
+    "include": []
+  },
+  "editor_icon": "",
+  "effect_no_target_found ": "emptyRef",
+  "flags": {
+    "target_becomes_instigator": false,
+    "use_search_location_outer_radius": false
+  },
+  "game_effect": "duckiesCloneRykerDrone_Recall_TargetRandomLocation",
+  "id": "duckiesCloneRykerDrone_RecallOrderSearchRadius",
+  "impact_fx": "",
+  "max_targets": 1,
+  "radius": 100.0,
+  "search_filter": {
+    "alliance": {
+      "ally": false,
+      "enemy": false,
+      "neutral": false,
+      "player": true,
+      "self": false
+    },
+    "tags": {
+      "excluded": [],
+      "required": [
+        "tag_duckiesBoss2Clone"
+      ]
+    }
+  },
+  "search_location": {
+    "effect_parent": "",
+    "entity_or_point": "Entity",
+    "target": "Caster"
+  },
+  "target_sorts": [],
+  "tracker": "",
+  "validator": "emptyRef"
+}

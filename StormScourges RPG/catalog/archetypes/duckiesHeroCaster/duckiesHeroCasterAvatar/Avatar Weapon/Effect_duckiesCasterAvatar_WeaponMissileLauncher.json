@@ -1,0 +1,84 @@
+﻿{
+  "__base_type": "GameEffectLaunchProjectile",
+  "anim_montage_component": "",
+  "based_on": "GameEffectLaunchProjectile",
+  "cancel_fx": "",
+  "editor_icon": "",
+  "fallback_unit": {
+    "effect_parent": "none",
+    "target": "Target"
+  },
+  "flags": {
+    "channeling": false,
+    "ignore_destructible_tree": false,
+    "landing_spot_find": false,
+    "landing_spot_reserve": false,
+    "mark_exclusive_target": false,
+    "stop_at_unpathable": false
+  },
+  "id": "duckiesCasterAvatar_WeaponMissileLauncher",
+  "impact_effect": "emptyRef",
+  "impact_fx": "",
+  "impact_location": {
+    "effect_parent": "none",
+    "entity_or_point": "Point",
+    "target": "Target"
+  },
+  "launch_fx": "BP_FXS_ArchangelAvatar_Launch",
+  "launch_location": {
+    "effect_parent": "none",
+    "entity_or_point": "EntityOrPoint",
+    "target": "Source"
+  },
+  "movement": {
+    "acceleration_time": 0,
+    "height_offset": 0,
+    "lob": false,
+    "lob_gravity": 30.0,
+    "lock_facing": false,
+    "lock_height_offset": false,
+    "max_speed": 20.0,
+    "socket": "Auto"
+  },
+  "periodic": {
+    "duration": 0.0,
+    "effect": "emptyRef"
+  },
+  "projectile": "Archangel_WeaponAvatar_Missile",
+  "range_max": 0.0,
+  "skillshots": [
+    {
+      "effects": [
+        "duckiesHeroCasterAvatar_WeaponDamage"
+      ],
+      "end_projectile": false,
+      "forward_offset": 0.5,
+      "max_targets": -1,
+      "target_filter": {
+        "alliance": {
+          "ally": false,
+          "enemy": true,
+          "neutral": true,
+          "player": false,
+          "self": false
+        },
+        "tags": {
+          "excluded": [
+            "dead",
+            "status_invulnerable"
+          ],
+          "required": [
+            "entity_unit",
+            "heightplane_ground"
+          ]
+        }
+      },
+      "target_validator": "emptyRef",
+      "width": 1.0
+    }
+  ],
+  "tracker": "",
+  "validator": "emptyRef",
+  "validator_chase": "emptyRef",
+  "warning_fx": ""
+}

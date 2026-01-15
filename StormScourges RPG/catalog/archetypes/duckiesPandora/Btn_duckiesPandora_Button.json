@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Campaign/Images/InfernalLogo.InfernalLogo'",
+  "id": "duckiesPandora_Button",
+  "name": "Calamity",
+  "tooltip": ""
+}

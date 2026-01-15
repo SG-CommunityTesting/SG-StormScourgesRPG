@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_HammerTime.UI_Icons_Abilities_HammerTime'",
+  "id": "duckiesHeroPaladinSpin_Button",
+  "name": "pegasus_heroes|Button_Name_HammerTime_Button",
+  "tooltip": "Spin around, gaining <d ref=\"duckiesHeroPaladinSpin_HostBuff.modifiers[1].amount\" style=\"Blue\"/> armor and dealing <d ref=\"duckiesHeroPaladinSpin_impactDamage.amount/duckiesHeroPaladinSpin_HostBuff.periodic_duration\" style=\"Blue\"/> damage per second to nearby enemies. Damaged enemies will have their attack speed briefly reduced by 60%. Lasts <d ref=\"duckiesHeroPaladinSpin_HostBuff.duration\"/> seconds."
+}

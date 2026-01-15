@@ -1,0 +1,15 @@
+﻿{
+  "__base_type": "ResearchAbilityData",
+  "based_on": "ResearchAbilityData",
+  "commands": [
+    {
+      "requirement": "duckiesHeroUpgrader_HailstormDamageLearn",
+      "upgrade": "duckiesHeroUpgrader_HailstormDamageUpgrade"
+    },
+    {
+      "requirement": "duckiesHeroUpgrader_HailstormShardsLearn",
+      "upgrade": "duckiesHeroUpgrader_HailstormShardsUpgrade"
+    }
+  ],
+  "id": "duckiesHeroUpgrader_HailstormResearch"
+}

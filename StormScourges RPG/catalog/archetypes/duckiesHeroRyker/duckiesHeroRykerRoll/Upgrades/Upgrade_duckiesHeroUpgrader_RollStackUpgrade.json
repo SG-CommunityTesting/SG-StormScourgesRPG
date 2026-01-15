@@ -1,0 +1,26 @@
+﻿{
+  "__base_type": "UpgradeData",
+  "based_on": "duckiesHeroUpgrader_GenericAbilUpgradePowerSmall",
+  "button": "duckiesHeroUpgrader_RollStackButton",
+  "id": "duckiesHeroUpgrader_RollStackUpgrade",
+  "name": "",
+  "player_modifiers": [],
+  "player_responses": [],
+  "research_effect": "emptyRef",
+  "set_values": [
+    {
+      "target_archetype": "duckiesHeroRykerRoll_ASBuffStacksApplier",
+      "target_command_index": 0,
+      "target_property": "stacks",
+      "target_value": 2.0
+    },
+    {
+      "target_archetype": "duckiesHeroUpgrader_RollStackLVLDummy",
+      "target_command_index": 0,
+      "target_property": "amount",
+      "target_value": 1.0
+    }
+  ],
+  "supply_provided": 0.0,
+  "unit_modifiers": []
+}

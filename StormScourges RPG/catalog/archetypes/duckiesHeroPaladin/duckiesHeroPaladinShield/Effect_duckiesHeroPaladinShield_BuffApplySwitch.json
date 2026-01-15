@@ -1,0 +1,37 @@
+﻿{
+  "__base_type": "GameEffectSwitch",
+  "based_on": "GameEffectSwitch",
+  "cases": [
+    {
+      "action": "duckiesHeroPaladinShield_BuffApplyLVL1",
+      "case_condition": "Valid_duckiesHeroPaladinShield_ShieldAmountLVL1"
+    },
+    {
+      "action": "duckiesHeroPaladinShield_BuffApplyLVL2",
+      "case_condition": "Valid_duckiesHeroPaladinShield_ShieldAmountLVL2"
+    },
+    {
+      "action": "duckiesHeroPaladinShield_BuffApplyLVL3",
+      "case_condition": "Valid_duckiesHeroPaladinShield_ShieldAmountLVL3"
+    },
+    {
+      "action": "duckiesHeroPaladinShield_BuffApplyLVL4",
+      "case_condition": "Valid_duckiesHeroPaladinShield_ShieldAmountLVL4"
+    },
+    {
+      "action": "duckiesHeroPaladinShield_BuffApplyLVL5",
+      "case_condition": "Valid_duckiesHeroPaladinShield_ShieldAmountLVL5"
+    }
+  ],
+  "default_action": "duckiesHeroPaladinShield_BuffApply",
+  "editor_icon": "",
+  "effect_location": {
+    "effect_parent": "none",
+    "entity_or_point": "EntityOrPoint",
+    "target": "Target"
+  },
+  "id": "duckiesHeroPaladinShield_BuffApplySwitch",
+  "impact_fx": "",
+  "tracker": "",
+  "validator": "emptyRef"
+}

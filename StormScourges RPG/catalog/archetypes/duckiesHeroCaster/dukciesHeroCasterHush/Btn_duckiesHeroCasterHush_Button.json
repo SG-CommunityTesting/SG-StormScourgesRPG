@@ -1,0 +1,20 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [
+    {
+      "text": "Pacifies enemies for <d ref=\"duckiesHeroCasterHush_DebuffInitial.duration\" style=\"Blue\"/> second and reduces their attack damage and attack range by 50%.\n\nWhen killed affected enemies will spawn a short-lived phantom that has <d ref=\"duckiesHeroCasterPhantom.vital_health.maximum\" style=\"Bold\"/> life and attacks for <d ref=\"duckiesHeroCasterPhantom_WeaponDamage.amount\" style=\"Blue\"/> damage every <d ref=\"duckiesHeroCasterPhantom_Weapon.period\"/> seconds.\n\nResilient and Boss enemies are immune to the effect.",
+      "validator": "Valid_duckiesHeroCasterHush_PowerLVL0"
+    },
+    {
+      "text": "Pacifies enemies for <d ref=\"duckiesHeroCasterHush_DebuffInitial.duration\" style=\"Blue\"/> seconds and reduces their attack damage and attack range by 50%.\n\nWhen killed affected enemies will spawn a short-lived phantom that has <d ref=\"duckiesHeroCasterPhantom.vital_health.maximum\" style=\"Bold\"/> life and attacks for <d ref=\"duckiesHeroCasterPhantom_WeaponDamage.amount\" style=\"Blue\"/> damage every <d ref=\"duckiesHeroCasterPhantom_Weapon.period\"/> seconds.\n\nResilient and Boss enemies are immune to the effect.",
+      "validator": "Valid_duckiesHeroCasterHush_PowerResearched"
+    }
+  ],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_Hush.UI_Icons_Abilities_Hush'",
+  "icon_secondary": "",
+  "id": "duckiesHeroCasterHush_Button",
+  "name": "pegasus_heroes|Button_name_SilenceMind_Button",
+  "tooltip": ""
+}

@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "BaseButton",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_SoulCannon.UI_Icons_Abilities_SoulCannon'",
+  "id": "duckiesHeroKastielFireball_Button",
+  "name": "Soulflare",
+  "tooltip": "Strikes target enemy with a soulflare, dealing <d ref=\"duckiesHeroKastielFireball_Damage.amount\" style=\"Blue\"/> area damage and converting 50% of dealt damage into own life."
+}

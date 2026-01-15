@@ -1,0 +1,31 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "BaseButton",
+  "extended_tooltips": [
+    {
+      "text": "Revitalize: Heals an ally for <d ref=\"duckiesClonePaladinHeal_HealPrimary.amount\"/> health. Nearby friendly units are healed for <d ref=\"duckiesClonePaladin_HealSecondary.amount\"/> health.",
+      "validator": "emptyRef"
+    },
+    {
+      "text": "\n\nHammer Time: Spins around, gaining <d ref=\"duckiesClonePaladinSpin_HostBuff.modifiers[1].amount\"/> armor and dealing <d ref=\"duckiesClonePaladinSpin_impactDamage.amount/duckiesClonePaladinSpin_HostBuff.periodic_duration\" style=\"Red\"/> damage per second to nearby enemies. Damaged enemies will have their attack speed briefly reduced by <d ref=\"duckiesClonePaladinSpin_ImpactSlowBuff.modifiers[0].amount*(-1)\"/>%. Lasts <d ref=\"duckiesClonePaladinSpin_HostBuff.duration\"/> seconds.",
+      "validator": "emptyRef"
+    },
+    {
+      "text": "\n\nHeavy Leap: Leaps to target location, dealing <d ref=\"duckiesClonePaladinLeap_ImpactDamageRadius.amount\" style=\"Red\"/> damage to enemies in the area and stunning them for <d ref=\"duckiesClonePaladinLeap_ImpactStun.duration\"/> seconds.",
+      "validator": "emptyRef"
+    },
+    {
+      "text": "\n\nFortify: Protects an allied hero with a shield which absorbs up to <d ref=\"duckiesClonePaladinShield_ResponseDamage.damage_shield_settings.shields_max\"/> damage and makes them resilient to stuns. Lasts <d ref=\"duckiesClonePaladinShields_Buff.duration\"/> seconds.",
+      "validator": "emptyRef"
+    },
+    {
+      "text": "\n\nRevive: Channels for <d ref=\"duckiesClonePaladinRevive_StartPersistent.effect_expire_delay\"/> seconds on an dead hero's grave and then revives all friendly heroes in the target area.",
+      "validator": "emptyRef"
+    }
+  ],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Units/Human/UI_Icons_Units_Human_Barclay.UI_Icons_Units_Human_Barclay'",
+  "id": "duckiesClonePaladin_Button",
+  "name": "Spectral Warrior Absolver",
+  "tooltip": "Revitalize: Heals an ally for <d ref=\"duckiesClonePaladinHeal_HealPrimary.amount\"/> health. Nearby friendly units are healed for <d ref=\"duckiesClonePaladin_HealSecondary.amount\"/> health.\n\nHammer Time: Spins around, gaining <d ref=\"duckiesClonePaladinSpin_HostBuff.modifiers[1].amount\"/> armor and dealing <d ref=\"duckiesClonePaladinSpin_impactDamage.amount/duckiesClonePaladinSpin_HostBuff.periodic_duration\" style=\"Red\"/> damage per second to nearby enemies. Damaged enemies will have their attack speed briefly reduced by <d ref=\"duckiesClonePaladinSpin_ImpactSlowBuff.modifiers[0].amount*(-1)\"/>%. Lasts <d ref=\"duckiesClonePaladinSpin_HostBuff.duration\"/> seconds.\n\nHeavy Leap: Leaps to target location, dealing <d ref=\"duckiesClonePaladinLeap_ImpactDamageRadius.amount\" style=\"Red\"/> damage to enemies in the area and stunning them for <d ref=\"duckiesClonePaladinLeap_ImpactStun.duration\"/> seconds.\n\nFortify: Protects an allied hero with a shield which absorbs up to <d ref=\"duckiesClonePaladinShield_ResponseDamage.damage_shield_settings.shields_max\"/> damage and makes them resilient to stuns. Lasts <d ref=\"duckiesClonePaladinShields_Buff.duration\"/> seconds.\n\nRevive: Channels for <d ref=\"duckiesClonePaladinRevive_StartPersistent.effect_expire_delay\"/> seconds on an dead hero's grave and then revives all friendly heroes in the target area."
+}

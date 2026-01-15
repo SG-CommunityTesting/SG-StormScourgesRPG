@@ -1,0 +1,6 @@
+﻿{
+  "__base_type": "GameEffectDamage",
+  "amount": 0,
+  "based_on": "duckiesHeroUpgrader_GenericLVLDummy",
+  "id": "duckiesHeroUpgrader_RollStackLVLDummy"
+}

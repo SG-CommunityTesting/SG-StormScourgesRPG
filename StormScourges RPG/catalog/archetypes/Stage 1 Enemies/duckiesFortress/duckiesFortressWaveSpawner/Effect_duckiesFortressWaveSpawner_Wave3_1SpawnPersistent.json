@@ -1,0 +1,17 @@
+﻿{
+  "based_on": "duckiesFortressWaveSpawner_Wave1SpawnPersistent",
+  "effect_finish": "duckiesFortressWaveSpawner_Wave3_2SpawnPersistent",
+  "id": "duckiesFortressWaveSpawner_Wave3_1SpawnPersistent",
+  "periodic": {
+    "count": 4,
+    "durations": [
+      0.25
+    ],
+    "durations_method": "RepeatLast",
+    "effects": [
+      "duckiesFortressWaveSpawner_CreateCrusader"
+    ],
+    "effects_method": "Loop",
+    "validator": "NoValidator"
+  }
+}

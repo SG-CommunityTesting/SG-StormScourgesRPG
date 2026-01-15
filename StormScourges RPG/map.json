@@ -1,0 +1,18 @@
+{
+  "data_format_version": 0,
+  "description": "",
+  "dimensions": [
+    256,
+    256
+  ],
+  "game_mode": "Melee",
+  "gameplay_level_name": "BasicStartingLevel",
+  "id": "957d5f46-4c34-17dd-059d-628e5c41bae0",
+  "map_name": "Unititled Map",
+  "map_tags": [
+    "Custom"
+  ],
+  "tile_set_id": "TerrainTileset_CustomRPG",
+  "version": "1.0.0",
+  "visibility": "Hidden"
+}

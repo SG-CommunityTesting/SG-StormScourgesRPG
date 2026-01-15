@@ -1,0 +1,212 @@
+﻿{
+  "actions": [
+    {
+      "function_id": "Callouts_Major",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "Text_ToText",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "type": "Value",
+                        "value": {
+                          "type": {
+                            "directive": "FunctionType",
+                            "tags": [
+                              "to_text"
+                            ],
+                            "type": "String"
+                          },
+                          "value": "Entering: Deth's Approach"
+                        }
+                      }
+                    ],
+                    "id": "value"
+                  }
+                ]
+              },
+              "type": "Function"
+            }
+          ],
+          "id": "message"
+        },
+        {
+          "expressions": [
+            {
+              "type": "Value",
+              "value": {
+                "type": {
+                  "directive": "FunctionType",
+                  "type": "Time"
+                },
+                "value": "5.0"
+              }
+            }
+          ],
+          "id": "lifetime"
+        }
+      ]
+    },
+    {
+      "function_id": "Camera_MoveToPositionInstant",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "type": "Value",
+              "value": {
+                "type": {
+                  "directive": "FunctionType",
+                  "type": "Player"
+                },
+                "value": "1"
+              }
+            }
+          ],
+          "id": "player"
+        },
+        {
+          "expressions": [
+            {
+              "type": "Variable",
+              "variable": {
+                "variable_id": "gvStage2EntryPoint"
+              }
+            }
+          ],
+          "id": "pos"
+        }
+      ]
+    },
+    {
+      "function_id": "Camera_MoveToPositionInstant",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "type": "Value",
+              "value": {
+                "type": {
+                  "directive": "FunctionType",
+                  "type": "Player"
+                },
+                "value": "2"
+              }
+            }
+          ],
+          "id": "player"
+        },
+        {
+          "expressions": [
+            {
+              "type": "Variable",
+              "variable": {
+                "variable_id": "gvStage2EntryPoint"
+              }
+            }
+          ],
+          "id": "pos"
+        }
+      ]
+    },
+    {
+      "function_id": "Camera_MoveToPositionInstant",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "type": "Value",
+              "value": {
+                "type": {
+                  "directive": "FunctionType",
+                  "type": "Player"
+                },
+                "value": "3"
+              }
+            }
+          ],
+          "id": "player"
+        },
+        {
+          "expressions": [
+            {
+              "type": "Variable",
+              "variable": {
+                "variable_id": "gvStage2EntryPoint"
+              }
+            }
+          ],
+          "id": "pos"
+        }
+      ]
+    },
+    {
+      "function_id": "Camera_MoveToPositionInstant",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "type": "Value",
+              "value": {
+                "type": {
+                  "directive": "FunctionType",
+                  "type": "Player"
+                },
+                "value": "4"
+              }
+            }
+          ],
+          "id": "player"
+        },
+        {
+          "expressions": [
+            {
+              "type": "Variable",
+              "variable": {
+                "variable_id": "gvStage2EntryPoint"
+              }
+            }
+          ],
+          "id": "pos"
+        }
+      ]
+    }
+  ],
+  "based_on": "Trigger",
+  "conditions": [
+    {
+      "function_id": "Entity_IsUnitOfType",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "type": "Value",
+              "value": {
+                "type": {
+                  "directive": "TypeRef",
+                  "type": "UnitData"
+                },
+                "value": "duckiesStage2AnchorPrism"
+              }
+            }
+          ],
+          "id": "unit_type"
+        }
+      ]
+    }
+  ],
+  "dev_only": false,
+  "enabled": true,
+  "events": [
+    {
+      "function_id": "Unit_OnKilled",
+      "is_enabled": true
+    }
+  ],
+  "id": "Stage2Entry",
+  "variables": []
+}

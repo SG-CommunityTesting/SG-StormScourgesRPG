@@ -1,0 +1,9 @@
+﻿{
+  "__base_type": "GameEffectSet",
+  "based_on": "duckiesHeroKastielCull_ImpactSetResilient",
+  "effects": [
+    "duckiesHeroKastielCull_DamageResilient",
+    "duckiesHeroKastielCull_ModifyLifeResilientLVL2"
+  ],
+  "id": "duckiesHeroKastielCull_ImpactSetResilientLVL2"
+}

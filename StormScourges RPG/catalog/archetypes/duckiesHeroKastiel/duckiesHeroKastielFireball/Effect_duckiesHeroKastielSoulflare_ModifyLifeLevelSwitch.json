@@ -1,0 +1,37 @@
+﻿{
+  "__base_type": "GameEffectSwitch",
+  "based_on": "GameEffectSwitch",
+  "cases": [
+    {
+      "action": "duckiesHeroKastielSoulflare_ModifyLifeLVL1",
+      "case_condition": "Valid_duckiesHeroKastielSoulflare_DamageLVL1"
+    },
+    {
+      "action": "duckiesHeroKastielSoulflare_ModifyLifeLVL2",
+      "case_condition": "Valid_duckiesHeroKastielSoulflare_DamageLVL2"
+    },
+    {
+      "action": "duckiesHeroKastielSoulflare_ModifyLifeLVL3",
+      "case_condition": "Valid_duckiesHeroKastielSoulflare_DamageLVL3"
+    },
+    {
+      "action": "duckiesHeroKastielSoulflare_ModifyLifeLVL4",
+      "case_condition": "Valid_duckiesHeroKastielSoulflare_DamageLVL4"
+    },
+    {
+      "action": "duckiesHeroKastielSoulflare_ModifyLifeLVL5",
+      "case_condition": "Valid_duckiesHeroKastielSoulflare_DamageLVL5"
+    }
+  ],
+  "default_action": "duckiesHeroKastielSoulflare_ModifyLife",
+  "editor_icon": "",
+  "effect_location": {
+    "effect_parent": "none",
+    "entity_or_point": "EntityOrPoint",
+    "target": "Target"
+  },
+  "id": "duckiesHeroKastielSoulflare_ModifyLifeLevelSwitch",
+  "impact_fx": "",
+  "tracker": "",
+  "validator": "emptyRef"
+}

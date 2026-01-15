@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Units/Demon/UI_Icons_Units_Demon_EnflamedImp.UI_Icons_Units_Demon_EnflamedImp'",
+  "id": "duckiesPandoraRift_Button",
+  "name": "Rift",
+  "tooltip": "Summons a flame rift which unleashes a pack of enflamed imps that explode on contact, dealing <d ref=\"duckiesPandoraRift_ImpDamageRadius.amount\" style=\"Red\"/> damage in a small area."
+}

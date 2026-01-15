@@ -1,0 +1,26 @@
+﻿{
+  "__base_type": "GameEffectSet",
+  "based_on": "GameEffectSet",
+  "editor_icon": "",
+  "effect_location": {
+    "effect_parent": "none",
+    "entity_or_point": "Entity",
+    "target": "Target"
+  },
+  "effects": [
+    "duckiesBossXTier3Cast_CDClearingSearch",
+    "duckiesBossXTier3Cast_CDBuffApplier",
+    "duckiesBossXTier3Cast_OrderSwitch",
+    "duckiesBossXAI_T3_OrdererRemove",
+    "duckiesBossXAI_T3_ScannerRemove",
+    "duckiesBossXAI_T3_TimerApply"
+  ],
+  "flags": {
+    "target_becomes_instigator": false
+  },
+  "id": "duckiesBossXTier3Cast_TokenImpactSet",
+  "impact_fx": "",
+  "repetition_limit": 0,
+  "tracker": "",
+  "validator": "Valid_duckiesBossXTier3Cast_TargetNoCD"
+}

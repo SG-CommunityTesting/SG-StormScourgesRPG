@@ -1,0 +1,5 @@
+﻿{
+  "based_on": "duckiesResourcePickup",
+  "cast_game_effect": "duckiesLifePickupClaim_StartSet",
+  "id": "duckiesLifePickupClaim"
+}

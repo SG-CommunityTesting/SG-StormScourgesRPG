@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_VoidRain.UI_Icons_Abilities_VoidRain'",
+  "id": "duckiesVoidRainBoss_Button",
+  "name": "Void Rain",
+  "tooltip": "Envelops an area with acidic rain, dealing <d ref=\"duckiesVoidRainBoss_DamageRadius.amount/duckiesVoidRainBoss_Persistent.periodic.durations[0]\" style=\"Red\"/> damage per second to enemies in it. Persists for <d ref=\"duckiesVoidRainBoss_Persistent.periodic.count*duckiesVoidRainBoss_Persistent.periodic.durations[0]\"/> seconds."
+}

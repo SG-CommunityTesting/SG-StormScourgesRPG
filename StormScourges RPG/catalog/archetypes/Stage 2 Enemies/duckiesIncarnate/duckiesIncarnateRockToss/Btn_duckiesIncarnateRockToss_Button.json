@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Weapons/UI_Icons_Weapons_Creep_VoidRound.UI_Icons_Weapons_Creep_VoidRound'",
+  "id": "duckesIncarnateRockToss_Button",
+  "name": "Void Plasma",
+  "tooltip": "Launches Dark Plasma at target location, dealing <d ref=\"duckiesIncarnateRockToss_DamageRadius.amount\" style=\"Red\"/> to enemies in impact area."
+}

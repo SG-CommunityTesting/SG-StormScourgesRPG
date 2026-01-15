@@ -1,0 +1,82 @@
+﻿{
+  "__base_type": "GameEffectLaunchProjectile",
+  "anim_montage_component": "",
+  "based_on": "BaseGameEffectLaunchProjectile",
+  "cancel_fx": "",
+  "editor_icon": "",
+  "fallback_unit": {
+    "effect_parent": "none",
+    "target": "Source"
+  },
+  "flags": {
+    "channeling": false,
+    "ignore_destructible_tree": true,
+    "landing_spot_find": false,
+    "landing_spot_reserve": false,
+    "mark_exclusive_target": false,
+    "stop_at_unpathable": false
+  },
+  "id": "duckiesDesolatorIntro_MissileLauncher",
+  "impact_effect": "duckiesDesolatorIntro_BuffApplier",
+  "impact_fx": "",
+  "impact_location": {
+    "effect_parent": "none",
+    "entity_or_point": "Point",
+    "target": "Target"
+  },
+  "launch_fx": "",
+  "launch_location": {
+    "effect_parent": "none",
+    "entity_or_point": "EntityOrPoint",
+    "target": "Source"
+  },
+  "movement": {
+    "acceleration_time": 0,
+    "height_offset": 0,
+    "lob": false,
+    "lob_gravity": 30.0,
+    "lock_facing": true,
+    "lock_height_offset": false,
+    "max_speed": 3.0,
+    "socket": "Auto"
+  },
+  "periodic": {
+    "duration": 0.0,
+    "effect": "emptyRef"
+  },
+  "projectile": "emptyRef",
+  "range_max": 10.0,
+  "skillshots": [
+    {
+      "effects": [],
+      "end_projectile": true,
+      "forward_offset": 0.0,
+      "max_targets": 1,
+      "target_filter": {
+        "alliance": {
+          "ally": false,
+          "enemy": false,
+          "neutral": false,
+          "player": false,
+          "self": false
+        },
+        "tags": {
+          "excluded": [
+            "status_invulnerable",
+            "dead"
+          ],
+          "required": [
+            "entity_unit",
+            "heightplane_ground"
+          ]
+        }
+      },
+      "target_validator": "emptyRef",
+      "width": 0.5
+    }
+  ],
+  "tracker": "",
+  "validator": "emptyRef",
+  "validator_chase": "emptyRef",
+  "warning_fx": ""
+}

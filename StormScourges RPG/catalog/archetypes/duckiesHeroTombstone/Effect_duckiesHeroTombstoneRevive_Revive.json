@@ -1,0 +1,15 @@
+﻿{
+  "__base_type": "GameEffectRevive",
+  "based_on": "GameEffectRevive",
+  "effect_target": {
+    "effect_parent": "none",
+    "target": "Target"
+  },
+  "flags": {
+    "revive_player_hero": false
+  },
+  "id": "duckiesHeroTombstoneRevive_Revive",
+  "impact_fx": "BP_FXI_ResurrectionField_Impact",
+  "tracker": "",
+  "validator": "emptyRef"
+}

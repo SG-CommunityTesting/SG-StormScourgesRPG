@@ -1,0 +1,154 @@
+﻿{
+  "__base_type": "GameEffectPersistent",
+  "based_on": "GameEffectPersistent",
+  "display_effect": "emptyRef",
+  "editor_icon": "",
+  "effect_expire": "emptyRef",
+  "effect_expire_delay": 1.0,
+  "effect_finish": "emptyRef",
+  "effect_initial": "duckiesDesolatorWpn_ImpactDmg",
+  "effect_initial_delay": 1.0,
+  "effect_location": {
+    "effect_parent": "Origin",
+    "entity_or_point": "Point",
+    "target": "Target"
+  },
+  "expire_fx": "",
+  "finish_fx": "",
+  "flags": {
+    "channel_execute_event": false,
+    "channeling": false,
+    "mark_exclusive_target": false,
+    "use_attack_speed": false
+  },
+  "id": "duckiesDesolatorWpn_ImpactDelay",
+  "impact_fx": "BP_ServeTheFlame_SearchImpact",
+  "initial_fx": "",
+  "offsets": {
+    "expire": {
+      "angle": 0.0,
+      "radius": 0.0
+    },
+    "final": {
+      "angle": 0.0,
+      "radius": 0.0
+    },
+    "initial": {
+      "angle": 0.0,
+      "radius": 0.0
+    },
+    "periodic": [
+      {
+        "angle": 0.0,
+        "radius": 0.0
+      },
+      {
+        "angle": 0.0,
+        "radius": 2.0
+      },
+      {
+        "angle": 90.0,
+        "radius": 2.0
+      },
+      {
+        "angle": 180.0,
+        "radius": 2.0
+      },
+      {
+        "angle": 270.0,
+        "radius": 2
+      },
+      {
+        "angle": 0.0,
+        "radius": 4.0
+      },
+      {
+        "angle": 90,
+        "radius": 4
+      },
+      {
+        "angle": 180,
+        "radius": 4.0
+      },
+      {
+        "angle": 270,
+        "radius": 4
+      },
+      {
+        "angle": 0,
+        "radius": 6
+      },
+      {
+        "angle": 90,
+        "radius": 6
+      },
+      {
+        "angle": 180,
+        "radius": 6
+      },
+      {
+        "angle": 270,
+        "radius": 6
+      },
+      {
+        "angle": 0,
+        "radius": 8
+      },
+      {
+        "angle": 90,
+        "radius": 8
+      },
+      {
+        "angle": 180,
+        "radius": 8
+      },
+      {
+        "angle": 270,
+        "radius": 8
+      }
+    ],
+    "periodic_method": "Loop",
+    "variance": {
+      "angle": 0,
+      "radius": 0
+    },
+    "vector_facing_end": {
+      "effect_parent": "Origin",
+      "entity_or_point": "Point",
+      "target": "Target"
+    },
+    "vector_facing_start": {
+      "effect_parent": "Origin",
+      "entity_or_point": "Point",
+      "target": "Target"
+    }
+  },
+  "periodic": {
+    "count": 17,
+    "durations": [
+      0.125,
+      0,
+      0,
+      0,
+      0
+    ],
+    "durations_method": "Loop",
+    "effects": [
+      "duckiesDesolatorWpn_ImpactDmg"
+    ],
+    "effects_method": "RepeatLast",
+    "validator": "NoValidator"
+  },
+  "reveal": {
+    "detector": false,
+    "vision_height": 20.0,
+    "vision_holder": {
+      "effect_parent": "none",
+      "target": "Caster"
+    },
+    "vision_radius": 3.5
+  },
+  "tracker": "",
+  "unreal_actor": "",
+  "validator": "emptyRef"
+}

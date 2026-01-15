@@ -1,0 +1,7 @@
+﻿{
+  "__base_type": "TraitData",
+  "based_on": "TraitData",
+  "button": "duckiesFeyrenHeal_Button",
+  "id": "duckiesFeyrenHeal_Trait",
+  "requirement": "emptyRef"
+}

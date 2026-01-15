@@ -1,0 +1,32 @@
+﻿{
+  "__base_type": "UpgradeData",
+  "based_on": "duckiesHeroUpgrader_GenericAbilUpgradePowerSmall",
+  "button": "duckiesHeroUpgrader_ShieldAmountButton",
+  "id": "duckiesHeroUpgrader_ShieldAmountUpgrade",
+  "name": "",
+  "player_modifiers": [],
+  "player_responses": [],
+  "research_effect": "emptyRef",
+  "set_values": [
+    {
+      "target_archetype": "duckiesHeroPaladinShield_ResponseDamage",
+      "target_command_index": 0,
+      "target_property": "damage_shield_settings.shields_max",
+      "target_value": 200.0
+    },
+    {
+      "target_archetype": "duckiesHeroPaladinShield_HealingLVL0",
+      "target_command_index": 0,
+      "target_property": "percentage",
+      "target_value": 2.0
+    },
+    {
+      "target_archetype": "duckiesHeroUpgrader_ShieldAmountLVLDummy",
+      "target_command_index": 0,
+      "target_property": "amount",
+      "target_value": 1.0
+    }
+  ],
+  "supply_provided": 0.0,
+  "unit_modifiers": []
+}

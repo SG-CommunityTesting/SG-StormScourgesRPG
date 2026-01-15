@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Gear/UI_Icons_Gear_MaximumControl.UI_Icons_Gear_MaximumControl'",
+  "id": "duckiesPartyArrangerSoloPartyMode_Button",
+  "name": "Solo Party Mode",
+  "tooltip": "Change ownership of all hero selectors to player 1.\n\nThis can be used to control 4 heroes when playing single player to give the player a fighting chance.\n\nSpawner and boss kill rewards are awarded per hero you control, so you will recieve 4x income from those when controlling 4 heroes."
+}

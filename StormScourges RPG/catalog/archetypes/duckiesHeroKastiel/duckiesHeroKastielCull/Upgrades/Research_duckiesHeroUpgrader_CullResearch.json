@@ -1,0 +1,11 @@
+﻿{
+  "__base_type": "ResearchAbilityData",
+  "based_on": "ResearchAbilityData",
+  "commands": [
+    {
+      "requirement": "duckiesHeroUpgrader_CullDamageLearn",
+      "upgrade": "duckiesHeroUpgrader_CullDamageUpgrade"
+    }
+  ],
+  "id": "duckiesHeroUpgrader_CullResearch"
+}

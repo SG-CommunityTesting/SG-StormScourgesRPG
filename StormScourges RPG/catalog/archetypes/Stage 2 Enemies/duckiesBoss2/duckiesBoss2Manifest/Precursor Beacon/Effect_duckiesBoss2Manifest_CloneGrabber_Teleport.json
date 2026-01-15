@@ -1,0 +1,35 @@
+﻿{
+  "__base_type": "GameEffectTeleport",
+  "based_on": "GameEffectTeleport",
+  "editor_icon": "",
+  "effect_location": {
+    "effect_parent": "origin",
+    "entity_or_point": "Point",
+    "target": "Caster"
+  },
+  "effect_origin": {
+    "effect_parent": "none",
+    "entity_or_point": "EntityOrPoint",
+    "target": "Target"
+  },
+  "find_placement_angle": 0.0,
+  "find_placement_range": 0.0,
+  "flags": {
+    "allow_placement_on_bodies": false,
+    "find_placement": false,
+    "require_vision": true,
+    "set_facing": false
+  },
+  "id": "duckiesBoss2Manifest_CloneGrabber_Teleport",
+  "impact_fx": "",
+  "impact_fx_secondary": "",
+  "range_max": 0.0,
+  "range_min": 0.0,
+  "teleport_effect": "duckiesBoss2Manifest_CloneGrabber_ImpactSet",
+  "teleporting_unit": {
+    "effect_parent": "none",
+    "target": "Target"
+  },
+  "tracker": "",
+  "validator": "Valid_TargetIsduckiesBoss2Manifest_CloneGrabber_TargetNoIntroStun"
+}

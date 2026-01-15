@@ -1,0 +1,23 @@
+﻿{
+  "__base_type": "ResearchAbilityData",
+  "based_on": "ResearchAbilityData",
+  "commands": [
+    {
+      "requirement": "duckiesHeroUpgrader_LifeLearn",
+      "upgrade": "duckiesHeroUpgrader_LifeUpgrade"
+    },
+    {
+      "requirement": "duckiesHeroUpgrader_EnergyLearn",
+      "upgrade": "duckiesHeroUpgrader_EnergyUpgrade"
+    },
+    {
+      "requirement": "duckiesHeroUpgrader_AttackLearn",
+      "upgrade": "duckiesHeroUpgrader_AttackUpgrade"
+    },
+    {
+      "requirement": "duckiesHeroUpgrader_ArmorLearn",
+      "upgrade": "duckiesHeroUpgrader_ArmorUpgrade"
+    }
+  ],
+  "id": "duckiesHeroUpgrader_StatResearch"
+}

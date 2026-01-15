@@ -1,0 +1,16 @@
+﻿{
+  "__base_type": "GameEffectApplyBuff",
+  "based_on": "GameEffectApplyBuff",
+  "buff": "duckiesHeroRykerMark_DebuffNormal",
+  "editor_icon": "",
+  "effect_target": {
+    "effect_parent": "none",
+    "target": "Target"
+  },
+  "id": "duckiesHeroRykerMark_DebuffApplyNormal",
+  "impact_fx": "BP_FXI_MarkedForDeath_Impact",
+  "stacks": 0,
+  "stacks_expression": {},
+  "tracker": "",
+  "validator": "emptyRef"
+}

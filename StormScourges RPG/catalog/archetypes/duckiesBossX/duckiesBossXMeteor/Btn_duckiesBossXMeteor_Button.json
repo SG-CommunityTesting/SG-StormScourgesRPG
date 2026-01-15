@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_CinderStorm.UI_Icons_Abilities_CinderStorm'",
+  "id": "duckiesBossXMeteor_Button",
+  "name": "Meteor",
+  "tooltip": "pegasus_heroes|Button_Tooltip_CinderStorm_Button"
+}

@@ -1,0 +1,5 @@
+﻿{
+  "based_on": "duckiesHeroSelector_KastielHeroCreate",
+  "id": "duckiesHeroSelector_PaladinHeroCreate",
+  "spawn_unit": "duckiesHeroPaladin"
+}

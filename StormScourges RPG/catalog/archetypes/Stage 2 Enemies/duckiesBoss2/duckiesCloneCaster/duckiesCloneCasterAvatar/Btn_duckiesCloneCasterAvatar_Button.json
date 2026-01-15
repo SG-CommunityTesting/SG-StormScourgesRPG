@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_Avatar.UI_Icons_Abilities_Avatar'",
+  "id": "duckiesCloneCasterAvatar_Button",
+  "name": "Avatar",
+  "tooltip": "Increases health by <d ref=\"duckiesCloneCasterAvatar_Buff.modifiers[0].amount\" style=\"Bold\"/>%, gains resilience and an empowered attack that deals <d ref=\"duckiesCloneCasterAvatar_WeaponDamage.amount\" style=\"Red\"/> damage. Lasts <d ref=\"duckiesCloneCasterAvatar_Buff.duration\"/> seconds."
+}

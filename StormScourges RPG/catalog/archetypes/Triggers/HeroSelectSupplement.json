@@ -1,0 +1,185 @@
+﻿{
+  "actions": [
+    {
+      "function_id": "Callouts_Major",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "Text_ToText",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "type": "Value",
+                        "value": {
+                          "type": {
+                            "directive": "FunctionType",
+                            "tags": [
+                              "to_text"
+                            ],
+                            "type": "String"
+                          },
+                          "value": "Hero upgrader is located at the top left of the map (next to hero select). Hotkey it now for quick access."
+                        }
+                      }
+                    ],
+                    "id": "value"
+                  }
+                ]
+              },
+              "type": "Function"
+            }
+          ],
+          "id": "message"
+        },
+        {
+          "expressions": [
+            {
+              "type": "Value",
+              "value": {
+                "type": {
+                  "directive": "FunctionType",
+                  "type": "Time"
+                },
+                "value": "10.0"
+              }
+            }
+          ],
+          "id": "lifetime"
+        },
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "PlayerGroup_GetPlayerAsPlayerGroup",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "function": {
+                          "function_id": "Unit_GetOwningPlayer",
+                          "parameters": [
+                            {
+                              "expressions": [
+                                {
+                                  "function": {
+                                    "function_id": "Unit_GetTriggeringUnit"
+                                  },
+                                  "type": "Function"
+                                }
+                              ],
+                              "id": "unit"
+                            }
+                          ]
+                        },
+                        "type": "Function"
+                      }
+                    ],
+                    "id": "player"
+                  }
+                ]
+              },
+              "type": "Function"
+            }
+          ],
+          "id": "group"
+        }
+      ]
+    },
+    {
+      "function_id": "Camera_MoveToPositionInstant",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "Unit_GetOwningPlayer",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "function": {
+                          "function_id": "Unit_GetTriggeringUnit"
+                        },
+                        "type": "Function"
+                      }
+                    ],
+                    "id": "unit"
+                  }
+                ]
+              },
+              "type": "Function"
+            }
+          ],
+          "id": "player"
+        },
+        {
+          "expressions": [
+            {
+              "type": "Variable",
+              "variable": {
+                "variable_id": "gvHeroSpawnPoint"
+              }
+            }
+          ],
+          "id": "pos"
+        }
+      ]
+    }
+  ],
+  "based_on": "Trigger",
+  "conditions": [],
+  "dev_only": false,
+  "enabled": false,
+  "events": [
+    {
+      "function_id": "Unit_OnUnitEntersExitsRegion",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "preset": {
+                "preset_id": "Region_EntersExits",
+                "value_id": "enters"
+              },
+              "type": "Preset"
+            }
+          ],
+          "id": "state"
+        },
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "Region_GetRegionFromPlacedName",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "type": "Value",
+                        "value": {
+                          "type": {
+                            "directive": "FunctionType",
+                            "type": "String"
+                          },
+                          "value": "UpgraderSpawnDetect"
+                        }
+                      }
+                    ],
+                    "id": "name"
+                  }
+                ]
+              },
+              "type": "Function"
+            }
+          ],
+          "id": "region"
+        }
+      ]
+    }
+  ],
+  "id": "HeroSelectSupplement",
+  "variables": []
+}

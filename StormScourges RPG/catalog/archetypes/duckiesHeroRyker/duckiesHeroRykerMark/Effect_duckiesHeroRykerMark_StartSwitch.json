@@ -1,0 +1,21 @@
+﻿{
+  "__base_type": "GameEffectSwitch",
+  "based_on": "GameEffectSwitch",
+  "cases": [
+    {
+      "action": "duckiesHeroRykerMark_AOEStartSearch",
+      "case_condition": "Valid_duckiesHeroRykerMark_AOELVL1"
+    }
+  ],
+  "default_action": "duckiesHeroRykerMark_ImpactSwitch",
+  "editor_icon": "",
+  "effect_location": {
+    "effect_parent": "none",
+    "entity_or_point": "EntityOrPoint",
+    "target": "Target"
+  },
+  "id": "duckiesHeroRykerMark_StartSwitch",
+  "impact_fx": "BP_FXI_MarkedForDeath_Impact",
+  "tracker": "",
+  "validator": "emptyRef"
+}

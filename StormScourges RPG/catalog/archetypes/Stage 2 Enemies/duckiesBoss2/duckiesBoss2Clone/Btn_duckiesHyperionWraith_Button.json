@@ -1,0 +1,11 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "BaseButton",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_SpectralWarrior.UI_Icons_Abilities_SpectralWarrior'",
+  "icon_secondary": "",
+  "id": "duckiesHyperionWraith_Button",
+  "name": "pegasus_heroes|Button_name_SpectralWarrior_Button",
+  "tooltip": "pegasus_heroes|Button_tooltip_SpectralWarrior_Button"
+}

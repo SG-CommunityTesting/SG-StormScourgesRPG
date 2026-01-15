@@ -1,0 +1,38 @@
+﻿{
+  "__base_type": "UpgradeData",
+  "based_on": "duckiesHeroUpgrader_GenericAbilUpgradePowerMajor",
+  "button": "duckiesHeroUpgrader_AvatarStatsButton",
+  "id": "duckiesHeroUpgrader_AvatarStatsUpgrade",
+  "name": "",
+  "player_modifiers": [],
+  "player_responses": [],
+  "research_effect": "emptyRef",
+  "set_values": [
+    {
+      "target_archetype": "duckiesHeroCasterAvatar_HealthDisplayDummy",
+      "target_command_index": 0,
+      "target_property": "amount",
+      "target_value": 25.0
+    },
+    {
+      "target_archetype": "duckiesHeroCasterAvatar_WeaponDamage",
+      "target_command_index": 0,
+      "target_property": "amount",
+      "target_value": 30.0
+    },
+    {
+      "target_archetype": "duckiesHeroCasterAvatar_Buff",
+      "target_command_index": 0,
+      "target_property": "duration",
+      "target_value": 5.0
+    },
+    {
+      "target_archetype": "duckiesHeroUpgrader_AvatarStatsLVLDummy",
+      "target_command_index": 0,
+      "target_property": "amount",
+      "target_value": 1.0
+    }
+  ],
+  "supply_provided": 0.0,
+  "unit_modifiers": []
+}

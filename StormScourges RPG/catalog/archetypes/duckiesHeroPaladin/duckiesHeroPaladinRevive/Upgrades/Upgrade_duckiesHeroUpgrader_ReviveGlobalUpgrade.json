@@ -1,0 +1,26 @@
+﻿{
+  "__base_type": "UpgradeData",
+  "based_on": "duckiesHeroUpgrader_GenericAbilUpgradePowerMajor",
+  "button": "duckiesHeroUpgrader_ReviveGlobalButton",
+  "id": "duckiesHeroUpgrader_ReviveGlobalUpgrade",
+  "name": "Damage",
+  "player_modifiers": [],
+  "player_responses": [],
+  "research_effect": "emptyRef",
+  "set_values": [
+    {
+      "target_archetype": "duckiesHeroPaladinRevive_SearchRadius",
+      "target_command_index": 0,
+      "target_property": "radius",
+      "target_value": 200.0
+    },
+    {
+      "target_archetype": "duckiesHeroUpgrader_ReviveGlobalLVLDummy",
+      "target_command_index": 0,
+      "target_property": "amount",
+      "target_value": 1.0
+    }
+  ],
+  "supply_provided": 0.0,
+  "unit_modifiers": []
+}

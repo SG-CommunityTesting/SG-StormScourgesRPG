@@ -1,0 +1,15 @@
+﻿{
+  "__base_type": "BehaviorUnitSpawner",
+  "based_on": "BehaviorUnitSpawner",
+  "flags": {
+    "change_owner": true,
+    "kill_spawned_on_death": false,
+    "kill_spawned_on_max_amount": false
+  },
+  "id": "duckiesLancerBarracks_UnitSpawner",
+  "spawn_leash_radius": 30.0,
+  "spawn_max_count": 12,
+  "spawn_period": 8.0,
+  "spawn_unit": "duckiesLancerSlave",
+  "validator": "emptyRef"
+}

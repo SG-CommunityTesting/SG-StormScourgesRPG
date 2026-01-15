@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Demon/UI_Portrait_Demon_Default_Stormgate.UI_Portrait_Demon_Default_Stormgate'",
+  "id": "duckiesBossXStormgate_Button",
+  "name": "Dimensional Gate",
+  "tooltip": "Opens up a stormgate to summon reinforcements."
+}

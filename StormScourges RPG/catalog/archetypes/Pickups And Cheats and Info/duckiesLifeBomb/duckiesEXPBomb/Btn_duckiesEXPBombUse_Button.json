@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_ResurrectionField.UI_Icons_Abilities_ResurrectionField'",
+  "id": "duckiesEXPBombUse_Button",
+  "name": "[CHEAT] EXP Bomb",
+  "tooltip": "Grants maximum experience to all heroes (available only during testing period)."
+}

@@ -1,0 +1,9 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "duckiesHeroCasterHailstorm_Button",
+  "extended_tooltips": [],
+  "id": "duckiesHeroUpgrader_HailstormDamageButton",
+  "name": "Hailstorm Damage",
+  "tooltip": "[<d ref=\"duckiesHeroUpgrader_HailstormDamageLVLDummy.amount\" style=\"Bold\"/>/<d ref=\"5\" style=\"Bold\"/>] \n\nIncrease Hailstorm damage by <d ref=\"duckiesHeroUpgrader_HailstormDamageUpgrade.set_values[0].target_value\" style=\"Bold\"/>."
+}

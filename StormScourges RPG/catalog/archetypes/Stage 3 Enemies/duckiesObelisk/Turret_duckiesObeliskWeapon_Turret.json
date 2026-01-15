@@ -1,0 +1,12 @@
+﻿{
+  "__base_type": "TurretData",
+  "arc": 180.0,
+  "based_on": "TurretData",
+  "behavior_after_tracking": "Hold",
+  "behavior_idle": "Hold",
+  "id": "duckiesObeliskWeapon_Turret",
+  "idle_delay": 0.0,
+  "starting_angle": -90.0,
+  "turn_period_idle": 1.0,
+  "turn_period_tracking": 1.2
+}

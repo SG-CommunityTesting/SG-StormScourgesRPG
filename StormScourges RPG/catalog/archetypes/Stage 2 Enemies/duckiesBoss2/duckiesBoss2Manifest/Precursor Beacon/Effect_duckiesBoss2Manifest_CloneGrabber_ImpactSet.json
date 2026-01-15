@@ -1,0 +1,21 @@
+﻿{
+  "__base_type": "GameEffectSet",
+  "based_on": "GameEffectSet",
+  "editor_icon": "",
+  "effect_location": {
+    "effect_parent": "none",
+    "entity_or_point": "EntityOrPoint",
+    "target": "Target"
+  },
+  "effects": [
+    "duckiesBoss2Manifest_CloneIntroStunApply"
+  ],
+  "flags": {
+    "target_becomes_instigator": false
+  },
+  "id": "duckiesBoss2Manifest_CloneGrabber_ImpactSet",
+  "impact_fx": "BP_EBFX_MatterReallocation",
+  "repetition_limit": 0,
+  "tracker": "",
+  "validator": "emptyRef"
+}

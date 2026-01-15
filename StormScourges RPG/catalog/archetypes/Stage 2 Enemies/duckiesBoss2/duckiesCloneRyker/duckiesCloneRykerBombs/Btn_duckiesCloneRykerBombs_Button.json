@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "BaseButton",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_FullSalvo.UI_Icons_Abilities_FullSalvo'",
+  "id": "duckiesCloneRykerBombs_Button",
+  "name": "Full Salvo",
+  "tooltip": "Bombards an area with <d ref=\"duckiesCloneRykerBombs_StartPersistent.periodic.count\"/> explosive rounds. Each round deals <d ref=\"duckiesCloneRykerBombs_ImpactDamageRadius.amount\" style=\"Red\"/> area damage."
+}

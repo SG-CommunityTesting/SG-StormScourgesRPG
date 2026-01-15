@@ -1,0 +1,32 @@
+﻿{
+  "__base_type": "UpgradeData",
+  "based_on": "duckiesHeroUpgrader_GenericAbilUpgradePowerSmall",
+  "button": "duckiesHeroUpgrader_SoulflareDamageButton",
+  "id": "duckiesHeroUpgrader_SoulflareDamageUpgrade",
+  "name": "Damage",
+  "player_modifiers": [],
+  "player_responses": [],
+  "research_effect": "emptyRef",
+  "set_values": [
+    {
+      "target_archetype": "duckiesHeroKastielFireball_Damage",
+      "target_command_index": 0,
+      "target_property": "amount",
+      "target_value": 30.0
+    },
+    {
+      "target_archetype": "duckiesHeroKastielFireball_SearchRadius",
+      "target_command_index": 0,
+      "target_property": "radius",
+      "target_value": 0.25
+    },
+    {
+      "target_archetype": "duckiesHeroUpgrader_SoulflareDamageLVLDummy",
+      "target_command_index": 0,
+      "target_property": "amount",
+      "target_value": 1.0
+    }
+  ],
+  "supply_provided": 0.0,
+  "unit_modifiers": []
+}

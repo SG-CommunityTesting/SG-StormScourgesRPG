@@ -1,0 +1,9 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "duckiesHeroCasterHailstorm_Button",
+  "extended_tooltips": [],
+  "id": "duckiesHeroUpgrader_HailstormShardsButton",
+  "name": "Hailstorm Shards",
+  "tooltip": "[<d ref=\"duckiesHeroUpgrader_HailstormShardsLVLDummy.amount\" style=\"Bold\"/>/<d ref=\"5\" style=\"Bold\"/>] \n\nIncrease Hailstorm shards count by <d ref=\"duckiesHeroUpgrader_HailstormShardsUpgrade.set_values[0].target_value\" style=\"Bold\"/>."
+}

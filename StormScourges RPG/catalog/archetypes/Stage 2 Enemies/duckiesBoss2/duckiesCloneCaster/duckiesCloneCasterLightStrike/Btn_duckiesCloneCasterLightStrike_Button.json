@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_MeteorStrike.UI_Icons_Abilities_MeteorStrike'",
+  "id": "duckiesCloneCasterLightStrike_Button",
+  "name": "Lightning Strike",
+  "tooltip": "Calls down lighting strike to inflict <d ref=\"duckiesCloneCasterLightStrike_DamageRadius.amount\" style=\"Red\"/> damage to enemies in target area."
+}

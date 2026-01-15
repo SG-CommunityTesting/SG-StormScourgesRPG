@@ -1,0 +1,9 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "duckiesHeroKastielSoulblade_Button",
+  "extended_tooltips": [],
+  "id": "duckiesHeroUpgrader_SoulbladeResilienceButton",
+  "name": "Soulblade Resilience",
+  "tooltip": "[<d ref=\"duckiesHeroUpgrader_SoulbladeResilienceLVLDummy.amount\" style=\"Bold\"/>/<d ref=\"1\" style=\"Bold\"/>] \n\nGain immunity to stuns while Soulblade is active."
+}

@@ -1,0 +1,33 @@
+﻿{
+  "__base_type": "GameEffectSwitch",
+  "based_on": "GameEffectSwitch",
+  "cases": [
+    {
+      "action": "duckiesFortressWaveSpawner_Wave1SpawnPersistent",
+      "case_condition": "Valid_duckiesFortressPhaseControl_PhaseCount1"
+    },
+    {
+      "action": "duckiesFortressWaveSpawner_Wave2_1SpawnPersistent",
+      "case_condition": "Valid_duckiesFortressPhaseControl_PhaseCount2"
+    },
+    {
+      "action": "duckiesFortressWaveSpawner_Wave3_1SpawnPersistent",
+      "case_condition": "Valid_duckiesFortressPhaseControl_PhaseCount3"
+    },
+    {
+      "action": "duckiesFortressWaveSpawner_Wave4_1SpawnPersistent",
+      "case_condition": "Valid_duckiesFortressPhaseControl_PhaseCount4"
+    }
+  ],
+  "default_action": "duckiesFortressWaveSpawner_CreateLancer",
+  "editor_icon": "",
+  "effect_location": {
+    "effect_parent": "none",
+    "entity_or_point": "EntityOrPoint",
+    "target": "Target"
+  },
+  "id": "duckiesFortressWaveSpawner_WaveSwitch",
+  "impact_fx": "",
+  "tracker": "",
+  "validator": "emptyRef"
+}

@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Weapons/UI_Icons_Weapons_Creep_MeatyMitts.UI_Icons_Weapons_Creep_MeatyMitts'",
+  "id": "duckiesIncarnateStomp_Button",
+  "name": "Crushing Stomp",
+  "tooltip": "Slams area under himself, dealing <d ref=\"duckiesIncarnateStomp_Damage.amount\" style=\"Red\"/> damage to nearby enemies and stunning them for <d ref=\"duckiesIncarnateStomp_Stun.duration\" style=\"Red\"/> seconds."
+}

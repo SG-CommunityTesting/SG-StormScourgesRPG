@@ -1,0 +1,9 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "duckiesHeroCasterBlizzard_Button",
+  "extended_tooltips": [],
+  "id": "duckiesHeroUpgrader_BlizzardHealButton",
+  "name": "Hallowed Ground",
+  "tooltip": "[<d ref=\"duckiesHeroUpgrader_BlizzardHealLVLDummy.amount\" style=\"Bold\"/>/<d ref=\"1\" style=\"Bold\"/>] \n\nFrozen waste now heals friendly units inside for <d ref=\"duckiesHeroCasterBlizzard_Healing.percentage\" style=\"Bold\"/><Bold>%</> life per second."
+}

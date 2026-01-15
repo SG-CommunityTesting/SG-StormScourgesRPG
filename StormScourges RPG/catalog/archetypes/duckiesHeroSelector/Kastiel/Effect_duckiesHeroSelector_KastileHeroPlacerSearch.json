@@ -1,0 +1,45 @@
+﻿{
+  "__base_type": "GameEffectSearchRadius",
+  "based_on": "GameEffectSearchRadius",
+  "black_white_list": {
+    "exclude": [],
+    "include": []
+  },
+  "editor_icon": "",
+  "effect_no_target_found ": "duckiesHeroSelector_DebugCreate",
+  "flags": {
+    "target_becomes_instigator": false,
+    "use_search_location_outer_radius": false
+  },
+  "game_effect": "duckiesHeroSelector_KastielHeroCreate",
+  "id": "duckiesHeroSelector_KastielHeroPlacerSearch",
+  "impact_fx": "",
+  "max_targets": 1,
+  "radius": 1000.0,
+  "search_filter": {
+    "alliance": {
+      "ally": false,
+      "enemy": false,
+      "neutral": false,
+      "player": true,
+      "self": false
+    },
+    "tags": {
+      "excluded": [],
+      "required": [
+        "status_invulnerable",
+        "status_hidden"
+      ]
+    }
+  },
+  "search_location": {
+    "effect_parent": "origin",
+    "entity_or_point": "Entity",
+    "target": "Caster"
+  },
+  "target_sorts": [
+    "TS_DistanceClosest"
+  ],
+  "tracker": "",
+  "validator": "emptyRef"
+}

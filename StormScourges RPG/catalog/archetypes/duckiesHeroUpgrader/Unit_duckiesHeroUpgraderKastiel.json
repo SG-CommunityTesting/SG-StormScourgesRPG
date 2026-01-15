@@ -1,0 +1,159 @@
+﻿{
+  "abilityList": [
+    "duckiesHeroUpgrader_StatResearch",
+    "duckiesHeroUpgrader_SoulflareResearch",
+    "duckiesHeroUpgrader_CullResearch",
+    "duckiesHeroUpgrader_SoulbladeResearch",
+    "duckiesHeroUpgrader_DarkKriResearch",
+    "duckiesHeroUpgrader_KastielPassiveResearch",
+    "structureProductionQueueAbilityData"
+  ],
+  "based_on": "duckiesHeroUpgraderGeneric",
+  "commandList": [
+    {
+      "ability": "duckiesHeroUpgrader_StatResearch",
+      "button": "duckiesHeroUpgrader_LifeButton",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 2,
+      "slot": 1,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "duckiesHeroUpgrader_StatResearch",
+      "button": "duckiesHeroUpgrader_EnergyButton",
+      "commandIndex": 1,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 2,
+      "slot": 2,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "duckiesHeroUpgrader_StatResearch",
+      "button": "duckiesHeroUpgrader_AttackButton",
+      "commandIndex": 2,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 2,
+      "slot": 3,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "duckiesHeroUpgrader_StatResearch",
+      "button": "duckiesHeroUpgrader_ArmorButton",
+      "commandIndex": 3,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 2,
+      "slot": 4,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "duckiesHeroUpgrader_SoulflareResearch",
+      "button": "duckiesHeroUpgrader_SoulflareDamageButton",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 1,
+      "slot": 1,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "DummyRykerResearch",
+      "button": "duckiesHeroUpgrader_SoulbladeMENUButton",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 1,
+      "slot": 2,
+      "submenu": 0,
+      "targetSubmenu": 1
+    },
+    {
+      "ability": "duckiesHeroUpgrader_SoulbladeResearch",
+      "button": "duckiesHeroUpgrader_SoulbladeASButton",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 2,
+      "slot": 1,
+      "submenu": 1,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "duckiesHeroUpgrader_SoulbladeResearch",
+      "button": "duckiesHeroUpgrader_SoulbladeResilienceButton",
+      "commandIndex": 1,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 2,
+      "slot": 2,
+      "submenu": 1,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "DummyBuild",
+      "button": "CancelSubMenu_Button",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 1,
+      "slot": 5,
+      "submenu": 1,
+      "targetSubmenu": 0
+    },
+    {
+      "ability": "duckiesHeroUpgrader_DarkKriResearch",
+      "button": "duckiesHeroUpgrader_DarkKriStatsButton",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 1,
+      "slot": 3,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "duckiesHeroUpgrader_CullResearch",
+      "button": "duckiesHeroUpgrader_CullDamageButton",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 1,
+      "slot": 4,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "duckiesHeroUpgrader_KastielPassiveResearch",
+      "button": "duckiesHeroUpgrader_KastielPassiveButton",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 1,
+      "slot": 5,
+      "submenu": 0,
+      "targetSubmenu": -1
+    }
+  ],
+  "id": "duckiesHeroUpgraderKastiel"
+}

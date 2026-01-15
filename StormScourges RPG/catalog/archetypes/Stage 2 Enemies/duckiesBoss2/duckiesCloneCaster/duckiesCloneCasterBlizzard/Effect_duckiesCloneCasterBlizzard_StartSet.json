@@ -1,0 +1,21 @@
+﻿{
+  "__base_type": "GameEffectSet",
+  "based_on": "BaseGameEffectSet",
+  "editor_icon": "",
+  "effect_location": {
+    "effect_parent": "none",
+    "entity_or_point": "EntityOrPoint",
+    "target": "Target"
+  },
+  "effects": [
+    "duckiesCloneCasterBlizzard_InitialPersistent"
+  ],
+  "flags": {
+    "target_becomes_instigator": false
+  },
+  "id": "duckiesCloneCaster_StartSet",
+  "impact_fx": "",
+  "repetition_limit": 0,
+  "tracker": "",
+  "validator": "emptyRef"
+}

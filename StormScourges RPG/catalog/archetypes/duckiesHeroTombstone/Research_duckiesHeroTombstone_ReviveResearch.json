@@ -1,0 +1,11 @@
+﻿{
+  "__base_type": "ResearchAbilityData",
+  "based_on": "ResearchAbilityData",
+  "commands": [
+    {
+      "requirement": "NoRequirement",
+      "upgrade": "duckiesHeroTombstone_ReviveUpgrade"
+    }
+  ],
+  "id": "duckiesHeroTombstone_ReviveResearch"
+}

@@ -1,0 +1,6 @@
+﻿{
+  "based_on": "duckiesBossXCallGolds_CreateRockGolem",
+  "id": "duckiesBossXCallGolds_CreateSwarmer",
+  "spawn_count": 2,
+  "spawn_unit": "duckiesSwarmMotherSuicider"
+}

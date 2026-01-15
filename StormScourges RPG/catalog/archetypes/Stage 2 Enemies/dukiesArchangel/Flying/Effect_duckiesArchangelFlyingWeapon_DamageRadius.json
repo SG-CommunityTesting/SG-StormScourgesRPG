@@ -1,0 +1,76 @@
+﻿{
+  "__base_type": "GameEffectDamageRadius",
+  "amount": 500.0,
+  "areas": [
+    {
+      "damage_fraction": 1.0,
+      "radius": 1.5
+    }
+  ],
+  "based_on": "GameEffectDamageRadius",
+  "black_white_list": {
+    "exclude": [],
+    "include": []
+  },
+  "damage_impact_fx": "",
+  "damage_tags": [
+    "damage_splash",
+    "damage_spell"
+  ],
+  "death_type": "Normal_DeathType",
+  "editor_icon": "",
+  "flags": {
+    "alert": true,
+    "damage_response": true,
+    "use_search_location_outer_radius": false
+  },
+  "friendly_fire_percentage": 50.0,
+  "id": "duckiesArchangelFlyingWeapon_DamageRadius",
+  "location_impact_fx": "BP_FXI_ArchAngel_MeteorStrikeLanding",
+  "ragdoll": {
+    "enable_chance": true,
+    "launch_angle": 25.0,
+    "launch_power": 0.8
+  },
+  "search_filter": {
+    "alliance": {
+      "ally": false,
+      "enemy": true,
+      "neutral": true,
+      "player": false,
+      "self": false
+    },
+    "tags": {
+      "excluded": [
+        "status_invulnerable"
+      ],
+      "required": [
+        "heightplane_ground"
+      ]
+    }
+  },
+  "search_flags": {
+    "include_target": true
+  },
+  "search_location": {
+    "effect_parent": "",
+    "entity_or_point": "Point",
+    "target": "Target"
+  },
+  "tag_bonuses": [],
+  "target_armor_multiplier": 1.0,
+  "tracker": "",
+  "validator": "emptyRef",
+  "vitals_leech": {
+    "energy": {
+      "max": 0.0,
+      "min": 0.0,
+      "percent": 0.0
+    },
+    "health": {
+      "max": 0.0,
+      "min": 0.0,
+      "percent": 0.0
+    }
+  }
+}

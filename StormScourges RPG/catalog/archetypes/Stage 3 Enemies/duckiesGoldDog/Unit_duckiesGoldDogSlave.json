@@ -1,0 +1,15 @@
+﻿{
+  "based_on": "duckiesGoldDog",
+  "effects": {
+    "birth": "emptyRef",
+    "constructed": "emptyRef",
+    "creation": "emptyRef",
+    "death": "emptyRef",
+    "revenge": "emptyRef"
+  },
+  "id": "duckiesGoldDogSlave",
+  "traits": [
+    "duckiesGlobalEXPReward_TriatSlave"
+  ],
+  "veterancy_given_on_death": 0
+}

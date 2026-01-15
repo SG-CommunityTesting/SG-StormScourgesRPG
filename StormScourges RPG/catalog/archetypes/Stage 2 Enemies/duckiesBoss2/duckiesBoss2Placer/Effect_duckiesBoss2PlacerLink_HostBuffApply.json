@@ -1,0 +1,17 @@
+﻿{
+  "__base_type": "GameEffectApplyBuff",
+  "based_on": "GameEffectApplyBuff",
+  "buff": "duckiesBoss2PlacerLink_HostBuff",
+  "editor_icon": "",
+  "effect_target": {
+    "effect_parent": "none",
+    "target": "Target"
+  },
+  "id": "duckiesBoss2PlacerLink_HostBuffApply",
+  "impact_fx": "",
+  "stacks": 0,
+  "stacks_expression": {},
+  "target": "Target",
+  "tracker": "",
+  "validator": "emptyRef"
+}

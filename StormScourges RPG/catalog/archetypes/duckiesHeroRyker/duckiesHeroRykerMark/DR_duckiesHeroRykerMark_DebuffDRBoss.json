@@ -1,0 +1,46 @@
+﻿{
+  "__base_type": "ResponseDamage",
+  "based_on": "ResponseDamage",
+  "clamp": -1.0,
+  "clamped_fraction": 0.0,
+  "damage_shield_settings": {
+    "display_as_shields": true,
+    "remove_holding_buff_when_exhausted": true,
+    "shields_max": -1.0,
+    "shields_max_expression": {}
+  },
+  "fatal": false,
+  "handle_zero_damage": false,
+  "id": "duckiesHeroRykerMark_DebuffDRBoss",
+  "modify_amount": 0.0,
+  "modify_fraction": 1.25,
+  "modify_percent_expression": {},
+  "shared": {
+    "chance": 1.0,
+    "charges": -1,
+    "cooldown": {
+      "duration": 0.0,
+      "name": "",
+      "scope": "Ability"
+    },
+    "location": "defender",
+    "priority": 100,
+    "required_effect": "emptyRef",
+    "response_effect": "emptyRef",
+    "response_fx": "",
+    "target_filter": {
+      "alliance": {
+        "ally": true,
+        "enemy": true,
+        "neutral": true,
+        "player": true,
+        "self": true
+      },
+      "tags": {
+        "excluded": [],
+        "required": []
+      }
+    },
+    "validator": "emptyRef"
+  }
+}

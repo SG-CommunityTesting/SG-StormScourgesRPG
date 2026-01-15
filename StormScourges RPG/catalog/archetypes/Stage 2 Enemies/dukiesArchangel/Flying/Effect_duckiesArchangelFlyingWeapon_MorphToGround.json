@@ -1,0 +1,17 @@
+﻿{
+  "__base_type": "GameEffectMorph",
+  "based_on": "GameEffectMorph",
+  "editor_icon": "",
+  "effect_target": {
+    "effect_parent": "none",
+    "target": "Source"
+  },
+  "flags": {
+    "clear_order_queue": false
+  },
+  "id": "duckiesArchangelFlyingWeapon_MorphToGround",
+  "impact_fx": "",
+  "morph_type": "duckiesArchangel",
+  "tracker": "",
+  "validator": "emptyRef"
+}

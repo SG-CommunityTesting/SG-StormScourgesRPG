@@ -1,0 +1,19 @@
+﻿{
+  "__base_type": "TerrainTileset",
+  "based_on": "TerrainTileset_TemplarCave",
+  "cliff_set_a": "DA_Cliffset_Rand_A",
+  "cliff_set_b": "DA_Cliffset_Rand_B",
+  "display_name": "CustomRPG",
+  "doodad_aggregate_layer": "Moss",
+  "id": "TerrainTileset_CustomRPG",
+  "layer_1": "TerrainLayer_ForestAutumn_Sand",
+  "layer_2": "TerrainLayer_ForestAutumn_Dirt",
+  "layer_3": "TerrainLayer_ForestAutumn_RockyGround",
+  "layer_4": "TerrainLayer_ForestAutumn_GrassGround",
+  "layer_5": "TerrainLayer_ForestAutumn_PatchyGrass",
+  "layer_6": "TerrainLayer_Deadlands_TemplarTilesFlat",
+  "layer_7": "TerrainLayer_Deadlands_TemplarTilesLarge",
+  "layer_8": "TerrainLayer_UrbanRuins_RedGrass",
+  "render_abyss": false,
+  "water_table": "DA_WaterTable_ForestAutumn"
+}

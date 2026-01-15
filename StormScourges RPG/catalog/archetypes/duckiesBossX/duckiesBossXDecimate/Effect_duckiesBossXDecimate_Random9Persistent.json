@@ -1,0 +1,35 @@
+﻿{
+  "based_on": "duckiesBossXDecimate_Random3Persistent",
+  "effect_expire": "duckiesBossXDecimate_Random11Persistent",
+  "id": "duckiesBossXDecimate_Random9Persistent",
+  "offsets": {
+    "expire": {
+      "angle": 0.0,
+      "radius": 0.0
+    },
+    "final": {
+      "angle": 0.0,
+      "radius": 0.0
+    },
+    "initial": {
+      "angle": 0.0,
+      "radius": 0.0
+    },
+    "periodic": [],
+    "periodic_method": "Loop",
+    "variance": {
+      "angle": 180.0,
+      "radius": 9.0
+    },
+    "vector_facing_end": {
+      "effect_parent": "none",
+      "entity_or_point": "EntityOrPoint",
+      "target": "Target"
+    },
+    "vector_facing_start": {
+      "effect_parent": "none",
+      "entity_or_point": "EntityOrPoint",
+      "target": "Target"
+    }
+  }
+}

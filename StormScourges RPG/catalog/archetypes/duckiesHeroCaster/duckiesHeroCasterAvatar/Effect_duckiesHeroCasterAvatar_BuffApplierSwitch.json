@@ -1,0 +1,25 @@
+﻿{
+  "__base_type": "GameEffectSwitch",
+  "based_on": "GameEffectSwitch",
+  "cases": [
+    {
+      "action": "duckiesHeroCasterAvatar_BuffApplierLVL1",
+      "case_condition": "Valid_duckiesHeroCasterAvatar_StatsLVL1"
+    },
+    {
+      "action": "duckiesHeroCasterAvatar_BuffApplierLVL2",
+      "case_condition": "Valid_duckiesHeroCasterAvatar_StatsLVL2"
+    }
+  ],
+  "default_action": "duckiesHeroCasterAvatar_BuffApplier",
+  "editor_icon": "",
+  "effect_location": {
+    "effect_parent": "none",
+    "entity_or_point": "EntityOrPoint",
+    "target": "Caster"
+  },
+  "id": "duckiesHeroCasterAvatar_BuffApplierSwitch",
+  "impact_fx": "",
+  "tracker": "",
+  "validator": "emptyRef"
+}

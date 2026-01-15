@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_StickyBomb.UI_Icons_Abilities_StickyBomb'",
+  "id": "duckiesCloneRykerGrenade_Button",
+  "name": "Suppressor Grenade",
+  "tooltip": "Throws a grenade which explodes for <d ref=\"duckiesCloneRykerGrenade_DamageRadius.amount\" style=\"Red\"/> damage and leaves behid a goop that lasts <d ref=\"duckiesCloneRykerGrenade_PersistentGoop.periodic.count*duckiesCloneRykerGrenade_PersistentGoop.periodic.durations[0]\"/> seconds and slows attack and movement speed of enemies on it by <d ref=\"duckiesCloneRykerGrenade_BuffSlow.modifiers[0].amount*(-1)\"/>%."
+}

@@ -1,0 +1,17 @@
+﻿{
+  "__base_type": "GameEffectApplyBuff",
+  "based_on": "GameEffectApplyBuff",
+  "buff": "duckiesFortressPhaseControl_WaveClearListener",
+  "editor_icon": "",
+  "effect_target": {
+    "effect_parent": "none",
+    "target": "Target"
+  },
+  "id": "duckiesFortressPhaseControl_WaveClearListenerApply",
+  "impact_fx": "",
+  "stacks": 0,
+  "stacks_expression": {},
+  "target": "Target",
+  "tracker": "",
+  "validator": "emptyRef"
+}

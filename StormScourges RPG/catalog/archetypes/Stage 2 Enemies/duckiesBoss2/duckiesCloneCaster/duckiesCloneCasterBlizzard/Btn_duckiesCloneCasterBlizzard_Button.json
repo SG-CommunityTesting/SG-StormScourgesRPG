@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_MeteorShower.UI_Icons_Abilities_MeteorShower'",
+  "id": "duckiesCloneCasterBlizzard_Button",
+  "name": "Meteor Shower",
+  "tooltip": "Bombards area with frozen meteors, dealing <d ref=\"duckiesCloneCasterBlizzard_PeriodicDamageRadius.amount*duckiesCloneCaster_PeriodicPersistent.periodic.count*(duckiesCloneCasterBlizzard_InitialPersistent.periodic.count+1)\" style=\"Red\" precision=\"0\"/> damage over <d ref=\"(duckiesCloneCasterBlizzard_InitialPersistent.periodic.count+1)*duckiesCloneCasterBlizzard_InitialPersistent.periodic.durations[0]\"/> seconds."
+}

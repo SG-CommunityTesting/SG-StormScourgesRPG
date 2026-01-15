@@ -1,0 +1,9 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "duckiesHeroKastielPassive_Button",
+  "extended_tooltips": [],
+  "id": "duckiesHeroUpgrader_KastielPassiveButton",
+  "name": "Magic Resistance",
+  "tooltip": "[<d ref=\"duckiesHeroUpgrader_KastielPassiveLVLDummy.amount\" style=\"Bold\"/>/<d ref=\"1\" style=\"Bold\"/>] \n\nEnable hero to permanently reduce incoming spell damage by <d ref=\"(1-duckiesHeroKastielPassive_DR.modify_fraction)*100\" style=\"Blue\"/><Blue>%</>."
+}

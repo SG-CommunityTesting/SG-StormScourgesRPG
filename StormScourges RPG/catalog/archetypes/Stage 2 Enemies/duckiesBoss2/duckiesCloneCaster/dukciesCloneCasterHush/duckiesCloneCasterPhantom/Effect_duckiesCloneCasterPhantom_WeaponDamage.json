@@ -1,0 +1,43 @@
+﻿{
+  "__base_type": "GameEffectDamage",
+  "amount": 16.0,
+  "amount_expression": {},
+  "based_on": "GameEffectDamage",
+  "damage_tags": [
+    "damage_melee"
+  ],
+  "death_type": "Normal_DeathType",
+  "editor_icon": "",
+  "effect_target": {
+    "effect_parent": "none",
+    "target": "Target"
+  },
+  "flags": {
+    "alert": true,
+    "damage_response": true
+  },
+  "friendly_fire_percentage": 100.0,
+  "id": "duckiesCloneCasterPhantom_WeaponDamage",
+  "impact_fx": "BP_FX_Fiend_Impact",
+  "ragdoll": {
+    "enable_chance": false,
+    "launch_angle": 0,
+    "launch_power": 0
+  },
+  "tag_bonuses": [],
+  "target_armor_multiplier": 1.0,
+  "tracker": "",
+  "validator": "emptyRef",
+  "vitals_leech": {
+    "energy": {
+      "max": 0.0,
+      "min": 0.0,
+      "percent": 0.0
+    },
+    "health": {
+      "max": 0.0,
+      "min": 0.0,
+      "percent": 0.0
+    }
+  }
+}

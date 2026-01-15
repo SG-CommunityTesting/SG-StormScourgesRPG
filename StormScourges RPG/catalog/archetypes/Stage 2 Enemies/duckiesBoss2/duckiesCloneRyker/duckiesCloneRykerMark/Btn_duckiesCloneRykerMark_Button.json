@@ -1,0 +1,15 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [
+    {
+      "text": "",
+      "validator": "emptyRef"
+    }
+  ],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_MarkedForDeath.UI_Icons_Abilities_MarkedForDeath'",
+  "id": "duckiesCloneRykerMark_Button",
+  "name": "Mark",
+  "tooltip": "Marks an enemy, causing them to take <d ref=\"(duckiesCloneRykerMark_DebuffDRNormal.modify_fraction-1)*100\"/>% more damage for <d ref=\"duckiesCloneRykerMark_DebuffNormal.duration\"/> seconds.\nEffect is diminished against Resilient and Hero enemies."
+}

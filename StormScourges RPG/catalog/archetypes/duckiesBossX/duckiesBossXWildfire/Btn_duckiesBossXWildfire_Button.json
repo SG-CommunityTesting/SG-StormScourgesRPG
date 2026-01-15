@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Stormgates/Units/UI_Icons_Units_Stormgates_DimensionalStorm.UI_Icons_Units_Stormgates_DimensionalStorm'",
+  "id": "duckiesBossXWildfire_Button",
+  "name": "Dimensional Storm",
+  "tooltip": "Manifests a dimensional storm that deals <d ref=\"duckiesBossXWildfire_DamageRadius.amount/duckiesBossXWildfire_DamageAura.periodic_duration\" style=\"Red\"/> area damage per second."
+}

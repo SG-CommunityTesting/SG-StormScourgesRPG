@@ -1,0 +1,15 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [
+    {
+      "text": "Immune to stuns while effect is active",
+      "validator": "Valid_duckiesHeroKastielSoulblade_ResilienceLVL1"
+    }
+  ],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_Soulblade.UI_Icons_Abilities_Soulblade'",
+  "id": "duckiesHeroKastielSoulblade_Button",
+  "name": "pegasus_heroes|Button_name_Soulblade_Button",
+  "tooltip": "Stun nearby enemies for <d ref=\"duckiesHeroKastielSoulblade_AbilStun.duration\" style=\"Blue\"/> seconds and augment weapon to attack <d ref=\"duckiesHeroKastielSoulblade_ASDisplayDummy.amount\" style=\"Blue\"/><Blue>%</> faster. While augmented weapon attack also stuns enemies for <d ref=\"duckiesHeroKastielSoulblade_WpnStun.duration\"/> second. Lasts <d ref=\"duckiesHeroKastielSoulblade_Buff.duration\"/> seconds."
+}

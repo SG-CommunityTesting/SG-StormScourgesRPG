@@ -1,0 +1,11 @@
+﻿{
+  "__base_type": "ResearchAbilityData",
+  "based_on": "ResearchAbilityData",
+  "commands": [
+    {
+      "requirement": "duckiesHeroUpgrader_SoulflareDamageLearn",
+      "upgrade": "duckiesHeroUpgrader_SoulflareDamageUpgrade"
+    }
+  ],
+  "id": "duckiesHeroUpgrader_SoulflareResearch"
+}

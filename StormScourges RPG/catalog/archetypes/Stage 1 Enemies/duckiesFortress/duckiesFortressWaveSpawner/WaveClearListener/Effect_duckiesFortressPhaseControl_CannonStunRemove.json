@@ -1,0 +1,28 @@
+﻿{
+  "__base_type": "GameEffectRemoveBuff",
+  "based_on": "GameEffectRemoveBuff",
+  "buff": "duckiesFortressPowerNodeShielder_Stun",
+  "editor_icon": "",
+  "effect_target": {
+    "effect_parent": "none",
+    "target": "Target"
+  },
+  "id": "duckiesFortressPhaseControl_CannonStunRemove",
+  "impact_fx": "",
+  "source_match": "None",
+  "stacks": 1,
+  "stacks_expression": {},
+  "store_value": {
+    "add_to_existing": true,
+    "effect_parent": "",
+    "store_name": ""
+  },
+  "tag_filter": {
+    "alignment": "All",
+    "ignored": [],
+    "required": []
+  },
+  "target": "Target",
+  "tracker": "",
+  "validator": "Valid_TargetIsduckiesFortressCannon"
+}

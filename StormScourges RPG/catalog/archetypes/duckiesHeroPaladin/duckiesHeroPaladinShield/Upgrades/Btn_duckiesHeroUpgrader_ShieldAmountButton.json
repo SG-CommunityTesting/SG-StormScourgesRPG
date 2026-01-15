@@ -1,0 +1,9 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "duckiesHeroPaladinShields_Button",
+  "extended_tooltips": [],
+  "id": "duckiesHeroUpgrader_ShieldAmountButton",
+  "name": "Fortify Potency",
+  "tooltip": "[<d ref=\"duckiesHeroUpgrader_ShieldAmountLVLDummy.amount\" style=\"Bold\"/>/<d ref=\"5\" style=\"Bold\"/>] \n\nIncrease shield amount by <d ref=\"duckiesHeroUpgrader_ShieldAmountUpgrade.set_values[0].target_value\" style=\"Bold\"/> and enable unit to regenerate +<d ref=\"duckiesHeroPaladinShield_HealingLVL1.percentage\" style=\"Bold\"/><Bold>%</> life per second while fortified."
+}

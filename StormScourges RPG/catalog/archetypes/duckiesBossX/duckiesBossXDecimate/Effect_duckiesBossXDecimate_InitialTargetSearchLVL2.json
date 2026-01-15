@@ -1,0 +1,48 @@
+﻿{
+  "__base_type": "GameEffectSearchRadius",
+  "based_on": "GameEffectSearchRadius",
+  "black_white_list": {
+    "exclude": [],
+    "include": []
+  },
+  "editor_icon": "",
+  "effect_no_target_found ": "emptyRef",
+  "flags": {
+    "target_becomes_instigator": false,
+    "use_search_location_outer_radius": false
+  },
+  "game_effect": "duckiesBossXDecimate_Random3Persistent",
+  "id": "duckiesBossXDecimate_InitialTargetSearchLVL2",
+  "impact_fx": "",
+  "max_targets": 2,
+  "radius": 50.0,
+  "search_filter": {
+    "alliance": {
+      "ally": false,
+      "enemy": true,
+      "neutral": false,
+      "player": false,
+      "self": false
+    },
+    "tags": {
+      "excluded": [
+        "dead",
+        "status_invulnerable"
+      ],
+      "required": [
+        "entity_unit",
+        "tag_PrismRevive"
+      ]
+    }
+  },
+  "search_location": {
+    "effect_parent": "none",
+    "entity_or_point": "EntityOrPoint",
+    "target": "Target"
+  },
+  "target_sorts": [
+    "TS_Random"
+  ],
+  "tracker": "",
+  "validator": "emptyRef"
+}

@@ -1,0 +1,10 @@
+﻿{
+  "based_on": "duckiesHeroRykerMark_DebuffNormal",
+  "id": "duckiesHeroRykerMark_DebuffBoss",
+  "name": "Marked for Death (Boss)",
+  "responses": [
+    "duckiesHeroRykerMark_DebuffDRBoss",
+    "duckiesHeroRyker_SpreadDR"
+  ],
+  "tooltip": "Unit takes <d ref=\"(duckiesHeroRykerMark_DebuffDRBoss.modify_fraction-1)*100\" style=\"Blue\"/><Blue>%</> increased damage"
+}

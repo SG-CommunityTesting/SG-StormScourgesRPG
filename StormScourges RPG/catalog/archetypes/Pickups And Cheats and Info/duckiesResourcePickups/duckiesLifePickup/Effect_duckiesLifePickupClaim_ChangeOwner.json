@@ -1,0 +1,16 @@
+﻿{
+  "__base_type": "GameEffectChangeOwner",
+  "based_on": "GameEffectChangeOwner",
+  "effect_owner": {
+    "effect_parent": "none",
+    "target": "Target"
+  },
+  "effect_target": {
+    "effect_parent": "none",
+    "target": "Source"
+  },
+  "id": "duckiesLifePickupClaim_ChangeOwner",
+  "impact_fx": "",
+  "tracker": "",
+  "validator": "emptyRef"
+}

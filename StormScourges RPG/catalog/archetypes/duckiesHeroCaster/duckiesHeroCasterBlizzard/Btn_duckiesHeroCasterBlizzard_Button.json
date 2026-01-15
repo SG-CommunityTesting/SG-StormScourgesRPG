@@ -1,0 +1,15 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [
+    {
+      "text": "Frozen waste heals friendly units inside for <d ref=\"duckiesHeroCasterBlizzard_Healing.percentage\" style=\"Bold\"/><Bold>%</> life per second.",
+      "validator": "Valid_duckiesHeroCasterBlizzard_HealLVL1"
+    }
+  ],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_MeteorShower.UI_Icons_Abilities_MeteorShower'",
+  "id": "duckiesHeroCasterBlizzard_Button",
+  "name": "pegasus_heroes|Button_name_MeteorShower_Button",
+  "tooltip": "Bombards area with frozen meteors, dealing <d ref=\"duckiesHeroCasterBlizzard_PeriodicDamageRadius.amount*duckiesHeroCaster_PeriodicPersistent.periodic.count*(duckiesHeroCasterBlizzard_InitialPersistent.periodic.count+1)\" style=\"Blue\" precision=\"0\"/> damage over <d ref=\"(duckiesHeroCasterBlizzard_InitialPersistent.periodic.count+1)*duckiesHeroCasterBlizzard_InitialPersistent.periodic.durations[0]\"/> seconds and leaving behind a frozen waste which will persist for <d ref=\"(duckiesHeroCasterBlizzard_GroundPersistent.periodic.count)*duckiesHeroCasterBlizzard_GroundPersistent.periodic.durations[0]\" style=\"Bold\"/> seconds and slow enemies that are traversing it by <d ref=\"duckiesHeroCasterBlizzard_Debuff.modifiers[0].amount*(-1)\"/>%"
+}

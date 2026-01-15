@@ -1,0 +1,16 @@
+﻿{
+  "__base_type": "GameEffectHeal",
+  "amount": 0.0,
+  "based_on": "GameEffectHeal",
+  "editor_icon": "",
+  "effect_target": {
+    "effect_parent": "none",
+    "target": "Caster"
+  },
+  "id": "duckiesCloneCasterAvatar_BuffHealInitial",
+  "impact_fx": "",
+  "percentage": 100.0,
+  "tag_bonuses": [],
+  "tracker": "",
+  "validator": "emptyRef"
+}

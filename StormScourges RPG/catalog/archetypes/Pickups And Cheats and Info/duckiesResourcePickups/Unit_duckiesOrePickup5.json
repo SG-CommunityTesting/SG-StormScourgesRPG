@@ -1,0 +1,13 @@
+﻿{
+  "based_on": "duckiesGoldPickup5",
+  "build_cost": {
+    "resource_a": 0.0,
+    "resource_b": 5.0,
+    "resource_c": 0.0,
+    "resource_d": 0.0
+  },
+  "id": "duckiesOrePickup5",
+  "name": "+<d ref=\"duckiesOrePickup5.build_cost.resource_b\" style=\"Gold\"/> Therium (Approach to Collect)",
+  "unit_button": "duckiesOrePickup_Button",
+  "unreal_actor": "BP_Unit_Neutral_ResourcePickupPurple"
+}

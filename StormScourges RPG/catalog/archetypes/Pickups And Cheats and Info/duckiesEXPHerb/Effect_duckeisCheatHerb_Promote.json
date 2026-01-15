@@ -1,0 +1,17 @@
+﻿{
+  "__base_type": "GameEffectModifyVeterancy",
+  "amount": 100000.0,
+  "based_on": "BaseGameEffectModifyVeterancy",
+  "effect_target": {
+    "effect_parent": "none",
+    "target": "Target"
+  },
+  "flags": {
+    "set_to_tier": false
+  },
+  "id": "duckiesCheatHerb_Promote",
+  "impact_fx": "BP_FXS_Promote",
+  "tier": 0,
+  "tracker": "",
+  "validator": "Valid_TargetCanBePromoted"
+}

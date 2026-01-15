@@ -1,0 +1,9 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "duckiesHeroKastielSoulblade_Button",
+  "extended_tooltips": [],
+  "id": "duckiesHeroUpgrader_SoulbladeASButton",
+  "name": "Soulblade Attack Speed",
+  "tooltip": "[<d ref=\"duckiesHeroUpgrader_SoulbladeASLVLDummy.amount\" style=\"Bold\"/>/<d ref=\"5\" style=\"Bold\"/>] \n\nIncrease Soulblade attack speed bonus by <d ref=\"duckiesHeroUpgrader_SoulbladeASUpgrade.set_values[0].target_value\" style=\"Bold\"/><Bold>%</> and duration by <d ref=\"duckiesHeroUpgrader_SoulbladeASUpgrade.set_values[1].target_value\" style=\"Bold\"/>."
+}

@@ -1,0 +1,15 @@
+﻿{
+  "id": "VoidRain_Persistent",
+  "periodic": {
+    "count": 10,
+    "durations": [
+      1.0
+    ],
+    "durations_method": "RepeatLast",
+    "effects": [
+      "VoidRain_DamageRadius"
+    ],
+    "effects_method": "RepeatLast",
+    "validator": "NoValidator"
+  }
+}

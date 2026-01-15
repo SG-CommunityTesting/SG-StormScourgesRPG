@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_StickyBomb.UI_Icons_Abilities_StickyBomb'",
+  "id": "duckiesGravenGrenade_Button",
+  "name": "Incendiary Grenade",
+  "tooltip": "Throws a grenade which after <d ref=\"duckiesGravenGrenade_PrecursorPersistent.effect_expire_delay\"/> seconds will explode for <d ref=\"duckiesGravenGrenade_DamageRadius.amount\" style=\"Red\"/> damage and ignite ground.\n\nIgnited ground deals <d ref=\"duckiesGravenGrenade_GroundDoTDamage.amount/duckiesGravenGrenade_GroundDoTPersistent.periodic.durations[0]\" style=\"Red\"/> damage per second and lasts <d ref=\"duckiesGravenGrenade_GroundDoTPersistent.periodic.durations[0]*(duckiesGravenGrenade_GroundDoTPersistent.periodic.count+1)\"/> seconds."
+}

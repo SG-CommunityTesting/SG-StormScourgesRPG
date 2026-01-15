@@ -1,0 +1,19 @@
+﻿{
+  "__base_type": "GameEffectCommand",
+  "ability": "attackData",
+  "based_on": "GameEffectCommand",
+  "commanded_target": {
+    "effect_parent": "",
+    "target": "Source"
+  },
+  "editor_icon": "",
+  "effect_target": {
+    "effect_parent": "",
+    "entity_or_point": "Point",
+    "target": "Target"
+  },
+  "id": "duckiesHeroRykerDrone_RecallCommand",
+  "impact_fx": "",
+  "tracker": "",
+  "validator": "Valid_TargetIsduckiesHeroRyker"
+}

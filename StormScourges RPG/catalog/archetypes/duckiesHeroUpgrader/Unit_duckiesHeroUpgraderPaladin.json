@@ -1,0 +1,123 @@
+﻿{
+  "abilityList": [
+    "duckiesHeroUpgrader_StatResearch",
+    "duckiesHeroUpgrader_HealResearch",
+    "duckiesHeroUpgrader_SpinResearch",
+    "duckiesHeroUpgrader_LeapResearch",
+    "duckiesHeroUpgrader_ShieldResearch",
+    "duckiesHeroUpgrader_ReviveResearch",
+    "structureProductionQueueAbilityData"
+  ],
+  "based_on": "duckiesHeroUpgraderGeneric",
+  "commandList": [
+    {
+      "ability": "duckiesHeroUpgrader_StatResearch",
+      "button": "duckiesHeroUpgrader_LifeButton",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 2,
+      "slot": 1,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "duckiesHeroUpgrader_StatResearch",
+      "button": "duckiesHeroUpgrader_EnergyButton",
+      "commandIndex": 1,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 2,
+      "slot": 2,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "duckiesHeroUpgrader_StatResearch",
+      "button": "duckiesHeroUpgrader_AttackButton",
+      "commandIndex": 2,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 2,
+      "slot": 3,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "duckiesHeroUpgrader_StatResearch",
+      "button": "duckiesHeroUpgrader_ArmorButton",
+      "commandIndex": 3,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 2,
+      "slot": 4,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "duckiesHeroUpgrader_HealResearch",
+      "button": "duckiesHeroUpgrader_HealAmountButton",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 1,
+      "slot": 1,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "duckiesHeroUpgrader_SpinResearch",
+      "button": "duckiesHeroUpgrader_SpinDamageButton",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 1,
+      "slot": 2,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "duckiesHeroUpgrader_LeapResearch",
+      "button": "duckiesHeroUpgrader_LeapDamageButton",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 1,
+      "slot": 3,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "duckiesHeroUpgrader_ShieldResearch",
+      "button": "duckiesHeroUpgrader_ShieldAmountButton",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 1,
+      "slot": 4,
+      "submenu": 0,
+      "targetSubmenu": -1
+    },
+    {
+      "ability": "duckiesHeroUpgrader_ReviveResearch",
+      "button": "duckiesHeroUpgrader_ReviveGlobalButton",
+      "commandIndex": 0,
+      "hotkey_should_hide": false,
+      "panel": "CommandPanel",
+      "repeatable": false,
+      "row": 1,
+      "slot": 5,
+      "submenu": 0,
+      "targetSubmenu": -1
+    }
+  ],
+  "id": "duckiesHeroUpgraderPaladin"
+}

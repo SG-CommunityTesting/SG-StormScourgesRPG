@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Units/Angel/UI_Icons_Units_Angel_DarkKri.UI_Icons_Units_Angel_DarkKri'",
+  "id": "duckiesCloneKastielDarkKri_Button",
+  "name": "Reinforce",
+  "tooltip": "Summons <d ref=\"duckiesCloneKastielDarkKri_Create.spawn_count\" style=\"Red\"/> Kuzari to attack enemies.\n\nKuzari have <d ref=\"duckiesCloneDarkKri.vital_health.maximum\" style=\"Red\"/> life and deal <d ref=\"duckiesCloneDarkKri_WeaponDamage.amount\" style=\"Red\"/> damage per attack."
+}

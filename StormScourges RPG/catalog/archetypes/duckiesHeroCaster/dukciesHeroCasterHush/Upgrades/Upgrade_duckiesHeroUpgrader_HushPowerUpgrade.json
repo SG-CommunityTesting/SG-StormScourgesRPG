@@ -1,0 +1,44 @@
+﻿{
+  "__base_type": "UpgradeData",
+  "based_on": "duckiesHeroUpgrader_GenericAbilUpgradePowerSmall",
+  "button": "duckiesHeroUpgrader_HushPowerButton",
+  "id": "duckiesHeroUpgrader_HushPowerUpgrade",
+  "name": "",
+  "player_modifiers": [],
+  "player_responses": [],
+  "research_effect": "emptyRef",
+  "set_values": [
+    {
+      "target_archetype": "duckiesHeroCasterHush_DebuffInitial",
+      "target_command_index": 0,
+      "target_property": "duration",
+      "target_value": 0.5
+    },
+    {
+      "target_archetype": "duckiesHeroCasterPhantom",
+      "target_command_index": 0,
+      "target_property": "vital_health.maximum",
+      "target_value": 40.0
+    },
+    {
+      "target_archetype": "duckiesHeroCasterPhantom",
+      "target_command_index": 0,
+      "target_property": "vital_health.starting",
+      "target_value": 40.0
+    },
+    {
+      "target_archetype": "duckiesHeroCasterPhantom_WeaponDamage",
+      "target_command_index": 0,
+      "target_property": "amount",
+      "target_value": 8.0
+    },
+    {
+      "target_archetype": "duckiesHeroUpgrader_HushPowerLVLDummy",
+      "target_command_index": 0,
+      "target_property": "amount",
+      "target_value": 1.0
+    }
+  ],
+  "supply_provided": 0.0,
+  "unit_modifiers": []
+}

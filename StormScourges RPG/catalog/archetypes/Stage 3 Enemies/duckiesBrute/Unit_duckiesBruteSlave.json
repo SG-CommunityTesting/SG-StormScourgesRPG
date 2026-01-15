@@ -1,0 +1,15 @@
+﻿{
+  "based_on": "duckiesBrute",
+  "effects": {
+    "birth": "emptyRef",
+    "constructed": "emptyRef",
+    "creation": "emptyRef",
+    "death": "emptyRef",
+    "revenge": "emptyRef"
+  },
+  "id": "duckiesBruteSlave",
+  "traits": [
+    "duckiesGlobalEXPReward_TriatSlave"
+  ],
+  "veterancy_given_on_death": 0
+}

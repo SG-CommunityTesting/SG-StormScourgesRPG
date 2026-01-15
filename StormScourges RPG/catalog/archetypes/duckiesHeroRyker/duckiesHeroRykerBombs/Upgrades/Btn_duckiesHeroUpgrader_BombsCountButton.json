@@ -1,0 +1,9 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "duckiesHeroRykerBombs_Button",
+  "extended_tooltips": [],
+  "id": "duckiesHeroUpgrader_BombsCountButton",
+  "name": "Full Salvo: Overkill",
+  "tooltip": "[<d ref=\"duckiesHeroUpgrader_BombsCountLVLDummy.amount\" style=\"Bold\"/>/<d ref=\"1\" style=\"Bold\"/>] \n\nIncrease amount of explosive rounds by <d ref=\"duckiesHeroUpgrader_BombsCountUpgrade.set_values[0].target_value\" style=\"Bold\"/>."
+}

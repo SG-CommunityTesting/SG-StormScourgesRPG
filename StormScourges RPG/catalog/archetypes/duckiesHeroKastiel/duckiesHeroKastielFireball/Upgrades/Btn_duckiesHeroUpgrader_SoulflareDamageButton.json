@@ -1,0 +1,9 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "duckiesHeroKastielFireball_Button",
+  "extended_tooltips": [],
+  "id": "duckiesHeroUpgrader_SoulflareDamageButton",
+  "name": "Soulflare Damage",
+  "tooltip": "[<d ref=\"duckiesHeroUpgrader_SoulflareDamageLVLDummy.amount\" style=\"Bold\"/>/<d ref=\"5\" style=\"Bold\"/>] \n\nIncrease Soulflare damage by <d ref=\"duckiesHeroUpgrader_SoulflareDamageUpgrade.set_values[0].target_value\" style=\"Bold\"/> and damage radius by <d ref=\"duckiesHeroUpgrader_SoulflareDamageUpgrade.set_values[1].target_value*100\" style=\"Bold\"/><Bold>%</> (not reflected in cursor visual)."
+}

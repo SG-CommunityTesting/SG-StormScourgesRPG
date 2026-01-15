@@ -1,0 +1,11 @@
+﻿{
+  "based_on": "duckiesGoldPickup5",
+  "build_cost": {
+    "resource_a": 9999.0,
+    "resource_b": 9999.0,
+    "resource_c": 0.0,
+    "resource_d": 0.0
+  },
+  "id": "duckiesMaxPickup9999",
+  "name": "+<d ref=\"duckiesMaxPickup9999.build_cost.resource_a\" style=\"Bold\"/> Luminite and Therium (Approach to Collect)"
+}

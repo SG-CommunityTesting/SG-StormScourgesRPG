@@ -1,0 +1,28 @@
+﻿{
+  "__base_type": "Validator",
+  "based_on": "BaseValidator",
+  "check": {
+    "root": {
+      "name": "ExpressionApi::combine_validators_or",
+      "node": "FunctionCall",
+      "parameters": [
+        {
+          "argument": {
+            "node": "Literal",
+            "type": "Array<Validator>",
+            "value": [
+              "Valid_TargetIsduckiesFortressPowerNode",
+              "Valid_TargetIsduckiesFortress"
+            ]
+          },
+          "name": "validators",
+          "type": "Array<Validator>"
+        }
+      ],
+      "type": "Bool"
+    },
+    "type": "Bool"
+  },
+  "error_string": "",
+  "id": "Valid_TargetIsduckiesFortressDefender_ShieldValidTarget"
+}

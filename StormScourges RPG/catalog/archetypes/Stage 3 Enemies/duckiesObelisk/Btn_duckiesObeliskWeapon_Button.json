@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Units/Demon/UI_Icons_Units_Demon_FiendV2.UI_Icons_Units_Demon_FiendV2'",
+  "id": "duckiesObeliskWeapon_Button",
+  "name": "Hellcaller",
+  "tooltip": "Attack creates a Fiend."
+}

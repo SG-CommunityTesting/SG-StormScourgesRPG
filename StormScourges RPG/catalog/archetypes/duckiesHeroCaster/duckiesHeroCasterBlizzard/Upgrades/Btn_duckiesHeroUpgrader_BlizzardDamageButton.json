@@ -1,0 +1,9 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "duckiesHeroCasterBlizzard_Button",
+  "extended_tooltips": [],
+  "id": "duckiesHeroUpgrader_BlizzardDamageButton",
+  "name": "Meteor Shower Damage",
+  "tooltip": "[<d ref=\"duckiesHeroUpgrader_BlizzardDamageLVLDummy.amount\" style=\"Bold\"/>/<d ref=\"2\" style=\"Bold\"/>] \n\nIncrease Meteor Shower total damage by <d ref=\"duckiesHeroUpgrader_BlizzardDamageUpgrade.set_values[0].target_value*duckiesHeroCaster_PeriodicPersistent.periodic.count*(duckiesHeroCasterBlizzard_InitialPersistent.periodic.count+1)\" style=\"Bold\"/> and frozen waste duration by <d ref=\"(duckiesHeroUpgrader_BlizzardDamageUpgrade.set_values[1].target_value)*duckiesHeroCasterBlizzard_GroundPersistent.periodic.durations[0]\" style=\"Bold\"/> seconds."
+}

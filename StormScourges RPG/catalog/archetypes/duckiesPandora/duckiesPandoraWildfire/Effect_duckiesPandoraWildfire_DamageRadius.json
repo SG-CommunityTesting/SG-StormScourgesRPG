@@ -1,0 +1,65 @@
+﻿{
+  "__base_type": "GameEffectDamageRadius",
+  "amount": 62.5,
+  "areas": [
+    {
+      "damage_fraction": 1.0,
+      "radius": 2.5
+    }
+  ],
+  "based_on": "GameEffectDamageRadius",
+  "black_white_list": {
+    "exclude": [],
+    "include": []
+  },
+  "damage_impact_fx": "",
+  "damage_tags": [
+    "damage_spell"
+  ],
+  "death_type": "Burning_DeathType",
+  "editor_icon": "",
+  "flags": {
+    "alert": true,
+    "damage_response": true,
+    "use_search_location_outer_radius": false
+  },
+  "friendly_fire_percentage": 0.0,
+  "id": "duckiesPandoraWildfire_DamageRadius",
+  "location_impact_fx": "",
+  "search_filter": {
+    "alliance": {
+      "ally": false,
+      "enemy": true,
+      "neutral": true,
+      "player": false,
+      "self": false
+    },
+    "tags": {
+      "excluded": [
+        "dead"
+      ],
+      "required": []
+    }
+  },
+  "search_location": {
+    "effect_parent": "none",
+    "entity_or_point": "EntityOrPoint",
+    "target": "Source"
+  },
+  "tag_bonuses": [],
+  "target_armor_multiplier": 1.0,
+  "tracker": "",
+  "validator": "emptyRef",
+  "vitals_leech": {
+    "energy": {
+      "max": 0.0,
+      "min": 0.0,
+      "percent": 0.0
+    },
+    "health": {
+      "max": 0.0,
+      "min": 0.0,
+      "percent": 0.0
+    }
+  }
+}

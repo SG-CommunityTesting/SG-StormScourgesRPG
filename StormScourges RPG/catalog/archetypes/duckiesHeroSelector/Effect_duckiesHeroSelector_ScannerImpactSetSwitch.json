@@ -1,0 +1,21 @@
+﻿{
+  "__base_type": "GameEffectSwitch",
+  "based_on": "GameEffectSwitch",
+  "cases": [
+    {
+      "action": "duckiesHeroSelector_ScannerHostRandomApply",
+      "case_condition": "Valid_TargetIsduckiesHeroRandom"
+    }
+  ],
+  "default_action": "duckiesHeroSelector_ScannerImpactSet",
+  "editor_icon": "",
+  "effect_location": {
+    "effect_parent": "none",
+    "entity_or_point": "EntityOrPoint",
+    "target": "Target"
+  },
+  "id": "duckiesHeroSelector_ScannerImpactSetSwitch",
+  "impact_fx": "",
+  "tracker": "",
+  "validator": "emptyRef"
+}

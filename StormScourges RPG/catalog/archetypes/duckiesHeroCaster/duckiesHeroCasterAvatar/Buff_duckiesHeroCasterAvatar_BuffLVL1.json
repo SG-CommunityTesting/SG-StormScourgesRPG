@@ -1,0 +1,11 @@
+﻿{
+  "based_on": "duckiesHeroCasterAvatar_Buff",
+  "duration": 30.0,
+  "id": "duckiesHeroCasterAvatar_BuffLVL1",
+  "modifiers": [
+    {
+      "amount": 75.0,
+      "stat_mod": "HealthMaxPercentageAdditiveMultiplier"
+    }
+  ]
+}

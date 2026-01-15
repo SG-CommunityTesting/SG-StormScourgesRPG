@@ -1,0 +1,13 @@
+﻿{
+  "__base_type": "ProjectileData",
+  "based_on": "ProjectileData",
+  "game_effect": "Jeep_00WeaponFire",
+  "health": 20.0,
+  "id": "duckiesOlympianWeapon_Missile",
+  "minimap_icon": "",
+  "minimap_icon_size": 16.0,
+  "minimap_icon_use_heading": false,
+  "minimap_icon_use_team_color": false,
+  "radius": 0.1,
+  "unreal_actor": "BP_JeepMissile"
+}

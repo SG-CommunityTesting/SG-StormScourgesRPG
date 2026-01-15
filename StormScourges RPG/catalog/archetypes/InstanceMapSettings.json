@@ -1,0 +1,154 @@
+﻿{
+  "based_on": "DefaultMapSettings",
+  "camera_bounds": {
+    "bottom_offset": 0.0,
+    "left_offset": 0.0,
+    "right_offset": 0.0,
+    "top_offset": 0.0
+  },
+  "description": "A team of 4 heroes has to battle through hostile domain in order to reach and dispose of the infernal warlord Deth.",
+  "id": "InstanceMapSettings",
+  "map_music": "SoundData_Music_Multiplayer",
+  "playable_bounds": {
+    "bottom_offset": 4,
+    "left_offset": 4,
+    "right_offset": 4,
+    "top_offset": 4
+  },
+  "player_slots": [
+    {
+      "attribute_instance_map_settings": {
+        "additional_overrides": [
+          {
+            "attribute_definition": "aiWingmanAttributeDefinition",
+            "locked": true,
+            "value": 0.0
+          }
+        ],
+        "slot_type": {
+          "locked": true,
+          "value": "human"
+        },
+        "team": {
+          "locked": true,
+          "value": 0
+        }
+      }
+    },
+    {
+      "attribute_instance_map_settings": {
+        "additional_overrides": [
+          {
+            "attribute_definition": "aiWingmanAttributeDefinition",
+            "locked": true,
+            "value": 0
+          }
+        ],
+        "slot_type": {
+          "locked": true,
+          "value": "human"
+        },
+        "team": {
+          "locked": true,
+          "value": 0
+        }
+      }
+    },
+    {
+      "attribute_instance_map_settings": {
+        "additional_overrides": [
+          {
+            "attribute_definition": "aiWingmanAttributeDefinition",
+            "locked": true,
+            "value": 0
+          }
+        ],
+        "slot_type": {
+          "locked": true,
+          "value": "human"
+        },
+        "team": {
+          "locked": true,
+          "value": 0
+        }
+      }
+    },
+    {
+      "attribute_instance_map_settings": {
+        "additional_overrides": [
+          {
+            "attribute_definition": "aiWingmanAttributeDefinition",
+            "locked": true,
+            "value": 0
+          }
+        ],
+        "slot_type": {
+          "locked": true,
+          "value": "human"
+        },
+        "team": {
+          "locked": true,
+          "value": 0
+        }
+      }
+    },
+    {
+      "attribute_instance_map_settings": {
+        "additional_overrides": [],
+        "slot_type": {
+          "locked": true,
+          "value": "closed"
+        },
+        "team": {
+          "locked": true,
+          "value": 0
+        }
+      }
+    },
+    {
+      "attribute_instance_map_settings": {
+        "additional_overrides": [
+          {
+            "attribute_definition": "factionAttributeDefinition",
+            "locked": true,
+            "value": 1.0
+          },
+          {
+            "attribute_definition": "aiStyleAttributeDefinition",
+            "locked": true,
+            "value": 3.0
+          }
+        ],
+        "slot_type": {
+          "locked": true,
+          "value": "closed"
+        },
+        "team": {
+          "locked": true,
+          "value": 1
+        }
+      }
+    },
+    {
+      "attribute_instance_map_settings": {
+        "additional_overrides": [
+          {
+            "attribute_definition": "aiStyleAttributeDefinition",
+            "locked": true,
+            "value": 1.0
+          }
+        ],
+        "slot_type": {
+          "locked": true,
+          "value": "closed"
+        },
+        "team": {
+          "locked": true,
+          "value": 1
+        }
+      }
+    }
+  ],
+  "tileset": "TerrainTileset_CustomRPG",
+  "title": "StormScourges RPG v1.1"
+}

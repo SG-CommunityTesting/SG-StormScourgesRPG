@@ -1,0 +1,9 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "duckiesHeroRykerMark_Button",
+  "extended_tooltips": [],
+  "id": "duckiesHeroUpgrader_MarkAOEButton",
+  "name": "Hunt",
+  "tooltip": "[<d ref=\"duckiesHeroUpgrader_MarkAOELVLDummy.amount\" style=\"Bold\"/>/<d ref=\"1\" style=\"Bold\"/>] \n\nMark is applied to up to <d ref=\"duckiesHeroRykerMark_AOEStartSearch.max_targets\" style=\"Bold\"/> additional enemies next to primary target."
+}

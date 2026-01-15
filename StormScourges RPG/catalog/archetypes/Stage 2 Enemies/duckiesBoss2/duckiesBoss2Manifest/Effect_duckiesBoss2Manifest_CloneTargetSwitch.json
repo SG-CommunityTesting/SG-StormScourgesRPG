@@ -1,0 +1,33 @@
+﻿{
+  "__base_type": "GameEffectSwitch",
+  "based_on": "GameEffectSwitch",
+  "cases": [
+    {
+      "action": "duckiesBoss2Manifest_CreateKastiel",
+      "case_condition": "Valid_TargetIsduckiesHeroKastiel"
+    },
+    {
+      "action": "duckiesBoss2Manifest_CreatePaladin",
+      "case_condition": "Valid_TargetIsduckiesHeroPaladin"
+    },
+    {
+      "action": "duckiesBoss2Manifest_CreateCaster",
+      "case_condition": "Valid_TargetIsduckiesHeroCaster"
+    },
+    {
+      "action": "duckiesBoss2Manifest_CreateRyker",
+      "case_condition": "Valid_TargetIsduckiesHeroRyker"
+    }
+  ],
+  "default_action": "emptyRef",
+  "editor_icon": "",
+  "effect_location": {
+    "effect_parent": "none",
+    "entity_or_point": "EntityOrPoint",
+    "target": "Target"
+  },
+  "id": "duckiesBoss2Manifest_CloneTargetSwitch",
+  "impact_fx": "",
+  "tracker": "",
+  "validator": "Valid_duckiesBoss2Manifest_HasAMMO"
+}

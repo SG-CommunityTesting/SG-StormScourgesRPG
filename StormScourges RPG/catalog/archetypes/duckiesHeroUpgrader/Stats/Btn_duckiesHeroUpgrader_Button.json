@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Stormgates/Weapons/UI_Icons_Weapons_Stormgates_JaggedShards.UI_Icons_Weapons_Stormgates_JaggedShards'",
+  "id": "duckiesHeroUpgrader_Button",
+  "name": "Upgrades",
+  "tooltip": "The hero has following upgrades:\nLife: <d ref=\"duckiesHeroUpgrader_DisplayDummy.vitals_leech.health.max\" style=\"Bold\"/>\nEnergy: <d ref=\"duckiesHeroUpgraderGeneric.build_cost.resource_b\" style=\"Bold\"/>."
+}

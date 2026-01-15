@@ -1,0 +1,9 @@
+﻿{
+  "UseUITint": true,
+  "__base_type": "Button",
+  "based_on": "duckiesHeroCasterBlizzard_Button",
+  "extended_tooltips": [],
+  "id": "duckiesHeroUpgrader_BlizzardMENUButton",
+  "name": "Upgrade Meteor Shower",
+  "tooltip": "View upgrades for Meteor Shower."
+}

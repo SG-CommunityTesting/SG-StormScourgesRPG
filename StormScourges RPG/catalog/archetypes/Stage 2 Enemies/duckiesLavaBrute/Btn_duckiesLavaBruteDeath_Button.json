@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_UnstableLava.UI_Icons_Abilities_UnstableLava'",
+  "id": "duckiesLavaBruteDeath_Button",
+  "name": "Magma Seal",
+  "tooltip": "On death creates a pool of magma that deals <d ref=\"duckiesLavaBruteDeath_GroundDoTDamage.amount/duckiesLavaBruteDeath_GroundDoTPersistent.periodic.durations[0]\" style=\"Red\"/> damage per second to nearby enemies. Persists for <d ref=\"duckiesLavaBruteDeath_GroundDoTPersistent.periodic.count*duckiesLavaBruteDeath_GroundDoTPersistent.periodic.durations[0]\"/> seconds."
+}

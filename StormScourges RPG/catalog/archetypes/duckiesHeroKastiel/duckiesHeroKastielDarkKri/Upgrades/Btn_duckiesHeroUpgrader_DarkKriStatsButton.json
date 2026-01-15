@@ -1,0 +1,9 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "duckiesHeroKastielDarkKri_Button",
+  "extended_tooltips": [],
+  "id": "duckiesHeroUpgrader_DarkKriStatsButton",
+  "name": "Reinforce Power",
+  "tooltip": "[<d ref=\"duckiesHeroUpgrader_DarkKriStatsLVLDummy.amount\" style=\"Bold\"/>/<d ref=\"5\" style=\"Bold\"/>] \n\nIncrease life of summons by <d ref=\"duckiesHeroUpgrader_DarkKriStatsUpgrade.set_values[0].target_value\" style=\"Bold\"/> and damage of summons by <d ref=\"duckiesHeroUpgrader_DarkKriStatsUpgrade.set_values[2].target_value\" style=\"Bold\"/>."
+}

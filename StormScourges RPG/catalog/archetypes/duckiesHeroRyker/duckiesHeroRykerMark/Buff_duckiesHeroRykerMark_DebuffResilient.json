@@ -1,0 +1,10 @@
+﻿{
+  "based_on": "duckiesHeroRykerMark_DebuffNormal",
+  "id": "duckiesHeroRykerMark_DebuffResilient",
+  "name": "Marked for Death (Resilient)",
+  "responses": [
+    "duckiesHeroRykerMark_DebuffDRResilient",
+    "duckiesHeroRyker_SpreadDR"
+  ],
+  "tooltip": "Unit takes <d ref=\"(duckiesHeroRykerMark_DebuffDRResilient.modify_fraction-1)*100\" style=\"Blue\"/><Blue>%</> increased damage"
+}

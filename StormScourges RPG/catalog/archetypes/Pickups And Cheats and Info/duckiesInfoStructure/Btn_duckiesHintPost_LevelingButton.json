@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Pings/RadialMenu/Sprays/Spray_Bob_QuestionMark.Spray_Bob_QuestionMark'",
+  "id": "duckiesHintPost_LevelingButton",
+  "name": "",
+  "tooltip": "Each level increases life and weapon damage by 10% and energy by 50."
+}

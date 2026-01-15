@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_JusticeJump.UI_Icons_Abilities_JusticeJump'",
+  "id": "duckiesClonePaladinRevive_Button",
+  "name": "Revive",
+  "tooltip": "Channels for <d ref=\"duckiesClonePaladinRevive_StartPersistent.effect_expire_delay\"/> seconds on an dead hero's grave and then revives all friendly heroes in the target area."
+}

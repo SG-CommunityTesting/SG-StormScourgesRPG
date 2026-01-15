@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/QuickMacro/UI_Icons_QuickMacro_Build.UI_Icons_QuickMacro_Build'",
+  "id": "duckiesGlobalEXPReward_ButtonSpawner",
+  "name": "Spawner",
+  "tooltip": "Units produced by this structure grant no kill bounty."
+}

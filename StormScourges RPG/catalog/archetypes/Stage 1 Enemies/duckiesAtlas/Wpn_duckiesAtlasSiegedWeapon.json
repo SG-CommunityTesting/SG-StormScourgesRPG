@@ -1,0 +1,72 @@
+﻿{
+  "__base_type": "WeaponData",
+  "ammo": "NoAmmo",
+  "arc": 0.0,
+  "arc_slop": 11.25,
+  "backswing": 1.5,
+  "backswing_locked": 0.4,
+  "based_on": "ArtilleryMech_Weapon",
+  "can_use": "emptyRef",
+  "cannot_fire_while_flocking": 0.5,
+  "display_effect_area": "duckiesAtlasSiegedWeapon_DamageRadius",
+  "display_effect_damage": "duckiesAtlasSiegedWeapon_DamageRadius",
+  "flags": {
+    "always_visualize_range": true,
+    "can_attack_location": true,
+    "channeled": false,
+    "fires_passively": false,
+    "hide_weapon": false,
+    "melee": false,
+    "scan_for_new_targets": true
+  },
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Weapons/UI_Icons_Weapons_Vanguard_Atlas_BFG.UI_Icons_Weapons_Vanguard_Atlas_BFG'",
+  "id": "duckiesAtlasSieged_Weapon",
+  "name": "pegasus_core|WeaponData_name_ArtilleryMechDeployed_Weapon",
+  "period": 4.5,
+  "preswing_initial": 0.0,
+  "preswing_repeating": 0.0,
+  "preswing_winddown": 0.0,
+  "random_delay_maximum": 0.09375,
+  "random_delay_minimum": -0.046875,
+  "range_acquire": 22.0,
+  "range_maximum": 20.0,
+  "range_minimum": 1.0,
+  "range_slop": 0.0,
+  "swing": 0.75,
+  "swing_reacquire_range": 5.0,
+  "turret": "Turret_ArtilleryMechDeployed",
+  "unreal_component": "/Script/Engine.BlueprintGeneratedClass'/Game/Pegasus/Blueprints/EntityComponents/WeaponComponents/AC_Weapon_Generic.AC_Weapon_Generic_C'",
+  "weapon_acquire_filter": {
+    "alliance": {
+      "ally": false,
+      "enemy": true,
+      "neutral": false,
+      "player": false,
+      "self": false
+    },
+    "tags": {
+      "excluded": [
+        "status_sleeping"
+      ],
+      "required": []
+    }
+  },
+  "weapon_fire": "duckiesAtlasSiegedWeapon_TargetRandomLocation",
+  "weapon_target_filter": {
+    "alliance": {
+      "ally": true,
+      "enemy": true,
+      "neutral": true,
+      "player": true,
+      "self": false
+    },
+    "tags": {
+      "excluded": [
+        "status_invulnerable"
+      ],
+      "required": [
+        "heightplane_ground"
+      ]
+    }
+  }
+}

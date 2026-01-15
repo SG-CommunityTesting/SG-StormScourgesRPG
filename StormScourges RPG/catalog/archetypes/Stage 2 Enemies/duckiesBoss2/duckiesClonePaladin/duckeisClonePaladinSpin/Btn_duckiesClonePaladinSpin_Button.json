@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_HammerTime.UI_Icons_Abilities_HammerTime'",
+  "id": "duckiesClonePaladinSpin_Button",
+  "name": "Hammer Time",
+  "tooltip": "Spins around, gaining <d ref=\"duckiesClonePaladinSpin_HostBuff.modifiers[1].amount\"/> armor and dealing <d ref=\"duckiesClonePaladinSpin_impactDamage.amount/duckiesClonePaladinSpin_HostBuff.periodic_duration\" style=\"Red\"/> damage per second to nearby enemies. Damaged enemies will have their attack speed briefly reduced by <d ref=\"duckiesClonePaladinSpin_ImpactSlowBuff.modifiers[0].amount*(-1)\"/>%. Lasts <d ref=\"duckiesClonePaladinSpin_HostBuff.duration\"/> seconds."
+}

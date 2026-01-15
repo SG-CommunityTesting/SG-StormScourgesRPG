@@ -1,0 +1,11 @@
+﻿{
+  "based_on": "duckiesHeroKastielSoulblade_BuffAS",
+  "id": "duckiesHeroKastielSoulblade_BuffASLVL3",
+  "modifiers": [
+    {
+      "amount": 100.0,
+      "stat_mod": "AttackSpeedPercentageAdditiveMultiplier"
+    }
+  ],
+  "validator_disable": "Valid_duckiesHeroKastielSoulblade_ASLVL3"
+}

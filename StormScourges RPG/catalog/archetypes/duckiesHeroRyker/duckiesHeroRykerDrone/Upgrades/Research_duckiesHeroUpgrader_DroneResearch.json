@@ -1,0 +1,11 @@
+﻿{
+  "__base_type": "ResearchAbilityData",
+  "based_on": "ResearchAbilityData",
+  "commands": [
+    {
+      "requirement": "duckiesHeroUpgrader_DroneStatsLearn",
+      "upgrade": "duckiesHeroUpgrader_DroneStatsUpgrade"
+    }
+  ],
+  "id": "duckiesHeroUpgrader_DroneResearch"
+}

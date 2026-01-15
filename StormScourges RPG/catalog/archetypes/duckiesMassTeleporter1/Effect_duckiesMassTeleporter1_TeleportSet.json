@@ -1,0 +1,24 @@
+﻿{
+  "__base_type": "GameEffectSet",
+  "based_on": "GameEffectSet",
+  "editor_icon": "",
+  "effect_location": {
+    "effect_parent": "none",
+    "entity_or_point": "EntityOrPoint",
+    "target": "Target"
+  },
+  "effects": [
+    "duckiesMassTeleporter1_Teleport",
+    "AuralannaResurrectionField_Revive",
+    "VoidLashFriendly_ModifyVitals",
+    "duckiesMassTeleporter1_TargetStunApplier"
+  ],
+  "flags": {
+    "target_becomes_instigator": false
+  },
+  "id": "duckiesMassTeleporter1_TeleportSet",
+  "impact_fx": "",
+  "repetition_limit": 0,
+  "tracker": "",
+  "validator": "emptyRef"
+}

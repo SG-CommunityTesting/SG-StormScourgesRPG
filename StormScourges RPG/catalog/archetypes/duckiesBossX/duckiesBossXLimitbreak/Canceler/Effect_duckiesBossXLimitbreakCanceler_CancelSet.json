@@ -1,0 +1,22 @@
+﻿{
+  "__base_type": "GameEffectSet",
+  "based_on": "GameEffectSet",
+  "editor_icon": "",
+  "effect_location": {
+    "effect_parent": "none",
+    "entity_or_point": "EntityOrPoint",
+    "target": "Target"
+  },
+  "effects": [
+    "duckiesBossXLimitbreakCanceler_CancelerRemove",
+    "duckiesBossXLimitbreakCanceler_Phase2Remove"
+  ],
+  "flags": {
+    "target_becomes_instigator": false
+  },
+  "id": "duckiesBossXLimitbreakCanceler_CancelSet",
+  "impact_fx": "",
+  "repetition_limit": 0,
+  "tracker": "",
+  "validator": "emptyRef"
+}

@@ -1,0 +1,11 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Units/Human/UI_Icons_Units_Human_SensorDrone.UI_Icons_Units_Human_SensorDrone'",
+  "icon_secondary": "",
+  "id": "duckiesHeroRykerDrone_Button",
+  "name": "Assault Drone",
+  "tooltip": "Places an assault drone at the target location. Drone has <d ref=\"duckiesHeroRykerDrone_Unit.vital_health.maximum\" style=\"Bold\"/> life and attacks nearby enemies for <d ref=\"duckiesHeroRykerDrone_UnitWeaponDamage.amount\" style=\"Blue\"/> damage every <d ref=\"duckiesHeroRykerDrone_UnitWeapon.period\"/> seconds. Times out in <d ref=\"duckiesHeroRykerDrone_TimedLife.duration\"/> seconds."
+}

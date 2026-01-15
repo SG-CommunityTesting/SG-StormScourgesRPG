@@ -1,0 +1,5 @@
+﻿{
+  "based_on": "duckiesHeroSelector_KastielHeroPlacerSearch",
+  "game_effect": "duckiesHeroSelector_PaladinHeroCreate",
+  "id": "duckiesHeroSelector_PaladinHeroPlacerSearch"
+}

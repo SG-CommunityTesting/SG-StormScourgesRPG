@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Abilities/UI_Icons_Abilities_TuckAndRoll.UI_Icons_Abilities_TuckAndRoll'",
+  "id": "duckiesCloneRykerRoll_Button",
+  "name": "Assault Roll",
+  "tooltip": "Rolls away from a threat, dodging all attacks and gaining a major attack speed increase for next <d ref=\"duckiesCloneRykerRoll_ASBuffStacksApplier.stacks\"/> attacks. These attack will also briefly stun light enemies.\n\nThe effect expires in <d ref=\"duckiesCloneRykerRoll_ASBuffStacks.duration\"/> seconds if not used up."
+}

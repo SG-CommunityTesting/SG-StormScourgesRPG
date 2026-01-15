@@ -1,0 +1,31 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "BaseButton",
+  "extended_tooltips": [
+    {
+      "text": "Suppressor Grenade: Throws a grenade which explodes for <d ref=\"duckiesCloneRykerGrenade_DamageRadius.amount\" style=\"Red\"/> damage and leaves behid a goop that lasts <d ref=\"duckiesCloneRykerGrenade_PersistentGoop.periodic.count*duckiesCloneRykerGrenade_PersistentGoop.periodic.durations[0]\"/> seconds and slows attack and movement speed of enemies on it by <d ref=\"duckiesCloneRykerGrenade_BuffSlow.modifiers[0].amount*(-1)\"/>%.",
+      "validator": "emptyRef"
+    },
+    {
+      "text": "\n\nAssault Roll: Rolls away from a threat, dodging all attacks and gaining a major attack speed increase for next <d ref=\"duckiesCloneRykerRoll_ASBuffStacksApplier.stacks\"/> attacks. These attack will also briefly stun light enemies.\n\nThe effect expires in <d ref=\"duckiesCloneRykerRoll_ASBuffStacks.duration\"/> seconds if not used up.",
+      "validator": "emptyRef"
+    },
+    {
+      "text": "\n\nAssault Drone: Releases an Assault Drone which has <d ref=\"duckiesCloneRykerDrone_Unit.vital_health.maximum\"/> life and a weapon that attacks for <d ref=\"duckiesCloneRykerDrone_UnitWeaponDamage.amount\" style=\"Red\"/> damage every <d ref=\"duckiesCloneRykerDrone_UnitWeapon.period\"/> seconds. Times out in <d ref=\"duckiesCloneRykerDrone_TimedLife.duration\"/> seconds.",
+      "validator": "emptyRef"
+    },
+    {
+      "text": "\n\nMark: Marks an enemy, causing them to take <d ref=\"(duckiesCloneRykerMark_DebuffDRNormal.modify_fraction-1)*100\"/>% more damage for <d ref=\"duckiesCloneRykerMark_DebuffNormal.duration\"/> seconds.\nEffect is diminished against Resilient and Hero enemies.",
+      "validator": "emptyRef"
+    },
+    {
+      "text": "\n\nFull Salvo: Bombards an area with <d ref=\"duckiesCloneRykerBombs_StartPersistent.periodic.count\"/> explosive rounds. Each round deals <d ref=\"duckiesCloneRykerBombs_ImpactDamageRadius.amount\" style=\"Red\"/> area damage.",
+      "validator": "emptyRef"
+    }
+  ],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Units/Human/UI_Icons_Units_Human_Ryker.UI_Icons_Units_Human_Ryker'",
+  "id": "duckiesCloneRyker_Button",
+  "name": "Spectral Warrior Crow",
+  "tooltip": "Suppressor Grenade: Throws a grenade which explodes for <d ref=\"duckiesCloneRykerGrenade_DamageRadius.amount\" style=\"Red\"/> damage and leaves behid a goop that lasts <d ref=\"duckiesCloneRykerGrenade_PersistentGoop.periodic.count*duckiesCloneRykerGrenade_PersistentGoop.periodic.durations[0]\"/> seconds and slows attack and movement speed of enemies on it by <d ref=\"duckiesCloneRykerGrenade_BuffSlow.modifiers[0].amount*(-1)\"/>%.\n\nAssault Roll: Rolls away from a threat, dodging all attacks and gaining a major attack speed increase for next <d ref=\"duckiesCloneRykerRoll_ASBuffStacksApplier.stacks\"/> attacks. These attack will also briefly stun light enemies.\nThe effect expires in <d ref=\"duckiesCloneRykerRoll_ASBuffStacks.duration\"/> seconds if not used up.\n\nAssault Drone: Releases an Assault Drone which has <d ref=\"duckiesCloneRykerDrone_Unit.vital_health.maximum\"/> life and a weapon that attacks for <d ref=\"duckiesCloneRykerDrone_UnitWeaponDamage.amount\" style=\"Red\"/> damage every <d ref=\"duckiesCloneRykerDrone_UnitWeapon.period\"/> seconds. Times out in <d ref=\"duckiesCloneRykerDrone_TimedLife.duration\"/> seconds.\n\nMark: Marks an enemy, causing them to take <d ref=\"(duckiesCloneRykerMark_DebuffDRNormal.modify_fraction-1)*100\"/>% more damage for <d ref=\"duckiesCloneRykerMark_DebuffNormal.duration\"/> seconds.\nEffect is diminished against resilient and hero targets.\n\nFull Salvo: Bombards an area with <d ref=\"duckiesCloneRykerBombs_StartPersistent.periodic.count\"/> explosive rounds. Each round deals <d ref=\"duckiesCloneRykerBombs_ImpactDamageRadius.amount\" style=\"Red\"/> area damage."
+}
