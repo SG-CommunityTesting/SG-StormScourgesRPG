@@ -12,4 +12,4 @@ Average playtime is around 40-50 minutes.
 
 Map was created sometime after the terrain editor beta first released, implementation is 99% through data (.json editing) as triggers back then were extremely unreasonable to work with.
 
-Much of data was copied from runtime file, so it specifies most of it's default fields, which is unneeded with data editor present. In fact,a lot of data links are now invalid, and clicking them will crash editor. Nevertheless, the map compiles and works great!
+Much of data was copied from runtime file, so it specifies most of it's default fields, which is unneeded with data editor present. In fact, some data links are now invalid (mostly stuff like editor icon refs), and clicking them will crash editor (they need to be reset via manual .json edit). Nevertheless, the map compiles and works great!
