@@ -11,7 +11,7 @@
   "dependencies": [
     "pegasus_1v1"
   ],
-  "name": "StormScourges RPG v1.1",
+  "name": "StormScourgesRPG",
   "types": [
     {
       "directory": "Types",

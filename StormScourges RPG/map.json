@@ -7,12 +7,12 @@
   ],
   "game_mode": "Melee",
   "gameplay_level_name": "BasicStartingLevel",
-  "id": "957d5f46-4c34-17dd-059d-628e5c41bae0",
-  "map_name": "Unititled Map",
+  "id": "StormScourgesRPG",
+  "map_name": "StormScourges RPG",
   "map_tags": [
     "Custom"
   ],
   "tile_set_id": "TerrainTileset_CustomRPG",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "visibility": "Hidden"
 }
